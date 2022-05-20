@@ -15,48 +15,20 @@
             "type": "Actor"
         },
         {
-            "name": "ponyfinder-items",
-            "label": "Ponyfinder Items",
-            "path": "./packs/items.db",
+            "name": "ponyfinder-feats",
+            "label": "Ponyfinder Feats",
+            "path": "./packs/feats.db",
             "entity": "Item",
             "type": "Item"
         },
         {
-            "name": "ponyfinder-scenes",
-            "label": "Ponyfinder Scenes",
-            "path": "./packs/scenes.db",
-            "entity": "Scene",
-            "type": "Scene"
-        },
-        {
-            "name": "ponyfinder-journal-entries",
-            "label": "Ponyfinder Journal Entries",
-            "path": "./packs/journal-entries.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "ponyfinder-macros",
-            "label": "Ponyfinder Macros",
-            "path": "./packs/macros.db",
-            "entity": "Macro",
-            "type": "Macro"
-        },
-        {
-            "name": "ponyfinder-roll-tables",
-            "label": "Ponyfinder Roll Tables",
-            "path": "./packs/roll-tables.db",
-            "entity": "RollTable",
-            "type": "RollTable"
-        },
-        {
-            "name": "ponyfinder-playlists",
-            "label": "Ponyfinder Playlists",
-            "path": "./packs/playlists.db",
-            "entity": "Playlist",
-            "type": "Playlist"
+            "name": "ponyfinder-ancestries",
+            "label": "Ponyfinder Ancestries",
+            "path": "./packs/ancestries.db",
+            "entity": "Item",
+            "type": "Item"
         }
     ],
-    "manifest": "",
-    "download": ""
+    "manifest": "https://raw.githubusercontent.com/MemelyPepeartly/ponyfinder-foundryvtt-module/master/module.json",
+    "download": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/raw/master/ponyfinder-foundryvtt-module.zip"
   }
