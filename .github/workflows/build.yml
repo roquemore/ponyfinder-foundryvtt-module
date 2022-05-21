@@ -22,7 +22,7 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         allowUpdates: false # set to false if you do not want to allow updates on existing releases
-        name: Release ${{ steps.get-version.outputs.version }} # Use the version in the name
+        name: Release 10 # Use the version in the name
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
