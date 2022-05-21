@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'module.json'
+#    paths:
+#      - 'module.json'
 
 jobs:
   build:
