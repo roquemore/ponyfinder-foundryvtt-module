@@ -1,11 +1,5 @@
 name: Ponyfinder Foundry Release Pipeline
-on:
-  push:
-    branches: 
-    - main
-    paths:
-    - '.github/workflows/**'
-    - 'module.json'
+on: [push]
 
 jobs:
   build:
