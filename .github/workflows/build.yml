@@ -35,5 +35,5 @@ jobs:
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './module.json,./ddb-importer.zip'  # don't forget to rename module zip thing
+        artifacts: './module.json,./ponyfinder-foundryvtt-module.zip'  # don't forget to rename module zip thing
         tag: latest
