@@ -1,0 +1,41 @@
+{
+    "name": "ponyfinder-foundryvtt-module",
+    "title": "Ponyfinder FoundryVTT Content",
+    "description": "A collection of Ponyfinder content for Pathfinder 2e",
+    "version": "VERSION",
+    "author": "Memely, David Silver, Triple Sevens",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "ponyfinder-ancestries",
+            "label": "Ponyfinder Ancestries",
+            "path": "./packs/ponyfinder-ancestries.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "ponyfinder-heritages",
+            "label": "Ponyfinder Heritages",
+            "path": "./packs/ponyfinder-heritages.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "ponyfinder-feats",
+            "label": "Ponyfinder Feats",
+            "path": "./packs/ponyfinder-feats.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "ponyfinder-actions",
+            "label": "Ponyfinder Actions",
+            "path": "./packs/ponyfinder-actions.db",
+            "entity": "Item",
+            "type": "Item"
+        }
+    ],
+    "download": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/VERSION/ponyfinder-foundryvtt-module.zip",
+    "manifest": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/module.json"
+  }
