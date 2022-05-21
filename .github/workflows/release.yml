@@ -1,11 +1,11 @@
-name: ponyfinder foundry release
-
+name: Ponyfinder Foundry Release Pipeline
 on:
   push:
-    branches:
-      - main
+    branches: 
+    - main
     paths:
-      - 'module.json'
+    - '.github/workflows/**'
+    - 'module.json'
 
 jobs:
   build:
@@ -19,10 +19,6 @@ jobs:
     - name: Build module.json
       run: node ./.github/workflows/build-module-json.js | jq . > module.json
     - run: npm ci
-    - name: Webpack
-      run: npm run build
-    - name: Build icon json
-      run: ./icon.sh
     - name: Create Release Zip
       run: zip -r ./ponyfinder-foundryvtt-module.zip module.json assets packs # Add folders/files here
     - name: Create Release                                # Create an additional release for this version
