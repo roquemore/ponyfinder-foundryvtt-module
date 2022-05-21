@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     - name: Get Version              # Run the script that returns the version from `module.json`
       shell: bash
       id: get-version
