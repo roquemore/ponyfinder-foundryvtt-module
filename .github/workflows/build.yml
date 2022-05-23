@@ -1,12 +1,6 @@
 name: Ponyfinder Foundry Release Pipeline
 
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - './packs'
-      - './.github/**'
+on: [push]
 
 jobs:
   build:
