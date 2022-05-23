@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - id: set_var
+    - id: get_version
       run: |
         content=`cat ./module.json`
         # the following lines are only required for multi line json
@@ -19,9 +19,7 @@ jobs:
         # end of optional handling for multi line json
         echo "::set-output name=moduleJson::$content"
     - run: |
-        echo "${{fromJson(steps.set_var.outputs.moduleJson).version}}"
-    - name: Build module.json
-      run: node ./.github/workflows/build-module-json.js | jq . > module.json
+        echo "${{fromJson(steps.get_version.outputs.moduleJson).version}}"
     - name: Create Release Zip
       run: zip -r ./ponyfinder-foundryvtt-module.zip module.json assets packs       # Add folders/files here
     - name: Create Latest Release
