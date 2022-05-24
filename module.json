@@ -2,10 +2,12 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder FoundryVTT Content",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "author": "Memely, David Silver, Triple Sevens",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
+    "download": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/ponyfinder-foundryvtt-module.zip",
+    "manifest": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/module.json",
     "packs": [
         {
             "name": "ponyfinder-actions",
@@ -57,6 +59,29 @@
             "type": "Item"
         }
     ],
-    "download": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/ponyfinder-foundryvtt-module.zip",
-    "manifest": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/module.json"
-  }
+    "flags": {
+        "pf2e-expansion-pack": {
+            "pf2e-homebrew": {
+                "creatureTraits": {
+                    "ponykind": "Ponykind",
+                    "cloven": "Cloven",
+                    "halfConstruct": "Half-Construct",
+                    "griffon": "Griffon",
+                    "purrsian": "Purrsian",
+                    "flutterpony": "Flutterpony",
+                    "steelheart": "Steelheart"
+                },
+                "featTraits": {
+                    "ponykind": "Ponykind",
+                    "cloven": "Cloven",
+                    "halfConstruct": "Half-Construct",
+                    "griffon": "Griffon",
+                    "purrsian": "Purrsian",
+                    "flutterpony": "Flutterpony",
+                    "steelheart": "Steelheart",
+                    "spiritTribe": "Spirit Tribe"
+                }
+            }
+        }
+    }
+}
