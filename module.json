@@ -2,7 +2,7 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder FoundryVTT Content",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.1.10",
+    "version": "1.1.11",
     "author": "Memely, David Silver, Triple Sevens",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
@@ -66,7 +66,7 @@
                 "creatureTraits": {
                     "ponykind": "Ponykind",
                     "cloven": "Cloven",
-                    "halfConstruct": "Half-Construct",
+                    "half-construct": "Half-Construct",
                     "griffon": "Griffon",
                     "purrsian": "Purrsian",
                     "flutterpony": "Flutterpony",
@@ -75,12 +75,12 @@
                 "featTraits": {
                     "ponykind": "Ponykind",
                     "cloven": "Cloven",
-                    "halfConstruct": "Half-Construct",
+                    "half-construct": "Half-Construct",
                     "griffon": "Griffon",
                     "purrsian": "Purrsian",
                     "flutterpony": "Flutterpony",
                     "steelheart": "Steelheart",
-                    "spiritTribe": "Spirit Tribe"
+                    "spirit-tribe": "Spirit Tribe"
                 }
             }
         }
