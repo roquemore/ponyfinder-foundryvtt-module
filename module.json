@@ -2,7 +2,7 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder FoundryVTT Content",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.1.11",
+    "version": "1.1.12",
     "author": "Memely, David Silver, Triple Sevens",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
@@ -61,7 +61,7 @@
         }
     ],
     "flags": {
-        "pf2e-expansion-pack": {
+        "ponyfinder-foundryvtt-module": {
             "pf2e-homebrew": {
                 "creatureTraits": {
                     "ponykind": "Ponykind",
