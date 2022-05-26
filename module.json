@@ -2,7 +2,7 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder FoundryVTT Content",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "author": "Memely, David Silver, Triple Sevens",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
@@ -71,7 +71,8 @@
                     "purrsian": "Purrsian",
                     "flutterpony": "Flutterpony",
                     "steelheart": "Steelheart",
-                    "sun-cat": "Sun Cat"
+                    "sun-cat": "Sun Cat",
+                    "phoenix-wolf": "Phoenix Wolf"
                 },
                 "featTraits": {
                     "ponykind": "Ponykind",
@@ -82,7 +83,8 @@
                     "flutterpony": "Flutterpony",
                     "steelheart": "Steelheart",
                     "spirit-tribe": "Spirit Tribe",
-                    "sun-cat": "Sun Cat"
+                    "sun-cat": "Sun Cat",
+                    "phoenix-wolf": "Phoenix Wolf"
                 }
             }
         }
