@@ -2,7 +2,7 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder FoundryVTT Content",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "author": "Memely, David Silver, Triple Sevens",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
