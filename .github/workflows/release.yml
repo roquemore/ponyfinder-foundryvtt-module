@@ -1,0 +1,37 @@
+name: Release
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 16
+            - run: npm ci
+            - run: npm run build
+            - name: Get Version
+              id: get_version
+              run: |
+                  content=`cat ./module.json`
+                  # the following lines are only required for multi line json
+                  content="${content//'%'/'%25'}"
+                  content="${content//$'\n'/'%0A'}"
+                  content="${content//$'\r'/'%0D'}"
+                  # end of optional handling for multi line json
+                  echo "::set-output name=moduleJson::$content"
+            - name: Create Release Zip
+              run: zip -r ./ponyfinder-foundryvtt-module.zip module.json assets packs
+            - name: Create Release
+              uses: ncipollo/release-action@v1
+              with:
+                  artifacts: "./module.json,./ponyfinder-foundryvtt-module.zip"
+                  tag: v${{ fromJson(steps.get_version.outputs.moduleJson).version }}
+                  token: ${{ secrets.GITHUB_TOKEN }}

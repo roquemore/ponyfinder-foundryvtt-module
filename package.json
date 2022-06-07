@@ -1,0 +1,10 @@
+{
+  "name": "ponyfinder-foundryvtt-module",
+  "private": true,
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "build": "node src/packs/scripts/build.js"
+  }
+}

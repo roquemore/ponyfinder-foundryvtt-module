@@ -1,0 +1,21 @@
+{
+    "_id": "iik40u8HhUs7wL9r",
+    "name": "Plains Strike",
+    "type": "action",
+    "img": "systems/pf2e/icons/actions/TwoActions.webp",
+    "data": {
+        "description": {
+            "value": "<p>Make two Strikes, one with your bite and one with your claw, each using your current multiple attack penalty. Both Strikes must have the same target. Both Strikes take a -2 penalty. This counts as two attacks when calculating your multiple attack penalty.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": { "value": ["attack"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "slug": "plains-strike",
+        "schema": { "version": 0.75, "lastMigration": null },
+        "actionType": { "value": "action" },
+        "actionCategory": { "value": "offensive" },
+        "actions": { "value": 2 },
+        "requirements": { "value": "" },
+        "trigger": { "value": "" }
+    }
+}
