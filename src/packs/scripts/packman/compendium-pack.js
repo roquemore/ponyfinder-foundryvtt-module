@@ -37,7 +37,7 @@ class CompendiumPack {
     name;
     packDir;
     documentType;
-    systemId;
+    systemId = "pf2e";
     data;
 
     static outDir = path.resolve(process.cwd(), "packs");
@@ -57,7 +57,6 @@ class CompendiumPack {
                 `Compendium at ${packDir} has no metadata in the local module.json file.`
             );
         }
-        this.systemId = metadata.system;
         this.name = metadata.name;
         this.documentType = metadata.type;
 
