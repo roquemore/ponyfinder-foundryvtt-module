@@ -28,8 +28,6 @@
                 "text": "<p><strong>Lustrous Coat</strong> You are considered to have cover (+2 circumstance bonus to AC and Reflex saves against area effects) against ranged spell attacks or effects</p>"
             }
         ],
-        "slug": "lustrous coat",
-        "schema": { "version": 0.75, "lastMigration": null },
         "level": { "value": 1 },
         "duration": {
             "value": -1,

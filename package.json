@@ -5,6 +5,6 @@
     "node": "16"
   },
   "scripts": {
-    "build": "node src/packs/scripts/build.js"
+    "build": "node src/packs/scripts/build.cjs"
   }
 }

@@ -16,8 +16,6 @@
                 "value": "round(@actor.level/2)"
             }
         ],
-        "slug": "hunker-down",
-        "schema": { "version": 0.75, "lastMigration": null },
         "level": { "value": 1 },
         "duration": {
             "value": -1,

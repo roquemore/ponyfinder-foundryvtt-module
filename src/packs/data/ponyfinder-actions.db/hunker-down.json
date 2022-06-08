@@ -10,8 +10,6 @@
         "source": { "value": "Ponyfinder" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [],
-        "slug": "hunker-down",
-        "schema": { "version": 0.75, "lastMigration": null },
         "actionType": { "value": "action" },
         "actionCategory": { "value": "" },
         "actions": { "value": 1 },

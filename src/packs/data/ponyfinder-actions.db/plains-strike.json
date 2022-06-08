@@ -10,8 +10,6 @@
         "source": { "value": "Ponyfinder" },
         "traits": { "value": ["attack"], "rarity": "common", "custom": "" },
         "rules": [],
-        "slug": "plains-strike",
-        "schema": { "version": 0.75, "lastMigration": null },
         "actionType": { "value": "action" },
         "actionCategory": { "value": "offensive" },
         "actions": { "value": 2 },

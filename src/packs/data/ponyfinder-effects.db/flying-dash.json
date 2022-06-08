@@ -16,8 +16,6 @@
                 "value": "(@actor.attributes.speed.value)*2"
             }
         ],
-        "slug": "flying-dash",
-        "schema": { "version": 0.75, "lastMigration": null },
         "level": { "value": 1 },
         "duration": {
             "value": 1,

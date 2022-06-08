@@ -6,6 +6,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
+const { sluggify } = require("../../../util/misc.cjs");
 
 const PackError = (message) => {
     console.error(`Error: ${message}`);
@@ -150,6 +151,13 @@ class CompendiumPack {
                 );
             }
 
+            const filenameForm = sluggify(documentName).concat(".json");
+            if (path.basename(filePath) !== filenameForm) {
+                throw PackError(
+                    `Filename at ${filePath} does not reflect document name (should be ${filenameForm}).`
+                );
+            }
+
             return packSource;
         });
 
@@ -172,6 +180,9 @@ class CompendiumPack {
         docSource.flags.core = { sourceId: this.sourceIdOf(docSource._id) };
 
         if (isItemSource(docSource)) {
+            docSource.data.slug = sluggify(docSource.name);
+            docSource.data.schema = { version: 0.75, lastMigration: null };
+
             // if (isPhysicalData(docSource)) {
             //     docSource.data.equipped = { carryType: "worn" };
             // }
