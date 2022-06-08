@@ -1,37 +1,20 @@
-name: Ponyfinder Foundry Release Pipeline
+name: Build
 
-on: [push]
+on:
+    pull_request:
+    push:
+        branches:
+            - "!master"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - id: get_version
-      run: |
-        content=`cat ./module.json`
-        # the following lines are only required for multi line json
-        content="${content//'%'/'%25'}"
-        content="${content//$'\n'/'%0A'}"
-        content="${content//$'\r'/'%0D'}"
-        # end of optional handling for multi line json
-        echo "::set-output name=moduleJson::$content"
-    - run: |
-        echo "${{fromJson(steps.get_version.outputs.moduleJson).version}}"
-    - name: Create Release Zip
-      run: zip -r ./ponyfinder-foundryvtt-module.zip module.json assets packs       # Add folders/files here
-    - name: Create Latest Release
-      id: create_latest_release
-      uses: ncipollo/release-action@v1
-      with:
-        allowUpdates: true
-        name: Latest
-        draft: false
-        prerelease: false
-        token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './module.json,./ponyfinder-foundryvtt-module.zip'  # don't forget to rename module zip thing
-        tag: latest
-
-
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 16
+            - run: npm ci
+            - run: npm run build
