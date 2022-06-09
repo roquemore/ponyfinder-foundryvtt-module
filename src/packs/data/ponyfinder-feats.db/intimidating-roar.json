@@ -1,0 +1,27 @@
+{
+    "_id": "m1cvb46XOIMzCq6G",
+    "name": "Intimidating Roar",
+    "type": "feat",
+    "img": "systems/pf2e/icons/actions/TwoActions.webp",
+    "data": {
+        "description": {
+            "value": "<p>With a mighty roar, you attempt to use Intimidate on everything in a @Template[type:cone|distance:30]. Make one Intimidate check to @Compendium[pf2e.actionspf2e.Demoralize]{Demoralize} and compare it to all caught in the area to determine its effect on each potential target. Regardless of the results, each creature targeted by this is immune to further uses of Intimidating Roar for 1 minute.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["auditory", "hb_griffon"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "action" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": 2 },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "GfuNa8M6DABIrMwL",
+    "name": "Glider",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>You may make the @Compendium[pf2e.actionspf2e.qm7xptMSozAinnPS]{Arrest a Fall} reaction even without a fly Speed. While in a safe fall, either due to successfully Arresting a Fall or other effects such as the feather fall spell, you may take the fly action to move horizontally at up to half your land Speed.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "Griffon" },
+        "rules": [],
+        "level": { "value": 0 },
+        "featType": { "value": "ancestryfeature" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "_id": "27WowGDyTFGDYeut",
+    "name": "Infectious Resiliance",
+    "type": "feat",
+    "img": "systems/pf2e/icons/actions/Reaction.webp",
+    "data": {
+        "description": {
+            "value": "<p><strong>Trigger</strong> You succeed a saving throw against a fear effect.</p><p><strong>Effect</strong> Your bravery spreads to your allies easily. You grant all allies within 30 feet a new saving throw against the same fear effect. They must take the results of the new saving throw if they make the roll.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["fortune", "hb_sun-cat"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "reaction" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": 1 },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

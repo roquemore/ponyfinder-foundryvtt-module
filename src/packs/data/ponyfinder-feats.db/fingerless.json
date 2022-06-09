@@ -1,0 +1,32 @@
+{
+    "_id": "YlXr1YLaVAglDFFq",
+    "name": "Fingerless",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>While you can make full use of magic items that would rest on the hands (becoming anklets) and feet (becoming a set of four instead of two to cover all four hooves), you have no hands. Your mouth serves as a single hand, preventing you from using two-handed weapons. You can perform somatic components with gestures of your face and/or movement of your hooves.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": [
+                "hb_cloven",
+                "hb_flutterpony",
+                "hb_ponykind",
+                "hb_steelheart"
+            ],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 0 },
+        "featType": { "value": "ancestryfeature" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

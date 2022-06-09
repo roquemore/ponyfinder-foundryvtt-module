@@ -1,0 +1,46 @@
+{
+    "_id": "sJbO4G13DqGbSD4R",
+    "name": "Sharpened Claws",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>You gain a claw unarmed attack that deals [[/r {1d6}[slashing]]]{1d6 slashing damage}. Your claw is in the brawling group and has the agile and unarmed traits. You gain a bite unarmed attack that deals [[/r {1d6}[piercing]]]{1d6 piercing damage}. Your bite is in the brawling group and has the agile, finesse, and unarmed traits. The claw and bite can be enchanted as weapons normally. One rune is enough for both claws (as they are considered one weapon).</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": { "value": ["hb_griffon"], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": { "damageType": "slashing", "dice": 1, "die": "d6" }
+                },
+                "group": "brawling",
+                "key": "Strike",
+                "label": "PF2E.Weapon.Base.claw",
+                "range": null,
+                "traits": ["agile", "finesse", "unarmed"]
+            },
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": { "damageType": "piercing", "dice": 1, "die": "d6" }
+                },
+                "group": "brawling",
+                "key": "Strike",
+                "label": "PF2E.Weapon.Base.jaws",
+                "range": null,
+                "traits": ["agile", "finesse", "unarmed"]
+            }
+        ],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

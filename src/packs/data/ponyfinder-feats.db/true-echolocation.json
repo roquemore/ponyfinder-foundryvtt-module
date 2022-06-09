@@ -1,0 +1,39 @@
+{
+    "_id": "ETXSxnMMT76c2m6L",
+    "name": "True Echolocation",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>You have mastered the art of navigation through clicks few things can hear. This grants you a new precise sense, echolocation. It cannot perceive color or texture, just size, distance, and firmness, but to surprising accuracy for those unused to such senses.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["auditory", "hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "echolocation",
+                "acuity": "precise",
+                "range": 30
+            }
+        ],
+        "level": { "value": 13 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": {
+            "value": [
+                { "value": "Leather Wing" },
+                { "value": "Sensitive Ears" }
+            ]
+        },
+        "location": null
+    }
+}

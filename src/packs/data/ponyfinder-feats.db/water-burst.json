@@ -1,0 +1,35 @@
+{
+    "_id": "8XqJJ7kQbDgajfN4",
+    "name": "Water Burst",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your affinity for the waters can be expressed forcefully with gouts of water from your mouth. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by quiet meditation. For 1 focus point, you can cast @Compendium[pf2e.spells-srd.jfVCuOpzC6mUrf6f]{Hydraulic Push} as a primal focus spell.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.resources.focus.max",
+                "value": 1
+            },
+            { "key": "GrantItem", "uuid": "pf2e.spells-srd.jfVCuOpzC6mUrf6f" }
+        ],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Sea Horse" }] },
+        "location": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "_id": "gqK5lNsiavGJWQHY",
+    "name": "Master Changeling",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your ability to imitate extends to humanoids of the same size category as you. Magic items that altered to fit your unusual anatomy shift with you, gloves turning from anklets to actual gloves again, and will return to normal when you return to your birth form or another form that requires their change.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Doppelganger" }] },
+        "location": null
+    }
+}

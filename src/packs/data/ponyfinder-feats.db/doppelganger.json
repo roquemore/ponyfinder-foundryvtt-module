@@ -1,0 +1,33 @@
+{
+    "_id": "KGZYtvPa1WroPBN6",
+    "name": "Doppelganger",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>With sleek features that seem slightly un-finished, you are any pony you wish, but perhaps no pony at all? You have a specific pony form you can assume or abandon as an action at will. When you perform an activity with the mental trait that forces a saving throw and the target fails or critically fails, you enjoy a +1 circumstance bonus to attack rolls until the end of your next turn.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind", "hb_spirit-tribe"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "selector": "attack",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> When you perform an activity with the mental trait that forces a saving throw and the target fails or critically fails, you enjoy a +1 circumstance bonus to attack rolls until the end of your next turn.</p>"
+            }
+        ],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "_id": "BdfwHpxRGlr5WtI4",
+    "name": "Beacon of Hope",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Allies within 60 feet of you that can see you are emboldened by you. When they roll a success on a saving throw against an emotion effect, they get a critical success instead.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Gem Pony" }] },
+        "location": null
+    }
+}

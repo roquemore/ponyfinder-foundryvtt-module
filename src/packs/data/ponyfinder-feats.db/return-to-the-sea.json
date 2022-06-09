@@ -1,0 +1,33 @@
+{
+    "_id": "PaKbpBtxmr0QCdG6",
+    "name": "Return to the Sea",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>You can breathe water as well as air. You also gain resistance to cold equal to half your level.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "cold",
+                "value": "max(1,floor(@actor.level/2))"
+            }
+        ],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Sea Horse" }] },
+        "location": null
+    }
+}

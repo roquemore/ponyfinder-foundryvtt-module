@@ -1,0 +1,27 @@
+{
+    "_id": "Bq6xnegKDAeFkL3U",
+    "name": "Earth-bound Heritage (Unification)",
+    "type": "feat",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pony.png",
+    "data": {
+        "description": {
+            "value": "<p>Granted with unification.</p><hr /><p>Built to go far and fast without pause, your durability matches that of the dwarves. You may select any one dwarf heritage. You gain all of its advantages and disadvantages</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

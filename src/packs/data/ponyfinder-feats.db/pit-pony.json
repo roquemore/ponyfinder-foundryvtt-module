@@ -1,0 +1,29 @@
+{
+    "_id": "YgJ2yEWJAgJQK13Z",
+    "name": "Pit Pony",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>You or your parents were slaves in the deep dark mines and your eyes are adjusted as a result. You have darkvision, but when relying on it, you are @Compendium[pf2e.conditionitems.Dazzled]{Dazzled}.</p><p><strong>Special</strong>: If short legs were never enslaved and you come from a fine line of liberated ponies, this should be considered uncommon, only likely to appear after a long period of time in darkness.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            { "key": "Sense", "selector": "darkvision", "acuity": "precise" }
+        ],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Short Leg" }] },
+        "location": null
+    }
+}

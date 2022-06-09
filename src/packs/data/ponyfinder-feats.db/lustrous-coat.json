@@ -1,0 +1,60 @@
+{
+    "_id": "ovwmtJNF53YuctZf",
+    "name": "Lustrous Coat",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your shiny coat turns aside foul magics. You are considered to have cover (+2 circumstance bonus to AC and Reflex saves against area effects) against ranged spell attacks or effects. You can @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Take Cover} to increase this as normal.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "option": "lustrous-coat",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": { "all": ["lustrous-coat"] },
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": { "all": ["lustrous-coat"] },
+                "selector": "reflex",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "Note",
+                "predicate": { "all": ["lustrous-coat"] },
+                "selector": "ac",
+                "text": "<p><strong>Lustrous Coat</strong> You are considered to have cover (+2 circumstance bonus to AC and Reflex saves against area effects) against ranged spell attacks or effects</p>"
+            },
+            {
+                "key": "Note",
+                "predicate": { "all": ["lustrous-coat"] },
+                "selector": "reflex",
+                "text": "<p><strong>Lustrous Coat</strong> You are considered to have cover (+2 circumstance bonus to AC and Reflex saves against area effects) against ranged spell attacks or effects</p>"
+            }
+        ],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Gem Pony" }] },
+        "location": null
+    }
+}

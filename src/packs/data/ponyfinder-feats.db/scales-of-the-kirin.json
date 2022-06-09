@@ -1,0 +1,39 @@
+{
+    "_id": "FKclxEDe5R99T9os",
+    "name": "Scales of the Kirin",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Those scales are not just for show, as lovely as they are.</p><p>Your natural armor increases by +1, and you gain resistance equal to half your level (minimum 1) against acid, fire, or cold damage, chosen at the time the feat is taken. This selection cannot be changed</p>"
+        },
+        "source": { "value": "Bannermanes Homebrew" },
+        "traits": { "value": [], "rarity": "common", "custom": "Kirin" },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "{item|flags.pf2e.rulesSelections.scalesOfTheKirin}",
+                "value": "max(1,floor(@actor.level/2))"
+            },
+            {
+                "key": "ChoiceSet",
+                "prompt": "Choose an energy type",
+                "flag": "scalesOfTheKirin",
+                "choices": [
+                    { "label": "PF2E.TraitAcid", "value": "acid" },
+                    { "label": "PF2E.TraitCold", "value": "cold" },
+                    { "label": "PF2E.TraitFire", "value": "fire" }
+                ]
+            }
+        ],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": ""
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "OTV0x2WZrG4U7l7s",
+    "name": "Variable Bite",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Sinking your fangs in, tearing flesh, and grinding bones are all things your teeth are capable of. When you perform a bite Strike, you can choose what physical damage type it inflicts.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": { "value": ["hb_sun-cat"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

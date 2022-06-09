@@ -1,0 +1,33 @@
+{
+    "_id": "XaHduDN7nkki5N88",
+    "name": "Sea Horse Heritage (Unification)",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Granted with unification.</p><hr /><p>At home in the waves, you gain a swim speed equal to your land speed. While underwater, you possess darkvision. When using Acrobatics or Athletics for swimming, consider your proficiency rank 1 higher.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim-speed",
+                "value": "@actor.attributes.speed.value"
+            }
+        ],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}
