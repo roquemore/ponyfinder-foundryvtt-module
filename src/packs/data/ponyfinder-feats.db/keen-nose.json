@@ -1,0 +1,23 @@
+{
+    "_id": "ap5XQ6j5Bd9yfgO7",
+    "name": "Keen Nose",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>You gain scent as an imprecise sense with a range of 30 feet.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": { "value": ["hb_sun-cat"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}
