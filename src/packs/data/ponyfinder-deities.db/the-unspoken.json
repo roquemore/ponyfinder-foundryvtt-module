@@ -2,7 +2,7 @@
     "_id": "BoAzHDwewJWvvyAW",
     "name": "The Unspoken",
     "type": "deity",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/dieties/unspoken.png",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/unspoken.png",
     "data": {
         "description": {
             "value": "<p>His true name is never written or spoken, for it is said it draws his attention, and he likes things to be interesting. He brings change gladly, wanted or not.</p>"
@@ -12,32 +12,16 @@
         },
         "alignment": {
             "own": "CN",
-            "follower": [
-                "CG",
-                "CN",
-                "CE"
-            ]
+            "follower": ["CG", "CN", "CE"]
         },
         "domains": {
-            "primary": [
-                "cities",
-                "creation",
-                "freedom",
-                "luck"
-            ],
-            "alternate": [
-                "trickery"
-            ]
+            "primary": ["cities", "creation", "freedom", "luck"],
+            "alternate": ["trickery"]
         },
-        "font": [
-            "harm",
-            "heal"
-        ],
+        "font": ["harm", "heal"],
         "ability": [],
         "skill": "dec",
-        "weapons": [
-            "rapier"
-        ],
+        "weapons": ["rapier"],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.4ZGte0i9YbLh4dRi",
             "3": "Compendium.pf2e.spells-srd.K2WpC3FFoHrqX9Q5",

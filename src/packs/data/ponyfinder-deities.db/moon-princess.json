@@ -2,7 +2,7 @@
     "_id": "85KdZ0ZuoGyWchVS",
     "name": "Moon Princess",
     "type": "deity",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/dieties/moon-princess.png",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/moon-princess.png",
     "data": {
         "description": {
             "value": "<p>Serene goddess of the moon, she watches over her charge's slumber, warding them from the other things that dwell there, that both can live peacefully together.</p><hr /><p><strong>Edicts</strong> help the terrifying find a place where it can live in peace, lend aid to the troubled of mind, protect those threatened by the terrors of the night in all its shapes</p><hr /><p><strong>Anathema</strong> deny a broken mind or horrific beast a chance for peace, allow either to bring harm when it could have been avoided</p>"

@@ -2,7 +2,7 @@
     "_id": "HDcmJKcxaTrGcOBp",
     "name": "Blaze",
     "type": "deity",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/dieties/blaze.png",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/blaze.png",
     "data": {
         "description": { "value": "" },
         "source": { "value": "Ponyfinder" },

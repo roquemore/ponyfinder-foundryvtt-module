@@ -2,7 +2,7 @@
     "_id": "H82rwLi92Sgr2F6p",
     "name": "Sheila the Author",
     "type": "deity",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/dieties/author.png",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/author.png",
     "data": {
         "description": { "value": "" },
         "source": { "value": "Ponyfinder" },

@@ -2,7 +2,7 @@
     "_id": "41xkJToxsY2yWUG2",
     "name": "Princess Luminace",
     "type": "deity",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/dieties/princess-luminace.png",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/princess-luminace.png",
     "data": {
         "description": { "value": "" },
         "source": { "value": "Ponyfinder" },
