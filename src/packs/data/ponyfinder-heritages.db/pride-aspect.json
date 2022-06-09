@@ -1,0 +1,24 @@
+{
+    "_id": "c4Fn7iUIunOrL147",
+    "name": "Pride Aspect",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Proud lion blood runs powerfully in you. Your Wisdom boost becomes a flaw. Your Charisma flaw becomes a boost. You have a fly speed equal to half your land speed.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "fly-speed",
+                "value": "round(@actor.attributes.speed.value/2)"
+            }
+        ],
+        "ancestry": {
+            "name": "Griffon (Pride Aspect)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.rUsZDbUgqOdLFl8c"
+        }
+    }
+}

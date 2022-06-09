@@ -1,0 +1,18 @@
+{
+    "_id": "efLl9iWWbSLQvTT8",
+    "name": "Especially Small",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Not a true heritage, and can be taken with another heritage (which we recommend), but this causes you to be Small.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [{ "key": "CreatureSize", "value": "small" }],
+        "ancestry": {
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.0WiasfnMavC787wS"
+        }
+    }
+}

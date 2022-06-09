@@ -1,0 +1,33 @@
+{
+    "_id": "PUpYCCcX0FNJmET4",
+    "name": "Battle Born",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Ready to fight, you favor your teeth and senses. You gain a bite unarmed attack that deals [[/r {1d8}[piercing]]]{1d8 piercing damage}. Your bite is in the brawling group and has the finesse and unarmed traits.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "baseType": "bite",
+                "category": "unarmed",
+                "damage": {
+                    "base": { "damageType": "piercing", "dice": 1, "die": "d8" }
+                },
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+                "key": "Strike",
+                "label": "Bite",
+                "range": null,
+                "slug": "bite",
+                "traits": ["finesse", "unarmed"]
+            }
+        ],
+        "ancestry": {
+            "name": "Phoenix Wolf",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.f4nJQK7v9VV6rp80"
+        }
+    }
+}

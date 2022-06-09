@@ -1,0 +1,30 @@
+{
+    "_id": "nLk9cMDaPVmXezUP",
+    "name": "Factory Forged",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your first shell was made by your parents under the watch of the machine priests. You gain electricity resistance equal to half your level (minimum 1).</p>"
+        },
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "value": [],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "electricity",
+                "value": "max(1,floor(@actor.level/2))"
+            }
+        ],
+        "ancestry": {
+            "name": "Steelheart",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.db8YMpV6TG50qQSp"
+        }
+    }
+}

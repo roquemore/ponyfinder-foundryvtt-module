@@ -1,0 +1,16 @@
+{
+    "_id": "8nqGLMGo3Sh9EkWN",
+    "name": "Ghost Pony",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": { "value": "" },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "ancestry": {
+            "name": "Ponykind (Ghost Pony)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.1muwGllbQTANmRuI"
+        }
+    }
+}

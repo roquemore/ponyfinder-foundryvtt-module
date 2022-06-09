@@ -1,0 +1,19 @@
+{
+    "_id": "XOjXMoYMVEgbxcLH",
+    "name": "Cheetah Aspect",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Fast and darting, when performing a @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step}, you can move up to 10 feet. You gain the @Compendium[pf2e.feats-srd.kCO4r8NOm8E2T3eH]{Nimble Elf} feat.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "slug": null,
+        "ancestry": {
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.0WiasfnMavC787wS"
+        }
+    }
+}

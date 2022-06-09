@@ -1,0 +1,30 @@
+{
+    "_id": "3piJuNP4D3YPEd5P",
+    "name": "Predator Aspect",
+    "type": "heritage",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/griffon.png",
+    "data": {
+        "description": {
+            "value": "<p>A combination of a predatory bird and a predatory cat, you swoop through the air in dangerous motions. You have a fly Speed equal to half your land Speed.</p>"
+        },
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "value": [],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "fly-speed",
+                "value": "round(@actor.attributes.speed.value/2)"
+            }
+        ],
+        "ancestry": {
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.0WiasfnMavC787wS"
+        }
+    }
+}

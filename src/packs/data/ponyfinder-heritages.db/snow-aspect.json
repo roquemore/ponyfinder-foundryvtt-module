@@ -1,0 +1,24 @@
+{
+    "_id": "OPY9wJL0hB2lpbuJ",
+    "name": "Snow Aspect",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>You are larger than most, able to @Compendium[pf2e.actionspf2e.Grapple]{Grapple}, @Compendium[pf2e.actionspf2e.Trip]{Trip}, and @Compendium[pf2e.actionspf2e.Shove]{Shove} as if you were Large. When using Stealth in snow environments, you enjoy a +1 circumstance bonus.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "Note",
+                "selector": "stealth",
+                "text": "<p><strong>Snow Aspect</strong> When using Stealth in snow environments, you enjoy a +1 circumstance bonus.</p>"
+            }
+        ],
+        "ancestry": {
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.0WiasfnMavC787wS"
+        }
+    }
+}

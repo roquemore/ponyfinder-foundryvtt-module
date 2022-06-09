@@ -1,0 +1,24 @@
+{
+    "_id": "5F1ROQ86wkh0Fp83",
+    "name": "Zebra",
+    "type": "heritage",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/zebra.png",
+    "data": {
+        "description": {
+            "value": ""
+        },
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "value": [],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "ancestry": {
+            "name": "Ponykind (Zebra)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.S75g8jRIcSikuGZU"
+        }
+    }
+}

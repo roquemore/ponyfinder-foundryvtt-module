@@ -1,0 +1,24 @@
+{
+    "_id": "eRXVuXAnDRMrMIws",
+    "name": "Scavenger Aspect",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Crow, Parrot, or other clever bird guides your equally deft talons. Your Strength and Wisdom boosts become Intelligence and Dexterity instead. You have a fly Speed equal to half your land Speed.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "fly-speed",
+                "value": "round(@actor.attributes.speed.value/2)"
+            }
+        ],
+        "ancestry": {
+            "name": "Griffon (Scavenger Aspect)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.OQEGdWwEfoUjJo8O"
+        }
+    }
+}
