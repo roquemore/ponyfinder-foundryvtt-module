@@ -106,7 +106,7 @@ class CompendiumPack {
                     }
 
                     if (!(imgPath === "" || imgPath.match(/\.(?:svg|webp)$/))) {
-                        throw PackError(
+                        console.info(
                             `${documentName} (${this.name}) references a non-WEBP/SVG image: ${imgPath}`
                         );
                     }
