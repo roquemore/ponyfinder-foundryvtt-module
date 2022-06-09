@@ -5,7 +5,7 @@
     "img": "systems/pf2e/icons/default-icons/effect.svg",
     "data": {
         "description": {
-            "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-spells.VpocOZJfb7PlouxC]{Flying Dash}</p>"
+            "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-spells.Flying Dash]{Flying Dash}</p>"
         },
         "source": { "value": "" },
         "traits": { "value": [], "rarity": "common", "custom": "" },

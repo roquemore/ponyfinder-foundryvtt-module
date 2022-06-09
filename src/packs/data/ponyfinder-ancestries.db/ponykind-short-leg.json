@@ -16,11 +16,11 @@
         "rules": [
             {
                 "key": "GrantItem",
-                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.dS7EGG13szDRRxSw"
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Short Leg"
             },
             {
                 "key": "GrantItem",
-                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.J1quEDo7Z3Sba9AX"
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Lover's Sacrifice"
             }
         ],
         "hp": 8,

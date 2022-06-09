@@ -12,7 +12,7 @@
         "rules": [{ "key": "CreatureSize", "value": "small" }],
         "ancestry": {
             "name": "Griffon",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.0WiasfnMavC787wS"
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
         }
     }
 }

@@ -32,82 +32,82 @@
                 "choices": [
                     {
                         "label": "Earth-bound",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Bq6xnegKDAeFkL3U",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Earth-bound Heritage (Unification)",
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
                     {
                         "label": "Pegasus",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.4RCu5YodMlLSIiJW",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Pegasus Heritage (Unification)",
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
                     {
                         "label": "Unicorn",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.3sHQdGUXEIkHIStx",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Unicorn Heritage (Unification)",
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
                     {
                         "label": "Leatherwing",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.QnHDyGhRXrVcU7ns",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Leather Wing Heritage (Unification)",
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
                     {
                         "label": "Ghost Pony",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.xntoHwdwCOTCONLx",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Ghost Pony Heritage (Unification)",
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
                     {
                         "label": "Sea Horse",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.XaHduDN7nkki5N88",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Sea Horse Heritage (Unification)",
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
                     {
                         "label": "Zebra",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Nl1LrrFL1i20jJZt",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Zebra Heritage (Unification)",
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
                     {
                         "label": "Short Leg",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.7henJn1qSmVb9tIA",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Short Leg Heritage (Unification)",
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
                     {
                         "label": "Gem Pony",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.MuTkvovUzlXxAO6d",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Gem Pony",
                         "predicate": { "all": ["unification:type:spiritTribe"] }
                     },
                     {
                         "label": "Clockwork",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.bIYWxLDgYY2SuW6U",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Clockwork",
                         "predicate": { "all": ["unification:type:spiritTribe"] }
                     },
                     {
                         "label": "Doppelganger",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.KGZYtvPa1WroPBN6",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Doppelganger",
                         "predicate": { "all": ["unification:type:spiritTribe"] }
                     },
                     {
                         "label": "Sun Pony",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Y3yUx8WGzOMO96LU",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Sun Pony",
                         "predicate": { "all": ["unification:type:spiritTribe"] }
                     },
                     {
                         "label": "Chaos Hunter",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.8cVeCKDzGtts3qwU",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Chaos Hunter",
                         "predicate": { "all": ["unification:type:spiritTribe"] }
                     },
                     {
                         "label": "Antean",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Sy4dASkOFAwtFd7r",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Antean",
                         "predicate": { "all": ["unification:type:spiritTribe"] }
                     },
                     {
                         "label": "Denial of Destiny",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.6NWYAx2IqwxYs926",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Denial of Destiny",
                         "predicate": { "all": ["unification:type:spiritTribe"] }
                     },
                     {
                         "label": "Unique Destiny",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.YdYdfcN857eqcdRO",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Unique Destiny",
                         "predicate": { "all": ["unification:type:spiritTribe"] }
                     }
                 ]

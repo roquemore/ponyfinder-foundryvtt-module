@@ -244,7 +244,14 @@ class CompendiumPack {
         };
 
         const toIDRef = (uuid) => {
-            const match = /(?<=^Compendium\.pf2e\.)([^.]+)\.(.+)$/.exec(uuid);
+            const match =
+                /(?<=^Compendium\.ponyfinder-foundryvtt-module\.)([^.]+)\.(.+)$/.exec(
+                    uuid
+                );
+            if (!match) {
+                return uuid;
+            }
+
             const [, packId, docName] = match ?? [null, null, null];
             const docId = map.get(packId ?? "")?.get(docName ?? "");
             if (docName && docId) {

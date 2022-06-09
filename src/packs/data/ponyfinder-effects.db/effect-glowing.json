@@ -5,7 +5,7 @@
     "img": "systems/pf2e/icons/default-icons/effect.svg",
     "data": {
         "description": {
-            "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-feats.FUqk0Ui46nwJfroM]{Glowing}</p>"
+            "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-feats.Glowing]{Glowing}</p>"
         },
         "source": { "value": "" },
         "traits": { "value": [], "rarity": "common", "custom": "" },

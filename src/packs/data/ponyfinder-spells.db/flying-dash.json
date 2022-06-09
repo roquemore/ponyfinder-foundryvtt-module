@@ -5,7 +5,7 @@
     "img": "systems/pf2e/icons/default-icons/spell.svg",
     "data": {
         "description": {
-            "value": "<p>Your fly Speed becomes twice your land Speed.</p><p>@Compendium[ponyfinder-foundryvtt-module.ponyfinder-effects.khwoiEKl3Htb0YUe]{Effect: Flying Dash}</p><hr /><p><strong>Heightened (+2)</strong> The effect lasts for 1 additional round.</p>"
+            "value": "<p>Your fly Speed becomes twice your land Speed.</p><p>@Compendium[ponyfinder-foundryvtt-module.ponyfinder-effects.Effect: Flying Dash]{Effect: Flying Dash}</p><hr /><p><strong>Heightened (+2)</strong> The effect lasts for 1 additional round.</p>"
         },
         "source": {
             "value": "Ponyfinder"

@@ -21,35 +21,35 @@
                 "choices": [
                     {
                         "label": "Earth-Bound",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.a1L7cGV0sy7uTaDe"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Earth-Bound)"
                     },
                     {
                         "label": "Unicorn",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.7sg9TQvMjrV0Jiyu"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Unicorn)"
                     },
                     {
                         "label": "Pegasi",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.8Ps09uxMjGn7qVKh"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Pegasus)"
                     },
                     {
                         "label": "Leather Wing",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.msY6TEnfhxeAaz37"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Leatherwing)"
                     },
                     {
                         "label": "Ghost Pony",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.1muwGllbQTANmRuI"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Ghost Pony)"
                     },
                     {
                         "label": "Sea Horse",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.qANtkGldZ7Xg0srb"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Sea Horse)"
                     },
                     {
                         "label": "Zebra",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.S75g8jRIcSikuGZU"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Zebra)"
                     },
                     {
                         "label": "Short Leg",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.SrQLb9HCwSfb5mZT"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Short Leg)"
                     }
                 ]
             },

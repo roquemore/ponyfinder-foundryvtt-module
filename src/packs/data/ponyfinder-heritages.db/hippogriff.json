@@ -17,11 +17,11 @@
                 "choices": [
                     {
                         "label": "Strength",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.I4ZddM8I9hmNDWab"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Hippogriff) (Strength)"
                     },
                     {
                         "label": "Wisdom",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.pZ22zDsGgbxnh5qn"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Hippogriff) (Wisdom)"
                     }
                 ]
             },
@@ -32,7 +32,7 @@
         ],
         "ancestry": {
             "name": "Griffon",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.0WiasfnMavC787wS"
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
         }
     }
 }

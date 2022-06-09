@@ -5,7 +5,7 @@
     "img": "systems/pf2e/icons/default-icons/effect.svg",
     "data": {
         "description": {
-            "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-feats.ovwmtJNF53YuctZf]{Lustrous Coat}</p>"
+            "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-feats.Lustrous Coat]{Lustrous Coat}</p>"
         },
         "source": { "value": "" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
