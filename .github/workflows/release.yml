@@ -35,3 +35,10 @@ jobs:
                   artifacts: "./module.json,./ponyfinder-foundryvtt-module.zip"
                   tag: v${{ fromJson(steps.get_version.outputs.moduleJson).version }}
                   token: ${{ secrets.GITHUB_TOKEN }}
+            - name: Update Latest
+              uses: ncipollo/release-action@v1
+              with:
+                  allowUpdates: true
+                  artifacts: "./module.json,./ponyfinder-foundryvtt-module.zip"
+                  tag: latest
+                  token: ${{ secrets.GITHUB_TOKEN }}
