@@ -1,0 +1,100 @@
+{
+    "_id": "kyldtEgzKH2dtY1A",
+    "name": "Sun's Howl",
+    "type": "spell",
+    "img": "systems/pf2e/icons/default-icons/spell.svg",
+    "data": {
+        "description": {
+            "value": "<p>A loud burst of sun-driven roar lashes out at enemies around you, dealing [[/r {2d6}[sonic]]]{2d6 sonic damage} + your Charisma modifier. Make an Intimidate check to @Compendium[pf2e.actionspf2e.Demoralize]{Demoralize}, comparing the one roll to all targets injured by the spell.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by [[/r 1d6]]{1d6}.</p>"
+        },
+        "source": {
+            "value": "Ponyfinder"
+        },
+        "traits": {
+            "value": ["auditory"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": {
+            "value": 2
+        },
+        "spellType": {
+            "value": "save"
+        },
+        "category": {
+            "value": "focus"
+        },
+        "traditions": {
+            "value": ["divine"],
+            "custom": ""
+        },
+        "school": {
+            "value": "evocation"
+        },
+        "components": {
+            "focus": false,
+            "material": false,
+            "somatic": false,
+            "verbal": true
+        },
+        "materials": {
+            "value": ""
+        },
+        "target": {
+            "value": ""
+        },
+        "range": {
+            "value": ""
+        },
+        "area": {
+            "value": "30",
+            "areaType": "burst"
+        },
+        "time": {
+            "value": "1"
+        },
+        "duration": {
+            "value": ""
+        },
+        "damage": {
+            "value": {
+                "61p1jxu7ff7m0nt6": {
+                    "value": "1d6+ @actor.abilities.cha.mod",
+                    "type": {
+                        "value": "sonic",
+                        "categories": [],
+                        "subtype": ""
+                    },
+                    "applyMod": false
+                }
+            }
+        },
+        "save": {
+            "value": "fortitude",
+            "basic": "basic"
+        },
+        "sustained": {
+            "value": false
+        },
+        "cost": {
+            "value": ""
+        },
+        "ability": {
+            "value": ""
+        },
+        "location": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "heightening": {
+            "type": "interval",
+            "interval": 1,
+            "damage": {
+                "61p1jxu7ff7m0nt6": "1d6"
+            }
+        }
+    }
+}
