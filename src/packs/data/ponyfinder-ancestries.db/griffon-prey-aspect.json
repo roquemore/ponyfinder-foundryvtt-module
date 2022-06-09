@@ -1,0 +1,47 @@
+{
+    "_id": "QsQXm6vNg4tFfS2E",
+    "name": "Griffon (Prey Aspect)",
+    "type": "ancestry",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/griffon.png",
+    "data": {
+        "description": {
+            "value": "<p>Your bird half is that of a prey animal, and it marks you. You lose your Strength boost but also your Charisma flaw. When casting divine spells or effects, the DC is given a circumstance bonus of 1.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["fey", "hb_griffon"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "hp": 6,
+        "size": "med",
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+            "0": { "value": [] },
+            "1": { "value": [] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": [] } },
+        "languages": { "value": ["common"], "custom": "" },
+        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "items": {
+            "nrexm": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "tloq4": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "GfuNa8M6DABIrMwL",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Glider",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}

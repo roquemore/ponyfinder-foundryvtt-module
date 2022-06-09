@@ -1,0 +1,67 @@
+{
+    "_id": "f4nJQK7v9VV6rp80",
+    "name": "Phoenix Wolf",
+    "type": "ancestry",
+    "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+    "data": {
+        "description": {
+            "value": "<p>Phoenix wolves are fairly stable in their appearance and abilities as reformed hell hounds.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["fey", "hb_phoenix-wolf"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "prompt": "Choose a heritage",
+                "flag": "phoenixWolfHeritageChoice",
+                "choices": [
+                    {
+                        "label": "Battle Born",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.PUpYCCcX0FNJmET4"
+                    },
+                    {
+                        "label": "Fire Born",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.mwl4PzIt5C2JT3U4"
+                    }
+                ]
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.phoenixWolfHeritageChoice}"
+            }
+        ],
+        "hp": 6,
+        "size": "med",
+        "reach": 5,
+        "speed": 30,
+        "boosts": {
+            "0": { "value": ["dex"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["int"] } },
+        "languages": { "value": ["common"], "custom": "" },
+        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "items": {
+            "znujb": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "yc2ar": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "YlXr1YLaVAglDFFq",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Fingerless",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "_id": "a1L7cGV0sy7uTaDe",
+    "name": "Ponykind (Earth-Bound)",
+    "type": "ancestry",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pony.png",
+    "data": {
+        "description": {
+            "value": "<p>Built to go far and fast without pause, your durability matches that of the dwarves. You may select any one dwarf heritage. You gain all of its advantages and disadvantages</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["fey", "hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.lBGKqI3FcNTZ1dhS"
+            }
+        ],
+        "hp": 8,
+        "size": "med",
+        "reach": 5,
+        "speed": 30,
+        "boosts": {
+            "0": { "value": ["con"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["int"] } },
+        "languages": { "value": ["common", "sylvan"], "custom": "" },
+        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "items": {
+            "5njy5": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "bzef8": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "YlXr1YLaVAglDFFq",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Fingerless",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}

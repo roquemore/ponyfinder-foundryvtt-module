@@ -1,0 +1,54 @@
+{
+    "_id": "db8YMpV6TG50qQSp",
+    "name": "Steelheart",
+    "type": "ancestry",
+    "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+    "data": {
+        "description": {
+            "value": "<p>Forged of metal, grown of tree, the steelheart does not attempt a plea. Mysterious creatures of unknown origin, they straddle the line between life and death.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["fey", "hb_half-construct"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [{ "key": "GrantItem", "uuid": "Item.nLk9cMDaPVmXezUP" }],
+        "hp": 10,
+        "size": "med",
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+            "0": { "value": ["con"] },
+            "1": { "value": ["int"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["wis"] } },
+        "languages": { "value": ["common", "sylvan"], "custom": "" },
+        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "items": {
+            "pejev": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "rfcpb": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "YlXr1YLaVAglDFFq",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Fingerless",
+                "level": 0
+            },
+            "p1iee": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "c7rI40qF3hfjUdjo",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Cold Heart",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}

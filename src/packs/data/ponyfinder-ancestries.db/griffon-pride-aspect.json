@@ -1,0 +1,66 @@
+{
+    "_id": "rUsZDbUgqOdLFl8c",
+    "name": "Griffon (Pride Aspect)",
+    "type": "ancestry",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/griffon.png",
+    "data": {
+        "description": {
+            "value": "<p>Proud lion blood runs powerfully in you. Your Wisdom boost becomes a flaw. Your Charisma flaw becomes a boost. You have a fly speed equal to half your land speed.</p>"
+        },
+        "source": {
+            "value": "Ponyfinder"
+        },
+        "traits": {
+            "value": ["fey", "hb_griffon"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "hp": 6,
+        "size": "med",
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+            "0": {
+                "value": []
+            },
+            "1": {
+                "value": []
+            },
+            "2": {
+                "value": ["str", "dex", "con", "int", "wis", "cha"]
+            }
+        },
+        "flaws": {
+            "0": {
+                "value": []
+            }
+        },
+        "languages": {
+            "value": ["common"],
+            "custom": ""
+        },
+        "additionalLanguages": {
+            "count": 0,
+            "value": [],
+            "custom": ""
+        },
+        "items": {
+            "nrexm": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "tloq4": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "GfuNa8M6DABIrMwL",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Glider",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "_id": "GMS3WSph0hBeT6ct",
+    "name": "Ponykind",
+    "type": "ancestry",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pony.png",
+    "data": {
+        "description": {
+            "value": "<p>What people think of first when they think of Everglow, the ponies once held sway over much of the continent from their grand empire that was reigned over peacefully by their queen. They come in a dizzying variety of forms, adapting to fit almost any environment.<br /><br />Dragging this option into your ancestry space will offer a selection of the various types of ponykind and properly apply the boosts and flaws associated with them.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["fey", "hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "prompt": "Choose a heritage",
+                "flag": "ponykindHeritage",
+                "choices": [
+                    {
+                        "label": "Earth-Bound",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.a1L7cGV0sy7uTaDe"
+                    },
+                    {
+                        "label": "Unicorn",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.7sg9TQvMjrV0Jiyu"
+                    },
+                    {
+                        "label": "Pegasi",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.8Ps09uxMjGn7qVKh"
+                    },
+                    {
+                        "label": "Leather Wing",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.msY6TEnfhxeAaz37"
+                    },
+                    {
+                        "label": "Ghost Pony",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.1muwGllbQTANmRuI"
+                    },
+                    {
+                        "label": "Sea Horse",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.qANtkGldZ7Xg0srb"
+                    },
+                    {
+                        "label": "Zebra",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.S75g8jRIcSikuGZU"
+                    },
+                    {
+                        "label": "Short Leg",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.SrQLb9HCwSfb5mZT"
+                    }
+                ]
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.ponykindHeritage}"
+            }
+        ],
+        "hp": 8,
+        "size": "med",
+        "reach": 5,
+        "speed": 30,
+        "boosts": {
+            "0": { "value": [] },
+            "1": { "value": [] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": [] } },
+        "languages": { "value": ["common", "sylvan"], "custom": "" },
+        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "items": {
+            "zct8g": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "ivkfb": {
+                "pack": "world.ponyfinder-feats",
+                "id": "YlXr1YLaVAglDFFq",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Fingerless",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}

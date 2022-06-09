@@ -1,0 +1,52 @@
+{
+    "_id": "1muwGllbQTANmRuI",
+    "name": "Ponykind (Ghost Pony)",
+    "type": "ancestry",
+    "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+    "data": {
+        "description": {
+            "value": "<p>A creature of the ether, you are as living as any other, but your kind are known to move as a ghost might. Incorporeal creatures within 30 feet of you that would normally be invisible can be seen by you. Your weapons and unarmed attacks are considered magic when used against incorporeal enemies.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["fey", "hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.8nqGLMGo3Sh9EkWN"
+            }
+        ],
+        "hp": 8,
+        "size": "med",
+        "reach": 5,
+        "speed": 30,
+        "boosts": {
+            "0": { "value": ["dex"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["con"] } },
+        "languages": { "value": ["common", "sylvan"], "custom": "" },
+        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "items": {
+            "jyg3i": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "4h6q4": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "YlXr1YLaVAglDFFq",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Fingerless",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}
