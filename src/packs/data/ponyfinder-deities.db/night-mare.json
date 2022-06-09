@@ -1,0 +1,18 @@
+{
+    "_id": "27oLlFyquYB806Gj",
+    "name": "Night Mare",
+    "type": "deity",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/dieties/night-mare.png",
+    "data": {
+        "description": { "value": "" },
+        "source": { "value": "Ponyfinder" },
+        "alignment": { "own": "N", "follower": ["N"] },
+        "domains": { "primary": [], "alternate": [] },
+        "font": ["harm", "heal"],
+        "ability": [],
+        "skill": null,
+        "weapons": [],
+        "spells": {},
+        "rules": []
+    }
+}

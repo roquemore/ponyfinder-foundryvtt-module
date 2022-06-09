@@ -1,0 +1,27 @@
+{
+    "_id": "AATZ0OuM4rvR1NAp",
+    "name": "Sun King",
+    "type": "deity",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/dieties/sun-queen.png",
+    "data": {
+        "description": {
+            "value": "<p>Benevolent light of felines and ponykind, he bids his followers shine with their own light, to warm the path of all those around them.</p><hr /><p><strong>Edicts</strong> strive for your best, help others understand their potential, see the goodness of others, stand firm against darkness of the soul</p><hr /><p><strong>Anathema</strong> forget that life is to be enjoyed, stop others from showing what they have to offer, allow darkness to thrive, be unkind to the good of heart</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "alignment": { "own": "NG", "follower": ["LG", "NG", "CG"] },
+        "domains": {
+            "primary": ["family", "freedom", "perfection", "sun"],
+            "alternate": ["trickery", "confidence"]
+        },
+        "font": ["heal"],
+        "ability": [],
+        "skill": "dip",
+        "weapons": ["spear"],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.y6rAdMK6EFlV6U0t",
+            "3": "Compendium.pf2e.spells-srd.o6YCGx4lycsYpww4",
+            "4": "Compendium.pf2e.spells-srd.NzXpEzcZAjuDTZjK"
+        },
+        "rules": []
+    }
+}
