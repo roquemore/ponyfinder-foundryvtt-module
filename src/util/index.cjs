@@ -1,1 +1,1 @@
-const { sluggify } = require('./misc.cjs')
+const { sluggify } = require("./misc.cjs");
