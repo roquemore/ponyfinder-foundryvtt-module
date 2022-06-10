@@ -15,7 +15,7 @@
         },
         "font": ["harm", "heal"],
         "ability": [],
-        "skill": null,
+        "skill": "dip",
         "weapons": [],
         "spells": {},
         "rules": []
