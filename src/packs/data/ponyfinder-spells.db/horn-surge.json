@@ -11,9 +11,7 @@
             "value": "PFY 2e Conversion Guide"
         },
         "traits": {
-            "value": [
-                "concentrate"
-            ],
+            "value": ["concentrate"],
             "rarity": "common",
             "custom": ""
         },
@@ -28,9 +26,7 @@
             "value": "focus"
         },
         "traditions": {
-            "value": [
-                "arcane"
-            ],
+            "value": ["arcane"],
             "custom": ""
         },
         "school": {

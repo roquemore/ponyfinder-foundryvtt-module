@@ -11,9 +11,7 @@
             "value": "Ponyfinder"
         },
         "traits": {
-            "value": [
-                "hb_ponykind"
-            ],
+            "value": ["hb_ponykind"],
             "rarity": "common",
             "custom": ""
         },

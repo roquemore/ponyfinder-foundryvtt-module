@@ -11,9 +11,7 @@
             "value": "Ponyfinder"
         },
         "traits": {
-            "value": [
-                "hb_griffon"
-            ],
+            "value": ["hb_griffon"],
             "rarity": "common",
             "custom": ""
         },
@@ -31,11 +29,7 @@
                 "key": "Strike",
                 "label": "PF2E.Weapon.Base.claw",
                 "range": null,
-                "traits": [
-                    "agile",
-                    "finesse",
-                    "unarmed"
-                ]
+                "traits": ["agile", "finesse", "unarmed"]
             },
             {
                 "category": "unarmed",
@@ -50,11 +44,7 @@
                 "key": "Strike",
                 "label": "PF2E.Weapon.Base.jaws",
                 "range": null,
-                "traits": [
-                    "agile",
-                    "finesse",
-                    "unarmed"
-                ]
+                "traits": ["agile", "finesse", "unarmed"]
             }
         ],
         "level": {
