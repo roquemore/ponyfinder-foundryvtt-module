@@ -4,7 +4,9 @@
     "type": "deity",
     "img": "modules/ponyfinder-foundryvtt-module/assets/deities/night-mare.png",
     "data": {
-        "description": { "value": "" },
+        "description": {
+            "value": "<p>Once one who embodied the fear of the unknown, she now bids that ponies rise up against what scares them and turn them into tools against others, to make their fears into weapons.</p><hr /><p><strong>Edicts</strong> consider the value of your enemies, do not let good talent go to waste, allow your inferiors to risk themselves so you can look at the larger picture</p><hr /><p><strong>Anathema</strong> show fear, give mercy without a heavy price, depend on others too greatly</p>"
+        },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "alignment": { "own": "N", "follower": ["N"] },
         "domains": { "primary": [], "alternate": [] },
