@@ -8,7 +8,10 @@
             "value": "<p>Studious and friendly, this once-mortal rose to the ranks of divinity through her pursuit of knowledge, tempered by the aid of her closest friends.</p><hr /><p><strong>Edicts</strong> seek knowledge, always offer friendship first, learn from mistakes, teach what has been learned</p><hr /><p><strong>Anathema</strong> harm knowledge, sabotage friendship even among those you do not like, turn away the chance to be either strengthening friendship or knowledge, taking advantage of friendship to the detriment of the friend</p>"
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
-        "alignment": { "own": "N", "follower": ["N"] },
+        "alignment": {
+            "own": "LG",
+            "follower": ["LG", "NG", "CG", "LN", "N", "CN", "LE", "NE", "CE"]
+        },
         "domains": {
             "primary": ["family", "knowledge", "magic"],
             "alternate": []

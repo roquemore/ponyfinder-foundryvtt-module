@@ -8,7 +8,10 @@
             "value": "<p>Little is known of the Author save that she created many of the fey creatures of the world. Great author of destiny, she is revered among the ponies despite having not a hint of equine in her, unlike the others of her pantheon.</p><hr /><p><strong>Edicts</strong> accept twists in the plot, make the story interesting but sensible, help others to complete their chapters</p><hr /><p><strong>Anathema</strong>deny fate, begrudge the sour times, expect the good times to last forever</p>"
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
-        "alignment": { "own": "N", "follower": ["N"] },
+        "alignment": {
+            "own": "N",
+            "follower": ["LG", "NG", "CG", "LN", "N", "CN", "LE", "NE", "CE"]
+        },
         "domains": {
             "primary": [],
             "alternate": [
