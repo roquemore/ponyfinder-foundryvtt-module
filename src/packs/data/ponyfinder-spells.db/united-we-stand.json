@@ -1,0 +1,86 @@
+{
+    "_id": "MjCOYinSLgMtZIbJ",
+    "name": "United We Stand",
+    "type": "spell",
+    "img": "systems/pf2e/icons/default-icons/spell.svg",
+    "data": {
+        "description": {
+            "value": "<p>Those bound by this magic have their life forces tied together. Whenever any member of the same spell receives damage, all are immediately aware and may use a [reaction] to contribute any number of hit points up to the amount of damage dealt to prevent the damage from occurring. Other members of this union are aware of this happening and how much was given, preventing too much from being given.</p><hr /><p><strong>Heightened (+1)</strong> You may affect another willing creature within range.</p>"
+        },
+        "source": {
+            "value": "Ponyfinder: Races of Everglow Second Edition"
+        },
+        "traits": {
+            "value": ["cleric"],
+            "rarity": "uncommon",
+            "custom": ""
+        },
+        "rules": [],
+        "level": {
+            "value": 4
+        },
+        "spellType": {
+            "value": "defensive"
+        },
+        "category": {
+            "value": "focus"
+        },
+        "traditions": {
+            "value": [],
+            "custom": ""
+        },
+        "school": {
+            "value": "necromancy"
+        },
+        "components": {
+            "somatic": false,
+            "verbal": false
+        },
+        "materials": {
+            "value": ""
+        },
+        "target": {
+            "value": "caster plus three willing creatures"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "area": {
+            "value": "",
+            "areaType": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "duration": {
+            "value": "1 minute"
+        },
+        "damage": {
+            "value": {}
+        },
+        "save": {
+            "value": "",
+            "basic": ""
+        },
+        "sustained": {
+            "value": false
+        },
+        "cost": {
+            "value": ""
+        },
+        "ability": {
+            "value": ""
+        },
+        "location": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "heightening": {
+            "damage": {},
+            "interval": 1,
+            "type": "interval"
+        }
+    }
+}

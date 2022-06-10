@@ -13,7 +13,7 @@
             "follower": ["LG", "NG", "CG", "LN", "N", "CN", "LE", "NE", "CE"]
         },
         "domains": {
-            "primary": ["family", "knowledge", "magic"],
+            "primary": ["family", "knowledge", "magic", "unity"],
             "alternate": []
         },
         "font": ["harm", "heal"],

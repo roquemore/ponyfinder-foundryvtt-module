@@ -1,0 +1,86 @@
+{
+    "_id": "HdgET8zcG2CAtbpR",
+    "name": "In Concert",
+    "type": "spell",
+    "img": "systems/pf2e/icons/default-icons/spell.svg",
+    "data": {
+        "description": {
+            "value": "<p>Those affected by this spell work together in harmony. Any time either does something that anyone else affected by the same spell has done in the same round, they receive a +1 status bonus to the action. If two members affected by the same casting of this spell are flanking a target, increase the flanking bonus to +3.</p><hr /><p><strong>Heightened (+1)</strong> You may affect another willing creature within range.</p>"
+        },
+        "source": {
+            "value": "Ponyfinder: Races of Everglow Second Edition"
+        },
+        "traits": {
+            "value": ["cleric"],
+            "rarity": "uncommon",
+            "custom": ""
+        },
+        "rules": [],
+        "level": {
+            "value": 1
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "category": {
+            "value": "focus"
+        },
+        "traditions": {
+            "value": [],
+            "custom": ""
+        },
+        "school": {
+            "value": "enchantment"
+        },
+        "components": {
+            "somatic": false,
+            "verbal": false
+        },
+        "materials": {
+            "value": ""
+        },
+        "target": {
+            "value": "caster plus one willing creature"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "area": {
+            "value": "",
+            "areaType": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "duration": {
+            "value": "1 minute"
+        },
+        "damage": {
+            "value": {}
+        },
+        "save": {
+            "value": "",
+            "basic": ""
+        },
+        "sustained": {
+            "value": false
+        },
+        "cost": {
+            "value": ""
+        },
+        "ability": {
+            "value": ""
+        },
+        "location": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "heightening": {
+            "damage": {},
+            "interval": 1,
+            "type": "interval"
+        }
+    }
+}
