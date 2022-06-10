@@ -9,7 +9,19 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "alignment": { "own": "N", "follower": ["N"] },
-        "domains": { "primary": [], "alternate": [] },
+        "domains": {
+            "primary": [
+                "cities",
+                "confidence",
+                "darkness",
+                "dreams",
+                "indulgence",
+                "passion",
+                "secrecy",
+                "trickery"
+            ],
+            "alternate": []
+        },
         "font": ["harm", "heal"],
         "ability": [],
         "skill": null,

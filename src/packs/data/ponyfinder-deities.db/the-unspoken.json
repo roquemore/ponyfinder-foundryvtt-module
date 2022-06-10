@@ -15,8 +15,8 @@
             "follower": ["CG", "CN", "CE"]
         },
         "domains": {
-            "primary": ["cities", "creation", "freedom", "luck"],
-            "alternate": ["trickery"]
+            "primary": ["cities", "creation", "freedom", "luck", "trickery"],
+            "alternate": []
         },
         "font": ["harm", "heal"],
         "ability": [],

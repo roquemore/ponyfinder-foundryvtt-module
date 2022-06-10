@@ -10,8 +10,15 @@
         "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
         "alignment": { "own": "NG", "follower": ["LG", "NG", "CG"] },
         "domains": {
-            "primary": ["family", "freedom", "perfection", "sun"],
-            "alternate": ["trickery", "confidence"]
+            "primary": [
+                "family",
+                "freedom",
+                "perfection",
+                "sun",
+                "trickery",
+                "confidence"
+            ],
+            "alternate": []
         },
         "font": ["heal"],
         "ability": [],

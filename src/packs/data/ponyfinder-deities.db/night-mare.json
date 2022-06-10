@@ -9,7 +9,18 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "alignment": { "own": "N", "follower": ["N"] },
-        "domains": { "primary": [], "alternate": [] },
+        "domains": {
+            "primary": [
+                "ambition",
+                "confidence",
+                "destruction",
+                "moon",
+                "perfection",
+                "tyranny",
+                "zeal"
+            ],
+            "alternate": []
+        },
         "font": ["harm", "heal"],
         "ability": [],
         "skill": null,

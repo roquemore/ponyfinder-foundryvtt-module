@@ -9,7 +9,17 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "alignment": { "own": "N", "follower": ["N"] },
-        "domains": { "primary": [], "alternate": [] },
+        "domains": {
+            "primary": [],
+            "alternate": [
+                "ambition",
+                "creation",
+                "fate",
+                "knowledge",
+                "luck",
+                "magic"
+            ]
+        },
         "font": ["harm", "heal"],
         "ability": [],
         "skill": null,

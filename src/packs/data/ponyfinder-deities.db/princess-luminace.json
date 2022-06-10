@@ -9,7 +9,10 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "alignment": { "own": "N", "follower": ["N"] },
-        "domains": { "primary": [], "alternate": [] },
+        "domains": {
+            "primary": ["family", "knowledge", "magic"],
+            "alternate": []
+        },
         "font": ["harm", "heal"],
         "ability": [],
         "skill": null,

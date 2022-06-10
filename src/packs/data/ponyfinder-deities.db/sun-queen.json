@@ -10,8 +10,15 @@
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "alignment": { "own": "NG", "follower": ["LG", "NG", "CG"] },
         "domains": {
-            "primary": ["sun", "freedom", "family", "perfection"],
-            "alternate": ["trickery", "confidence"]
+            "primary": [
+                "sun",
+                "freedom",
+                "family",
+                "perfection",
+                "trickery",
+                "confidence"
+            ],
+            "alternate": []
         },
         "font": ["heal"],
         "ability": [],
