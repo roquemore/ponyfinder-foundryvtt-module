@@ -1,0 +1,44 @@
+{
+    "_id": "kLQEHA7aj3jFCQwg",
+    "name": "Effect: Glowing",
+    "type": "effect",
+    "img": "systems/pf2e/icons/default-icons/effect.svg",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-feats.Glowing]{Glowing}</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "TokenLight",
+                "value": {
+                    "animation": {
+                        "intensity": 1,
+                        "speed": 2,
+                        "type": "pulse"
+                    },
+                    "color": "#69699b",
+                    "dim": {
+                        "brackets": [
+                            { "end": 3, "value": 5 },
+                            { "start": 4, "value": 5 }
+                        ],
+                        "field": "item|data.level.value"
+                    }
+                }
+            }
+        ],
+        "level": { "value": 1 },
+        "duration": {
+            "value": -1,
+            "unit": "unlimited",
+            "sustained": false,
+            "expiry": null
+        },
+        "start": { "value": 0, "initiative": null },
+        "target": null,
+        "tokenIcon": { "show": true },
+        "badge": null
+    }
+}

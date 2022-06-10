@@ -1,0 +1,40 @@
+{
+    "_id": "bIYWxLDgYY2SuW6U",
+    "name": "Clockwork",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Cursed for the folly of ponies that thought they could challenge the gods, you stand between metal and flesh. You gain the half-construct trait. You gain electricity resistance equal to half your level (minimum 1). Your land Speed decreases by 5 feet.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind", "hb_spirit-tribe"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            { "key": "ActorTraits", "add": ["Half-Construct"] },
+            {
+                "key": "Resistance",
+                "type": "electricity",
+                "value": "max(1,floor(@actor.level/2))"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "untyped",
+                "value": -5
+            }
+        ],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "_id": "uwoxZDsW2qFLnsrJ",
+    "name": "Core of Thunder",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your kind gets along well with the force of electricity that runs harmlessly over your shell. Your spells and alchemical items that deal electricity damage gain a status bonus to damage equal to half the spell&rsquo;s level or one-quarter the item&rsquo;s level (minimum 1). You also gain a +1 status bonus to any persistent electricity damage you deal.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_half-construct"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "selector": "damage",
+                "text": "<p class='compact-text'><strong>{item|name} </strong>Your spells and alchemical items that deal electricity damage gain a status bonus to damage equal to half the spell’s level or one-quarter the item’s level (minimum 1). You also gain a +1 status bonus to any persistent electricity damage you deal.</p>"
+            }
+        ],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

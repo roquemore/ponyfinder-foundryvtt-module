@@ -1,0 +1,27 @@
+{
+    "_id": "iJ1ycUcNRXrwVZQf",
+    "name": "Established Brand",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>When arriving in a new city, make a Diplomacy or Society check with a -1 penalty per day&rsquo;s distance from home (to a maximum penalty of -10) and consult Table: Established Brand for the effect.</p><p><strong>Special</strong>&nbsp;You can only take this feat at 1st level.</p><p>&nbsp;</p><table style=\"width: 100%; height: 136px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<th style=\"width: 10.5936%; height: 17px; background-color: #ba372a;\">Result</th>\n<th style=\"width: 89.4064%; height: 17px; background-color: #ba372a;\">Effect</th>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 10.5936%; height: 17px;\">10</td>\n<td style=\"width: 89.4064%; height: 17px;\">You found a distant relation willing to offer the equivalent of a closet to collapse in, giving you free&mdash; if poor&mdash;lodging.</td>\n</tr>\n<tr style=\"height: 34px;\">\n<td style=\"width: 10.5936%; height: 34px;\">15</td>\n<td style=\"width: 89.4064%; height: 34px;\">You find the local branch of your family. You can get poor lodging for free or average lodging at half cost. Any random chance of combat or misfortune in the community is halved.</td>\n</tr>\n<tr style=\"height: 34px;\">\n<td style=\"width: 10.5936%; height: 34px;\">25</td>\n<td style=\"width: 89.4064%; height: 34px;\">You find a friend from long ago, or perhaps a friend of a friend. They can put you and your friends up with average lodging for free as well as halving the random chance of combat or misfortune in the community.</td>\n</tr>\n<tr style=\"height: 34px;\">\n<td style=\"width: 10.5936%; height: 34px;\">35</td>\n<td style=\"width: 89.4064%; height: 34px;\">You managed to find a sibling, uncle, aunt, or other direct relation. They&rsquo;re willing to go out of their way for your comfort, providing lodging and food for your party for free while quartering the chance of combat or misfortune in the community</td>\n</tr>\n</tbody>\n</table>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": true,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Earthbound" }] },
+        "location": null
+    }
+}

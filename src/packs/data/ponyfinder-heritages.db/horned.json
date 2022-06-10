@@ -1,0 +1,18 @@
+{
+    "_id": "HcwdjHcgojz6fMV7",
+    "name": "Horned",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>While many cloven have and take pride in their horns, yours are especially noteworthy. You gain a gore unarmed attack that deals [[/r {1d6}[piercing]]]{1d6 piercing damage}. Your horns are in the brawling group and have the agile and unarmed traits.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "ancestry": {
+            "name": "Cloven",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Cloven"
+        }
+    }
+}

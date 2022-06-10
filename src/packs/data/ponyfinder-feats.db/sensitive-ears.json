@@ -1,0 +1,32 @@
+{
+    "_id": "3TjETRhRSv7581bk",
+    "name": "Sensitive Ears",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your ears can pick up the subtlest of clues. You gain the following action: @Compendium[ponyfinder-foundryvtt-module.ponyfinder-actions.Sonar Ping]{Sonar Ping}</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-actions.Sonar Ping"
+            }
+        ],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Leather Wing" }] },
+        "location": null
+    }
+}

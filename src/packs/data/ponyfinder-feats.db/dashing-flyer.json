@@ -1,0 +1,44 @@
+{
+    "_id": "bF2ffIJ16gZB045S",
+    "name": "Dashing Flyer",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your fly Speed increases to your land Speed.&nbsp; If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by relaxing quietly and considering how great you looked.&nbsp; For one focus point, you can use the following focus spell: @Compendium[ponyfinder-foundryvtt-module.ponyfinder-spells.Flying Dash]{Flying Dash}</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.resources.focus.max",
+                "value": 1
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-spells.Flying Dash"
+            },
+            {
+                "key": "BaseSpeed",
+                "selector": "fly-speed",
+                "value": "@actor.attributes.speed.value"
+            }
+        ],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Natural fly speed" }] },
+        "location": null,
+        "rarity": { "value": "common" }
+    }
+}

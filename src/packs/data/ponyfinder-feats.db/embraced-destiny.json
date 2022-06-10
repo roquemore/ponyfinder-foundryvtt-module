@@ -1,0 +1,29 @@
+{
+    "_id": "X1tkrF8mXSNgdoHk",
+    "name": "Embraced Destiny",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Embracing what fate has in store for you, you practiced a portion of your profession with a zeal unmatched. You may increase any one skill proficiency from trained to expert.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": {
+            "value": [{ "value": "You must not have Denial of Destiny" }]
+        },
+        "location": null
+    }
+}

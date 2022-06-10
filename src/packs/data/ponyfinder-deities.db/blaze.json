@@ -1,0 +1,18 @@
+{
+    "_id": "HDcmJKcxaTrGcOBp",
+    "name": "Blaze",
+    "type": "deity",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/blaze.png",
+    "data": {
+        "description": { "value": "" },
+        "source": { "value": "Ponyfinder" },
+        "alignment": { "own": "N", "follower": ["N"] },
+        "domains": { "primary": [], "alternate": [] },
+        "font": ["harm", "heal"],
+        "ability": [],
+        "skill": null,
+        "weapons": [],
+        "spells": {},
+        "rules": []
+    }
+}

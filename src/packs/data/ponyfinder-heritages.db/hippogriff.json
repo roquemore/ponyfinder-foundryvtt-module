@@ -1,0 +1,38 @@
+{
+    "_id": "e2X277t6Ls2oF0cZ",
+    "name": "Hippogriff",
+    "type": "heritage",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/hippogriff.png",
+    "data": {
+        "description": {
+            "value": "<p>You have the forebody of a bird and the hindquarters of a pony. You gain the ponykind trait. You lose your Strength and Wisdom boosts. You lose your Charisma flaw. You gain a boost to Strength or Wisdom and a free boost. You gain one first level ancestry feat. Being a ponykind, you may select ponykind ancestry feats freely.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "prompt": "Choose which boost for the Hippogriff heritage",
+                "flag": "griffonHippoChoice",
+                "choices": [
+                    {
+                        "label": "Strength",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Hippogriff) (Strength)"
+                    },
+                    {
+                        "label": "Wisdom",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Hippogriff) (Wisdom)"
+                    }
+                ]
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.griffonHippoChoice}"
+            }
+        ],
+        "ancestry": {
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
+        }
+    }
+}

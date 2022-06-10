@@ -1,0 +1,24 @@
+{
+    "_id": "frlFSdYaqwogMhos",
+    "name": "Prey Aspect",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your bird half is that of a prey animal, and it marks you. You lose your Strength boost but also your Charisma flaw. When casting divine spells or effects, the DC is given a circumstance bonus of 1.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "Note",
+                "selector": "spell-attack",
+                "text": "<p><strong>Prey Aspect</strong> When casting divine spells or effects, the DC is given a circumstance bonus of 1.</p>"
+            }
+        ],
+        "ancestry": {
+            "name": "Griffon (Prey Aspect)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Prey Aspect)"
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "_id": "OYLS89rKYAWqEHUM",
+    "name": "Unification",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Dormant powers of the other tribes have awakened within your blood. You gain either another Ponykind heritage or another spirit tribe feat, even if you already have one.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "prompt": "Heritage or Spirit Tribe",
+                "flag": "ponykindUnificationType",
+                "adjustName": false,
+                "rollOption": "unification:type",
+                "choices": [
+                    { "label": "Heritage", "value": "heritage" },
+                    { "label": "Spirit Tribe", "value": "spiritTribe" }
+                ]
+            },
+            {
+                "key": "ChoiceSet",
+                "prompt": "Unified Heritage or Spirit Tribe?",
+                "flag": "ponykindUnificationChoice",
+                "choices": [
+                    {
+                        "label": "Earth-bound",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Earth-bound Heritage (Unification)",
+                        "predicate": { "all": ["unification:type:heritage"] }
+                    },
+                    {
+                        "label": "Pegasus",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Pegasus Heritage (Unification)",
+                        "predicate": { "all": ["unification:type:heritage"] }
+                    },
+                    {
+                        "label": "Unicorn",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Unicorn Heritage (Unification)",
+                        "predicate": { "all": ["unification:type:heritage"] }
+                    },
+                    {
+                        "label": "Leatherwing",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Leather Wing Heritage (Unification)",
+                        "predicate": { "all": ["unification:type:heritage"] }
+                    },
+                    {
+                        "label": "Ghost Pony",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Ghost Pony Heritage (Unification)",
+                        "predicate": { "all": ["unification:type:heritage"] }
+                    },
+                    {
+                        "label": "Sea Horse",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Sea Horse Heritage (Unification)",
+                        "predicate": { "all": ["unification:type:heritage"] }
+                    },
+                    {
+                        "label": "Zebra",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Zebra Heritage (Unification)",
+                        "predicate": { "all": ["unification:type:heritage"] }
+                    },
+                    {
+                        "label": "Short Leg",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Short Leg Heritage (Unification)",
+                        "predicate": { "all": ["unification:type:heritage"] }
+                    },
+                    {
+                        "label": "Gem Pony",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Gem Pony",
+                        "predicate": { "all": ["unification:type:spiritTribe"] }
+                    },
+                    {
+                        "label": "Clockwork",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Clockwork",
+                        "predicate": { "all": ["unification:type:spiritTribe"] }
+                    },
+                    {
+                        "label": "Doppelganger",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Doppelganger",
+                        "predicate": { "all": ["unification:type:spiritTribe"] }
+                    },
+                    {
+                        "label": "Sun Pony",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Sun Pony",
+                        "predicate": { "all": ["unification:type:spiritTribe"] }
+                    },
+                    {
+                        "label": "Chaos Hunter",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Chaos Hunter",
+                        "predicate": { "all": ["unification:type:spiritTribe"] }
+                    },
+                    {
+                        "label": "Antean",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Antean",
+                        "predicate": { "all": ["unification:type:spiritTribe"] }
+                    },
+                    {
+                        "label": "Denial of Destiny",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Denial of Destiny",
+                        "predicate": { "all": ["unification:type:spiritTribe"] }
+                    },
+                    {
+                        "label": "Unique Destiny",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Unique Destiny",
+                        "predicate": { "all": ["unification:type:spiritTribe"] }
+                    }
+                ]
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.ponykindUnificationChoice}"
+            }
+        ],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Charisma 14" }] },
+        "location": null
+    }
+}

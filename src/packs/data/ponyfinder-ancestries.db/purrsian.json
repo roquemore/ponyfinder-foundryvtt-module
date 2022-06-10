@@ -1,0 +1,60 @@
+{
+    "_id": "7F5Tb4Aaui5VucUa",
+    "name": "Purrsian",
+    "type": "ancestry",
+    "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+    "data": {
+        "description": {
+            "value": "<p>Appearing as winged cats, purrsians come in many breeds, but their abilities do not differ as much as their appearance.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["fey", "hb_purrsian"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "prompt": "Choose a heritage",
+                "flag": "purrsianHeritageChoice",
+                "choices": [
+                    {
+                        "label": "Air Remembered",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Air Remembered"
+                    },
+                    {
+                        "label": "Feline Charisma",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Feline Charisma"
+                    }
+                ]
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.purrsianHeritageChoice}"
+            }
+        ],
+        "hp": 6,
+        "size": "med",
+        "reach": 5,
+        "speed": 30,
+        "boosts": {
+            "0": { "value": ["dex"] },
+            "1": { "value": ["cha"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["wis"] } },
+        "languages": { "value": ["common"], "custom": "" },
+        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "items": {
+            "ytzhs": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            }
+        },
+        "vision": "normal"
+    }
+}

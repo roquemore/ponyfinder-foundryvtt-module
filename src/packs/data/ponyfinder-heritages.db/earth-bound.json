@@ -1,0 +1,16 @@
+{
+    "_id": "lBGKqI3FcNTZ1dhS",
+    "name": "Earth-bound",
+    "type": "heritage",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pony.png",
+    "data": {
+        "description": { "value": "" },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "ancestry": {
+            "name": "Ponykind (Earth-Bound)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.a1L7cGV0sy7uTaDe"
+        }
+    }
+}

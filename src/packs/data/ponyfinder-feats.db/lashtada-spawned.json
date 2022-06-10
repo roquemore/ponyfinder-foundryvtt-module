@@ -1,0 +1,27 @@
+{
+    "_id": "1nW3HpSokvuo04xx",
+    "name": "Lashtada Spawned",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Born of the goddess, Lashtada, directly, your claim to divine magic is difficult to argue. Choose one cantrip from the divine spell list. You can cast this cantrip as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Short Leg" }] },
+        "location": null
+    }
+}

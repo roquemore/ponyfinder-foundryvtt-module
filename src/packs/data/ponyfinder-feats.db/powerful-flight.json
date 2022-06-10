@@ -1,0 +1,23 @@
+{
+    "_id": "c6NpDLirt3GulqCW",
+    "name": "Powerful Flight",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your wings are powerful and ready. Increase your fly Speed by 5 feet. When flying against the wind, your fly Speed increases by another 10 feet, but it is still difficult terrain.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": { "value": ["hb_griffon"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

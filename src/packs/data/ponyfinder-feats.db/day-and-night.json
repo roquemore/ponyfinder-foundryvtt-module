@@ -1,0 +1,27 @@
+{
+    "_id": "h6AUy6fuWvhP7cdq",
+    "name": "Day and Night",
+    "type": "feat",
+    "img": "systems/pf2e/icons/actions/OneAction.webp",
+    "data": {
+        "description": {
+            "value": "<p>If your next action you use is to @Compendium[pf2e.actionspf2e.Cast a Spell]{Cast a Spell} that deals damage, it's damage changes based upon the current time. If it is day, the spell will deal fire damage instead of its usual damage type. If it is night, it will deal cold damage instead of its usual damage type. If this would not change the damage type, this instead causes the target takes a -1 circumstance penalty to their saving throw.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["concentrate", "metamagic", "hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "action" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": 1 },
+        "prerequisites": { "value": [{ "value": "Sun Pony" }] },
+        "location": null
+    }
+}

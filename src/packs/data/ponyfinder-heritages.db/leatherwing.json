@@ -1,0 +1,22 @@
+{
+    "_id": "GPnGS3W9dEGtMraY",
+    "name": "Leatherwing",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": { "value": "" },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "fly-speed",
+                "value": "round(@actor.attributes.speed.value/2)"
+            }
+        ],
+        "ancestry": {
+            "name": "Ponykind (Leatherwing)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Leatherwing)"
+        }
+    }
+}

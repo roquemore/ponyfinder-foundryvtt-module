@@ -1,0 +1,18 @@
+{
+    "_id": "rg81H4hxzNVuwxu9",
+    "name": "Air Remembered",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>You have not forgotten how to use those wings on your back. You have a fly Speed equal to half your land Speed.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "ancestry": {
+            "name": "Purrsian",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Purrsian"
+        }
+    }
+}

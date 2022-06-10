@@ -1,0 +1,29 @@
+{
+    "_id": "C7iiFls5Zxt7hohO",
+    "name": "Sun Kissed",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your fire resistance increases to be equal to your level.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            { "key": "Resistance", "type": "fire", "value": "@actor.level" }
+        ],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Sun Pony" }] },
+        "location": null
+    }
+}

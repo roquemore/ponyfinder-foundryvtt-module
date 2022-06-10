@@ -1,0 +1,27 @@
+{
+    "_id": "MsYxOzKwnZkioE3x",
+    "name": "Piston Jump",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your hydraulic legs give you great jumping ability. When performing a @Compendium[pf2e.actionspf2e.Long Jump]{Long Jump}, you can travel up to 4 feet further. When performing a @Compendium[pf2e.actionspf2e.High Jump]{High Jump}, you can jump two feet higher and, on a critical success, you can jump five additional feet higher. When you fail, it is always considered as if you landed on a soft substance. If you are an expert in Acrobatics, double these numbers. If you are legendary, treat critical failures to jump as failures instead.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Clockwork" }] },
+        "location": null
+    }
+}

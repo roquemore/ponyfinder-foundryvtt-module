@@ -1,0 +1,99 @@
+{
+    "_id": "0WiasfnMavC787wS",
+    "name": "Griffon",
+    "type": "ancestry",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/griffon.png",
+    "data": {
+        "description": {
+            "value": "<p>Monarchs of the sky, griffons rule over the mountains, seeing all others as beneath them, and this is a simple fact, is it not?</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["fey", "hb_griffon"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "prompt": "Choose a heritage",
+                "flag": "griffonHeritage",
+                "choices": [
+                    {
+                        "label": "Cheetah Aspect",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Cheetah Aspect"
+                    },
+                    {
+                        "label": "Cursed Aspect",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Cursed Aspect"
+                    },
+                    {
+                        "label": "Especially Small",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Especially Small"
+                    },
+                    {
+                        "label": "Hippogriff",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Hippogriff"
+                    },
+                    {
+                        "label": "Predator Aspect",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Predator Aspect"
+                    },
+                    {
+                        "label": "Prey Aspect",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Prey Aspect"
+                    },
+                    {
+                        "label": "Pride Aspect",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Pride Aspect"
+                    },
+                    {
+                        "label": "Scavenger Aspect",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Scavenger Aspect"
+                    },
+                    {
+                        "label": "Sea Aspect",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Sea Aspect"
+                    },
+                    {
+                        "label": "Snow Aspect",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Snow Aspect"
+                    }
+                ]
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.griffonHeritage}"
+            }
+        ],
+        "hp": 6,
+        "size": "med",
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+            "0": { "value": ["str"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["cha"] } },
+        "languages": { "value": ["common"], "custom": "" },
+        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "items": {
+            "nrexm": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "tloq4": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "GfuNa8M6DABIrMwL",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Glider",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}

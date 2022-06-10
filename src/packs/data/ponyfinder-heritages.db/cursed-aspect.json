@@ -1,0 +1,24 @@
+{
+    "_id": "jBfPaB1DF8HN5sL0",
+    "name": "Cursed Aspect",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>The painful gems in your body sharpen your mind. Your Will save proficiency is always one step improved from where it would otherwise be. If you would have Legendary Will proficiency already, you gain a +1 circumstance bonus to Will saving throws.</p>"
+        },
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "value": [],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "ancestry": {
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
+        }
+    }
+}

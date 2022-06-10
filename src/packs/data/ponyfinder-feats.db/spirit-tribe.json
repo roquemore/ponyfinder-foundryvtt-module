@@ -1,0 +1,71 @@
+{
+    "_id": "oC60RYZZICMa5YJx",
+    "name": "Spirit Tribe",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>The destiny of Ponykind is a powerful force that manifests in their spiritual tribe. You may only have one feat with the spirit tribe trait.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "prompt": "Choose a Spirit Tribe",
+                "flag": "ponykindSpiritTribe",
+                "choices": [
+                    {
+                        "label": "Unique Destiny",
+                        "value": "Compendium.world.ponyfinder-feats.Unique Destiny"
+                    },
+                    {
+                        "label": "Antean",
+                        "value": "Compendium.world.ponyfinder-feats.Antean"
+                    },
+                    {
+                        "label": "Chaos Hunter",
+                        "value": "Compendium.world.ponyfinder-feats.Chaos Hunter"
+                    },
+                    {
+                        "label": "Clockwork",
+                        "value": "Compendium.world.ponyfinder-feats.Clockwork"
+                    },
+                    {
+                        "label": "Doppelganger",
+                        "value": "Compendium.world.ponyfinder-feats.Doppelganger"
+                    },
+                    {
+                        "label": "Denial of Destiny",
+                        "value": "Compendium.world.ponyfinder-feats.Denial of Destiny"
+                    },
+                    {
+                        "label": "Gem Pony",
+                        "value": "Compendium.world.ponyfinder-feats.Gem Pony"
+                    },
+                    {
+                        "label": "Sun Pony",
+                        "value": "Compendium.world.ponyfinder-feats.Sun Pony"
+                    }
+                ]
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.ponykindSpiritTribe}"
+            }
+        ],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

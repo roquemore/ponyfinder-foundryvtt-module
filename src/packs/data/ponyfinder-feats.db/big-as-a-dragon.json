@@ -1,0 +1,23 @@
+{
+    "_id": "mwtXnoqKCAoWt4Sm",
+    "name": "Big as a Dragon",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Tapping into your kirin ancestry, you find yourself... bigger, more dragonlike!</p><p>Your size increases to large</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Kirin" }] },
+        "location": ""
+    }
+}

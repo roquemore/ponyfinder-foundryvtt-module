@@ -1,0 +1,28 @@
+{
+    "_id": "nUiSTLWmbH8laz8F",
+    "name": "Storm Stallion",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Despite the name, mares are equally capable of mastering weather. If you are a spellcaster capable of casting 3rd level spells, you can learn and cast lightning bolt even if it's not normally on your list. Once per day, you can cast it even if you aren't a spellcaster as a primal innate spell, automatically heightened to a spell level equal to half your level.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Cloud Kicker" }] },
+        "location": null,
+        "rarity": { "value": "common" }
+    }
+}

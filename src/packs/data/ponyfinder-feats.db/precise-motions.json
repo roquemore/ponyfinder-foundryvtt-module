@@ -1,0 +1,39 @@
+{
+    "_id": "evTE52Thb1KU2YH8",
+    "name": "Precise Motions",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Moving with precise motions, you are free of the knee-jerk mistakes of your fleshy kin. When attempting a Thievery check to Disable a Device on a lock, you may treat critical failures as failures. This does not apply to critical failures on traps that may be on locks.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "AdjustDegreeOfSuccess",
+                "selector": "thievery",
+                "type": "skill",
+                "adjustment": { "criticalFailure": "one-degree-better" }
+            },
+            {
+                "key": "Note",
+                "selector": "thievery",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> When attempting a Thievery check to Disable a Device on a lock, you may treat critical failures as failures. This does not apply to critical failures on traps that may be on locks.</p>"
+            }
+        ],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Clockwork" }] },
+        "location": null
+    }
+}

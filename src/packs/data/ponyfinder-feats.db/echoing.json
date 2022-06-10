@@ -1,0 +1,27 @@
+{
+    "_id": "1EpPmLxmwsxnjiM1",
+    "name": "Echoing",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your attacks and actions are treated as if they had the @Compendium[pf2e.equipment-srd.JQdwHECogcTzdd8R]{Ghost Touch}&nbsp;property rune, affecting incorporeal creatures easily. If you are on the Ethereal Plane, you can touch and affect things on the prime Material Plane whenever you wish.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Ghost Pony" }] },
+        "location": null
+    }
+}

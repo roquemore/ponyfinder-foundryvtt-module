@@ -1,0 +1,18 @@
+{
+    "_id": "CKKix23pWnx6YhlA",
+    "name": "Butterfly",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>You are among the most common of your ilk with bright colors and usually as bright of a personality to match. You gain proficiency in any two skills in your pursuit of your own destiny.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "ancestry": {
+            "name": "Flutterpony",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Flutterpony"
+        }
+    }
+}

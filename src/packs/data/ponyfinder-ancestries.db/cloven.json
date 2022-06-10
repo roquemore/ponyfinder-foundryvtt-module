@@ -1,0 +1,47 @@
+{
+    "_id": "WJJh1vdPeXFgN54y",
+    "name": "Cloven",
+    "type": "ancestry",
+    "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+    "data": {
+        "description": {
+            "value": "<p>Distant cousins of the ponykind, the cloven are friendly towards them and most others they share space with. Favoring a meritocracy, a cloven likes to get things done, but insists on being polite as they do it.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_cloven", "fey"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "hp": 7,
+        "size": "med",
+        "reach": 5,
+        "speed": 30,
+        "boosts": {
+            "0": { "value": ["cha", "con", "dex", "int", "str", "wis"] },
+            "1": { "value": ["cha", "con", "dex", "int", "str", "wis"] },
+            "2": { "value": [] }
+        },
+        "flaws": { "0": { "value": [] } },
+        "languages": { "value": ["common"], "custom": "" },
+        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "items": {
+            "fcwz1": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "mwzov": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "YlXr1YLaVAglDFFq",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "name": "Fingerless",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}

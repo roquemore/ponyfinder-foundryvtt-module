@@ -1,0 +1,27 @@
+{
+    "_id": "J1quEDo7Z3Sba9AX",
+    "name": "Lover's Sacrifice",
+    "type": "feat",
+    "img": "systems/pf2e/icons/actions/Reaction.webp",
+    "data": {
+        "description": {
+            "value": "<p><strong>Trigger</strong> An ally within 5 feet is damaged by a non-area effect.</p><p><strong>Effect</strong> You throw yourself in harm's way, causing you to take the damage instead of your friend. If the effect that caused the damage would have other effects, you take that as well. You may make a saving throw against the other effects, but take the damage that was already being inflicted on your friend regardless of that saving throw.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 0 },
+        "featType": { "value": "ancestryfeature" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "reaction" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": 1 },
+        "prerequisites": { "value": [{ "value": "Short Leg" }] },
+        "location": null
+    }
+}

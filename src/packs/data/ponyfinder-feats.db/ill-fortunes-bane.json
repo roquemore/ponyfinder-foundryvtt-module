@@ -1,0 +1,23 @@
+{
+    "_id": "Q6e1Yso41mMC2YlR",
+    "name": "Ill Fortune's Bane",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest</p>"
+        },
+        "source": { "value": "Bannermanes Homebrew" },
+        "traits": { "value": [], "rarity": "common", "custom": "Kirin" },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": ""
+    }
+}

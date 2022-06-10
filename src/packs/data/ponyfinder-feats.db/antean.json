@@ -1,0 +1,27 @@
+{
+    "_id": "Sy4dASkOFAwtFd7r",
+    "name": "Antean",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>One of the rarer varieties of spiritual tribe, you have grown to massive proportions. You become Large (long) sized. Increase your Strength score by 2 if your strength is less than 18, otherwise increase it by 1.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind", "hb_spirit-tribe"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [{ "key": "CreatureSize", "value": "large" }],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

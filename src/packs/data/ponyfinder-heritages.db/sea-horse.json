@@ -1,0 +1,22 @@
+{
+    "_id": "l9tlCVdxJ9uiaqlO",
+    "name": "Sea Horse",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": { "value": "" },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim-speed",
+                "value": "@actor.attributes.speed.value"
+            }
+        ],
+        "ancestry": {
+            "name": "Ponykind (Sea Horse)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Sea Horse)"
+        }
+    }
+}

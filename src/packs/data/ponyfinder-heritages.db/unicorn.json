@@ -1,0 +1,24 @@
+{
+    "_id": "E6kLUecOWxVKUwx4",
+    "name": "Unicorn",
+    "type": "heritage",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/unicorn.png",
+    "data": {
+        "description": {
+            "value": ""
+        },
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "value": [],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "ancestry": {
+            "name": "Ponykind (Unicorn)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Unicorn)"
+        }
+    }
+}

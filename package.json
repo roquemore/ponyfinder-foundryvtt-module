@@ -1,10 +1,24 @@
 {
-  "name": "ponyfinder-foundryvtt-module",
-  "private": true,
-  "engines": {
-    "node": "16"
-  },
-  "scripts": {
-    "build": "node src/packs/scripts/build.js"
-  }
+    "name": "ponyfinder-foundryvtt-module",
+    "private": true,
+    "engines": {
+        "node": "16"
+    },
+    "scripts": {
+        "build": "node src/packs/scripts/build.cjs",
+        "format": "prettier --ignore-unknown --write ."
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*": "prettier --ignore-unknown --write"
+    },
+    "devDependencies": {
+        "husky-v4": "^4.3.8",
+        "lint-staged": "^13.0.1",
+        "prettier": "^2.6.2"
+    }
 }

@@ -1,0 +1,31 @@
+{
+    "_id": "dlsvxyjpULP2VLjj",
+    "name": "Effect: Hunker Down",
+    "type": "effect",
+    "img": "systems/pf2e/icons/default-icons/effect.svg",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-actions.i0JvOGMwNsjK5dcT]{Hunker Down}</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "all",
+                "value": "round(@actor.level/2)"
+            }
+        ],
+        "level": { "value": 1 },
+        "duration": {
+            "value": -1,
+            "unit": "unlimited",
+            "sustained": false,
+            "expiry": null
+        },
+        "start": { "value": 0, "initiative": null },
+        "target": null,
+        "tokenIcon": { "show": true },
+        "badge": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "_id": "KAc5joxV32rr85bm",
+    "name": "Power Buck",
+    "type": "feat",
+    "img": "systems/pf2e/icons/actions/OneAction.webp",
+    "data": {
+        "description": {
+            "value": "<p>When you lash out and catch a creature with both hooves, you can send them flying.&nbsp;</p><hr /><p>You can use this action on any creature within reach that you have struck twice this round with hoof attacks. This causes them to be pushed away up to 15 feet (you decide how far) and become @Compendium[pf2e.conditionitems.Prone]{Prone}. If their movement is stopped due to an object in the way, they stop there and take 1d6 damage as if they fell 10 feet. If you are an expert at unarmed attacks, the distance increases to 20 feet. If you are legendary at unarmed attacks, you can change their direction once as they move and they travel up to 30 feet.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": true,
+        "maxTakable": 1,
+        "actionType": { "value": "action" },
+        "actionCategory": { "value": "offensive" },
+        "actions": { "value": 1 },
+        "prerequisites": { "value": [{ "value": "Iron Hooves" }] },
+        "location": null
+    }
+}

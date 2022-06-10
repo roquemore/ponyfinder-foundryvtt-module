@@ -1,0 +1,27 @@
+{
+    "_id": "ZoTBzKutVUsxmJTJ",
+    "name": "Giant Dreams",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>You are considered one size category larger for the sake of if you can use or be targeted by effects and actions if this is to your advantage. For example a creature that could normally swallow up to Large creatures could not swallow a Large antean with this feat.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [{ "value": "Antean" }] },
+        "location": null
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "_id": "puOa3MvOEndhF5Mf",
+    "name": "Giant Companion",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your companion echoes your great size, increasing in size by one category. Its strength modifier increases by 1 and it deals [[/r {1}[extra]]]{1 extra Damage} with its unarmed attacks.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": {
+            "value": ["hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": {
+            "value": [
+                { "value": "Have an animal companion" },
+                { "value": "Antean" }
+            ]
+        },
+        "location": null
+    }
+}

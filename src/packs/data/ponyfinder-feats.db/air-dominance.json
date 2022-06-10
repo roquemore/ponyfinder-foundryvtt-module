@@ -1,0 +1,23 @@
+{
+    "_id": "5IPkOP8AmLsRDvr1",
+    "name": "Air Dominance",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your ties to the power of air are pervasive and potent. When casting spells with the air trait that can be heightened, the spell is heightened one spell level, to a maximum of half your level.</p>"
+        },
+        "source": { "value": "Ponyfinder" },
+        "traits": { "value": ["hb_griffon"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "_id": "YJfYcFu4K9JZYe4B",
+    "name": "Sea Aspect",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Where most have a feline, your back end is that of an otter or similar aquatic mammal. You gain a swim Speed equal to your land Speed. You can speak and cast spells while submerged without difficulty, but still need to breathe.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim-speed",
+                "value": "round(@actor.attributes.speed.value)"
+            }
+        ],
+        "ancestry": {
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "dS7EGG13szDRRxSw",
+    "name": "Short Leg",
+    "type": "heritage",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pony.png",
+    "data": {
+        "description": {
+            "value": "<p>Small of stature, but not of heart, short legs are hardy ponies born of a god they feel a literal kinship to. They are Small sized.&nbsp;</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Lover's Sacrifice"
+            }
+        ],
+        "ancestry": {
+            "name": "Ponykind (Short Leg)",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Short Leg)"
+        }
+    }
+}

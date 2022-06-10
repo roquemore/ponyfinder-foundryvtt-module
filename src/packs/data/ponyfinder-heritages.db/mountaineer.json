@@ -1,0 +1,18 @@
+{
+    "_id": "zQRUvinP72tFa5N1",
+    "name": "Mountaineer",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Bouncing from narrow point to narrow point, you are immune to altitude sickness and take no penalty for being mid-climb or caught while balancing on narrow or slippery surfaces.</p>"
+        },
+        "source": { "value": "" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "ancestry": {
+            "name": "Cloven",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Cloven"
+        }
+    }
+}
