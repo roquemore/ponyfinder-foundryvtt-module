@@ -16,7 +16,7 @@
         "font": ["harm", "heal"],
         "ability": [],
         "skill": "itm",
-        "weapons": [],
+        "weapons": ["battle-axe"],
         "spells": {},
         "rules": []
     }

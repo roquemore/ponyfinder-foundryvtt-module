@@ -16,7 +16,7 @@
         "font": ["harm", "heal"],
         "ability": [],
         "skill": "dip",
-        "weapons": [],
+        "weapons": ["quarterstaff"],
         "spells": {},
         "rules": []
     }

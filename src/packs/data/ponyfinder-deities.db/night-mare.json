@@ -24,7 +24,7 @@
         "font": ["harm", "heal"],
         "ability": [],
         "skill": "itm",
-        "weapons": [],
+        "weapons": ["scythe"],
         "spells": {},
         "rules": []
     }

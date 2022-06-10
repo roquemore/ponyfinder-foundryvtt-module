@@ -23,7 +23,7 @@
         "font": ["harm", "heal"],
         "ability": [],
         "skill": null,
-        "weapons": [],
+        "weapons": ["rapier"],
         "spells": {},
         "rules": []
     }
