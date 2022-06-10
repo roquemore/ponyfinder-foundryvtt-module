@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your kind gets along well with the force of electricity that runs harmlessly over your shell. Your spells and alchemical items that deal electricity damage gain a status bonus to damage equal to half the spell&rsquo;s level or one-quarter the item&rsquo;s level (minimum 1). You also gain a +1 status bonus to any persistent electricity damage you deal.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_half-construct"],
             "rarity": "common",

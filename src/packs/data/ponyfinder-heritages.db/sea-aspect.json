@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Where most have a feline, your back end is that of an otter or similar aquatic mammal. You gain a swim Speed equal to your land Speed. You can speak and cast spells while submerged without difficulty, but still need to breathe.</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {

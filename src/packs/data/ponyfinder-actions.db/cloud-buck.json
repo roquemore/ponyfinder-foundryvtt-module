@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Lashing out your hooves, you destroy the fog, mist, or cloud within a 5-foot square adjacent to you. If the effect was magic, make a melee or spell attack roll against the level-based DC of the level of the origin of the effect.</p><p><strong>Critical Success</strong> You may selectively choose which squares of the effect become cleared and which do not, up to and including entirely ending the effect.</p><p><strong>Success</strong> You may end the effect entirely.</p><p><strong>Failure</strong> You only clear the 5-foot square you kicked.</p><p><strong>Critical Failure</strong> You waste your time, and perhaps look silly.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": ["attack"], "rarity": "common", "custom": "" },
         "rules": [],
         "actionType": { "value": "action" },

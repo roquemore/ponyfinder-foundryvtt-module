@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You gain resistance to all damage equal to half your level (minimum 1) until the end of your next turn.</p><p>@Compendium[ponyfinder-foundryvtt-module.ponyfinder-effects.Effect: Hunker Down]{Effect: Hunker Down}</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [],
         "actionType": { "value": "action" },

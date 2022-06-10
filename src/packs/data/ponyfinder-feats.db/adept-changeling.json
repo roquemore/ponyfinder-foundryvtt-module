@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You may shapeshift on demand, casting an effect like&nbsp;</span>@Compendium[pf2e.spells-srd.i35dpZFI7jZcRoBo]{Illusory Disguise}&nbsp;but with the polymorph and transmutation traits instead of illusion and visual. You can become any ponykind that is the same size as you, but not a specific person. At 5th level your voice and scent change with your disguise. At 10th level, you can assume specific individuals' appearance, provided you have seen the person at least once before.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

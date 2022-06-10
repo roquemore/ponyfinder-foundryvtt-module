@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Small of stature, but not of heart, short legs are hardy ponies born of a god they feel a literal kinship to. They are Small sized.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_ponykind"],
             "rarity": "common",

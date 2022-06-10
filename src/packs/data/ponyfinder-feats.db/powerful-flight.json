@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your wings are powerful and ready. Increase your fly Speed by 5 feet. When flying against the wind, your fly Speed increases by another 10 feet, but it is still difficult terrain.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": ["hb_griffon"], "rarity": "common", "custom": "" },
         "rules": [],
         "level": { "value": 5 },

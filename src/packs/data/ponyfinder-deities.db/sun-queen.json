@@ -7,11 +7,19 @@
         "description": {
             "value": "<p>Benevolent light of ponykind, she bids her ponies shine with their own light, to warm the path of all those around them.</p><hr /><p><strong>Edicts</strong> strive for your best, help others understand their potential, see the goodness of others, stand firm against darkness of the soul</p><hr /><p><strong>Anathema</strong> forget that life is to be enjoyed, stop others from showing what they have to offer, allow darkness to thrive, be unkind to the good of heart</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "alignment": { "own": "NG", "follower": ["LG", "NG", "CG"] },
         "domains": {
-            "primary": ["sun", "freedom", "family", "perfection"],
-            "alternate": ["trickery", "confidence"]
+            "primary": [
+                "confidence",
+                "family",
+                "freedom",
+                "perfection",
+                "sun",
+                "trickery",
+                "unity"
+            ],
+            "alternate": []
         },
         "font": ["heal"],
         "ability": [],

@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your attacks and actions are treated as if they had the @Compendium[pf2e.equipment-srd.JQdwHECogcTzdd8R]{Ghost Touch}&nbsp;property rune, affecting incorporeal creatures easily. If you are on the Ethereal Plane, you can touch and affect things on the prime Material Plane whenever you wish.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

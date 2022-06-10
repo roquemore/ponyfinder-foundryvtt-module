@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>With a mighty roar, you attempt to use Intimidate on everything in a @Template[type:cone|distance:30]. Make one Intimidate check to @Compendium[pf2e.actionspf2e.Demoralize]{Demoralize} and compare it to all caught in the area to determine its effect on each potential target. Regardless of the results, each creature targeted by this is immune to further uses of Intimidating Roar for 1 minute.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["auditory", "hb_griffon"],
             "rarity": "common",

@@ -7,14 +7,8 @@
         "description": {
             "value": "<p>When you make a @Compendium[pf2e.actionspf2e.Grapple]{Grapple} action, you gain a +2 circumstance bonus for every claw attack you have landed on the target during this turn. The grapple gains the agile trait (reducing its multiple attack penalty).</p>"
         },
-        "source": {
-            "value": "Ponyfinder"
-        },
-        "traits": {
-            "value": ["hb_griffon"],
-            "rarity": "common",
-            "custom": ""
-        },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": { "value": ["hb_griffon"], "rarity": "common", "custom": "" },
         "rules": [],
         "level": {
             "value": 9

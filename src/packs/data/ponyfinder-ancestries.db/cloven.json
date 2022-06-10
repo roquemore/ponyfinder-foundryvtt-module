@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Distant cousins of the ponykind, the cloven are friendly towards them and most others they share space with. Favoring a meritocracy, a cloven likes to get things done, but insists on being polite as they do it.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_cloven", "fey"],
             "rarity": "common",

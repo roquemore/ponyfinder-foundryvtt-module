@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Steelhearts can only be raised at their factories, with a payment of any costly material components made to the machine priests there to cast an appropriate reviving spell.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_steelheart"],
             "rarity": "common",

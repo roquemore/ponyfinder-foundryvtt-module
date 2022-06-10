@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Forged of metal, grown of tree, the steelheart does not attempt a plea. Mysterious creatures of unknown origin, they straddle the line between life and death.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_half-construct"],
             "rarity": "common",

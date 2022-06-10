@@ -7,9 +7,7 @@
         "description": {
             "value": "<p>Your fly Speed increases to your land Speed.&nbsp; If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by relaxing quietly and considering how great you looked.&nbsp; For one focus point, you can use the following focus spell: @Compendium[ponyfinder-foundryvtt-module.ponyfinder-spells.Flying Dash]{Flying Dash}</p>"
         },
-        "source": {
-            "value": "Ponyfinder"
-        },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

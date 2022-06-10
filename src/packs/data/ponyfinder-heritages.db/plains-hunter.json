@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You gain a bite unarmed attack that deals [[/r {1d4}[piercing]]]{1d4 piercing damage}. Your bite is in the brawling group and has the finesse and unarmed traits. You gain a claw unarmed attack that deals [[/r {1d3}[slashing]]]{1d3 slashing damage}. Your claw is in the brawling group and has the agile and unarmed traits. You gain the @Compendium[ponyfinder-foundryvtt-module.ponyfinder-actions.Plains Strike]{Plains Strike} action.</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {

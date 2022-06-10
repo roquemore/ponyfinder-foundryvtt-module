@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Make two Strikes, one with your bite and one with your claw, each using your current multiple attack penalty. Both Strikes must have the same target. Both Strikes take a -2 penalty. This counts as two attacks when calculating your multiple attack penalty.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": ["attack"], "rarity": "common", "custom": "" },
         "rules": [],
         "actionType": { "value": "action" },

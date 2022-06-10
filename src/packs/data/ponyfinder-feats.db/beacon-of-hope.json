@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Allies within 60 feet of you that can see you are emboldened by you. When they roll a success on a saving throw against an emotion effect, they get a critical success instead.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

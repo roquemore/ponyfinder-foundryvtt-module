@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Most Sun Cats appear as lions, prowling the fields of Everglow.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_sun-cat"],
             "rarity": "common",

@@ -2,21 +2,21 @@
     "_id": "BoAzHDwewJWvvyAW",
     "name": "The Unspoken",
     "type": "deity",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/unspoken.png",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/the-unspoken.png",
     "data": {
         "description": {
-            "value": "<p>His true name is never written or spoken, for it is said it draws his attention, and he likes things to be interesting. He brings change gladly, wanted or not.</p>"
+            "value": "<p>His true name is never written or spoken, for it is said it draws his attention, and he likes things to be interesting. He brings change gladly, wanted or not.</p><hr /><p><strong>Edicts</strong> look for the longest traditions that they may be 'improved', teach others to not expect the same, it's alright to look boring once in a while</p><hr /><p><strong>Anathema</strong> get stuck in a rut, even a fun one, forgo a chance to remind people if they do something just because it's how they always did it</p>"
         },
         "source": {
-            "value": "Ponyfinder"
+            "value": "Ponyfinder: Second Edition Conversion Guide"
         },
         "alignment": {
             "own": "CN",
             "follower": ["CG", "CN", "CE"]
         },
         "domains": {
-            "primary": ["cities", "creation", "freedom", "luck"],
-            "alternate": ["trickery"]
+            "primary": ["cities", "creation", "freedom", "luck", "trickery"],
+            "alternate": []
         },
         "font": ["harm", "heal"],
         "ability": [],

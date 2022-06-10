@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You gain sonar, a precise sense, with a range of 60 feet. This persists until the start of your next turn. Creatures with no body, such as incorporeal creatures, are not visible to this sense, and creatures can hide from it as well as they can hide from visual senses.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": ["auditory"], "rarity": "common", "custom": "" },
         "rules": [],
         "actionType": { "value": "action" },

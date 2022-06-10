@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>If your next action you use is to @Compendium[pf2e.actionspf2e.Cast a Spell]{Cast a Spell} that deals damage, it's damage changes based upon the current time. If it is day, the spell will deal fire damage instead of its usual damage type. If it is night, it will deal cold damage instead of its usual damage type. If this would not change the damage type, this instead causes the target takes a -1 circumstance penalty to their saving throw.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["concentrate", "metamagic", "hb_ponykind"],
             "rarity": "common",

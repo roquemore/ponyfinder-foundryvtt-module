@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>The destiny of Ponykind is a powerful force that manifests in their spiritual tribe. You may only have one feat with the spirit tribe trait.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

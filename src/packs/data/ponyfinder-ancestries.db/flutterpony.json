@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Riots of color, flutterponies are eager to be at the center of the action and throw themselves into communal efforts without a moment of pause.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_flutterpony"],
             "rarity": "common",

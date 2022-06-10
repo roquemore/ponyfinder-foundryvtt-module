@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You deal 1 extra damage per damage die with your bite attack. If you become master or better with your bite, this increases to 2 extra damage.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": ["hb_sun-cat"], "rarity": "common", "custom": "" },
         "rules": [],
         "level": { "value": 1 },

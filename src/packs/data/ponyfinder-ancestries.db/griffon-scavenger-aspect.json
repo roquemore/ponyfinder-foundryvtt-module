@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Crow, Parrot, or other clever bird guides your equally deft talons. Your Strength and Wisdom boosts become Intelligence and Dexterity instead. You have a fly Speed equal to half your land Speed.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
         "traits": {
             "value": ["fey", "hb_griffon"],
             "rarity": "common",

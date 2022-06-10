@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Built to go far and fast without pause, your durability matches that of the dwarves. You may select any one dwarf heritage. You gain all of its advantages and disadvantages</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_ponykind"],
             "rarity": "common",

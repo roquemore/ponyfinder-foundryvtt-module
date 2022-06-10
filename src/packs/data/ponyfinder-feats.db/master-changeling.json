@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your ability to imitate extends to humanoids of the same size category as you. Magic items that altered to fit your unusual anatomy shift with you, gloves turning from anklets to actual gloves again, and will return to normal when you return to your birth form or another form that requires their change.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>While many cloven have and take pride in their horns, yours are especially noteworthy. You gain a gore unarmed attack that deals [[/r {1d6}[piercing]]]{1d6 piercing damage}. Your horns are in the brawling group and have the agile and unarmed traits.</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [],
         "ancestry": {

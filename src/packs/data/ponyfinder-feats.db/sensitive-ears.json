@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your ears can pick up the subtlest of clues. You gain the following action: @Compendium[ponyfinder-foundryvtt-module.ponyfinder-actions.Sonar Ping]{Sonar Ping}</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

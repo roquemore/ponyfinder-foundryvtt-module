@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>The power within you has grown to encompass even more of the potential of ponykind. You gain either another Ponykind heritage or another spirit tribe feat, even if you already have one.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

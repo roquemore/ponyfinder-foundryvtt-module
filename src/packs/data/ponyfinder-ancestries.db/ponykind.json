@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>What people think of first when they think of Everglow, the ponies once held sway over much of the continent from their grand empire that was reigned over peacefully by their queen. They come in a dizzying variety of forms, adapting to fit almost any environment.<br /><br />Dragging this option into your ancestry space will offer a selection of the various types of ponykind and properly apply the boosts and flaws associated with them.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_ponykind"],
             "rarity": "common",

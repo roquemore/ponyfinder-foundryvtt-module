@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your shiny coat turns aside foul magics. You are considered to have cover (+2 circumstance bonus to AC and Reflex saves against area effects) against ranged spell attacks or effects. You can @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Take Cover} to increase this as normal.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

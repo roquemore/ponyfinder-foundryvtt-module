@@ -7,7 +7,7 @@
         "description": {
             "value": "<p><strong>Trigger</strong> You are the subject of an attack or spell with the chaotic trait.</p><hr /><p>You reduce the degree of success of the attack roll by one step, or you improve the degree of success of your saving throws for that effect by one step.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [],
         "actionType": { "value": "reaction" },

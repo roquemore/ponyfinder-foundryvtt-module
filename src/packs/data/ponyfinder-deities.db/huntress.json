@@ -1,0 +1,43 @@
+{
+    "_id": "ADe9yK4Se58Qn2mR",
+    "name": "Huntress",
+    "type": "deity",
+    "img": null,
+    "data": {
+        "description": {
+            "value": "<p>Some say Blaze of the pony pantheon was inspired by the Huntress, who came first. Mate of the Sun King and blazing with the same fury of the sun above, she represents the unrestrained fury and the chaos of war itself. While Sun Cats see the Huntress as male, and more of a brother to the Sun King, griffons and purrsians insist they are a couple. The gods do not seem to have time or inclination to correct the matter, and their followers claim with equal conviction to have seen the deity as both Hunter and Huntress, depending on their beliefs. All agree that the Huntress is entirely feline, just like the feline Sun King. No matter the form, the result is the same.</p><p>Despite the destruction left in her wake, Griffons revere her, for what is life without a battle well fought? They understand better than most that sometimes a good fight is the only way to resolve a situation with finality when diplomacy has failed. There are also crimes for which mercy is far too kind to consider.</p><hr /><p><strong>Edicts</strong> be ready to deliver a swift death, enjoy a slow death to those deserving, death, like life, is art, never treat it as banal, let none question your fury, revenge is a fine ingredient, served at any temperature so long as the blood flows, a proper hunter leaves young ready to replace them</p><hr /><p><strong>Anathema</strong> allow kin or kith to starve for your lack of ability to hunt, allow those too weak to fight to be without revenge when you are capable of delivering it, deliver revenge wrongfully and not make amends, only our gods are perfect</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "alignment": {
+            "own": "CE",
+            "follower": ["LG", "NG", "CG", "LN", "N", "CN", "LE", "NE", "CE"]
+        },
+        "domains": {
+            "primary": [
+                "ambition",
+                "confidence",
+                "death",
+                "destruction",
+                "family",
+                "fire",
+                "might",
+                "pain",
+                "perfection",
+                "sun",
+                "unity",
+                "zeal"
+            ],
+            "alternate": []
+        },
+        "font": ["harm"],
+        "ability": [],
+        "skill": "sur",
+        "weapons": ["battle-axe"],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.y6rAdMK6EFlV6U0t",
+            "3": "Compendium.pf2e.spells-srd.o6YCGx4lycsYpww4",
+            "4": "Compendium.pf2e.spells-srd.A2JfEKe6BZcTG1S8"
+        },
+        "rules": []
+    }
+}

@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Granted with unification.</p><hr /><p>At home in the waves, you gain a swim speed equal to your land speed. While underwater, you possess darkvision. When using Acrobatics or Athletics for swimming, consider your proficiency rank 1 higher.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

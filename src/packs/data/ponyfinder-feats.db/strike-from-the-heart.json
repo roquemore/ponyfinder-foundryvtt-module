@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Once per day you may cast true strike as a divine innate spell. If the creature you use the attack on is an aberration or has an attack with the chaotic trait, the effect works normally, otherwise it fails and is wasted.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

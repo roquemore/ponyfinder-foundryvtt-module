@@ -7,14 +7,8 @@
         "description": {
             "value": "<p>You have a fly Speed equal to half your land Speed.</p>"
         },
-        "source": {
-            "value": "Ponyfinder"
-        },
-        "traits": {
-            "value": [],
-            "rarity": "common",
-            "custom": ""
-        },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {
                 "key": "BaseSpeed",

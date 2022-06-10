@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You can breathe water as well as air. You also gain resistance to cold equal to half your level.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

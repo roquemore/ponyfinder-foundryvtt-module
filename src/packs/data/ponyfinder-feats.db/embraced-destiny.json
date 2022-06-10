@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Embracing what fate has in store for you, you practiced a portion of your profession with a zeal unmatched. You may increase any one skill proficiency from trained to expert.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Born of the winds, you gain a fly Speed equal to half your land Speed.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_ponykind"],
             "rarity": "common",

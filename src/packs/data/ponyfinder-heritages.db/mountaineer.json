@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Bouncing from narrow point to narrow point, you are immune to altitude sickness and take no penalty for being mid-climb or caught while balancing on narrow or slippery surfaces.</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [],
         "ancestry": {
