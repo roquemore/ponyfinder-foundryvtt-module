@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You become proficient in Stealth and Perception. If you were already trained in either, you become proficient in any other skill.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": ["hb_sun-cat"], "rarity": "common", "custom": "" },
         "rules": [],
         "level": { "value": 5 },

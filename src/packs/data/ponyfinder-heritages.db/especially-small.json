@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Not a true heritage, and can be taken with another heritage (which we recommend), but this causes you to be Small.</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [{ "key": "CreatureSize", "value": "small" }],
         "ancestry": {

@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your Speed increases by 5 feet for every movement action you've completed this turn. If you are an expert in Athletics, this bonus increases to 10 feet.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": ["hb_sun-cat"], "rarity": "common", "custom": "" },
         "rules": [],
         "level": { "value": 5 },

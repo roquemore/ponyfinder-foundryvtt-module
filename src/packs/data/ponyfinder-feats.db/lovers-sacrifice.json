@@ -7,7 +7,7 @@
         "description": {
             "value": "<p><strong>Trigger</strong> An ally within 5 feet is damaged by a non-area effect.</p><p><strong>Effect</strong> You throw yourself in harm's way, causing you to take the damage instead of your friend. If the effect that caused the damage would have other effects, you take that as well. You may make a saving throw against the other effects, but take the damage that was already being inflicted on your friend regardless of that saving throw.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

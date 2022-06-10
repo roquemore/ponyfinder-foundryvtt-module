@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You are considered one size category larger for the sake of if you can use or be targeted by effects and actions if this is to your advantage. For example a creature that could normally swallow up to Large creatures could not swallow a Large antean with this feat.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

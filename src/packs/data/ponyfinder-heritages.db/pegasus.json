@@ -5,7 +5,7 @@
     "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pegasus.png",
     "data": {
         "description": { "value": "" },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {

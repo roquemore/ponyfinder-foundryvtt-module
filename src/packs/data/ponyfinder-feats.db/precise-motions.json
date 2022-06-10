@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Moving with precise motions, you are free of the knee-jerk mistakes of your fleshy kin. When attempting a Thievery check to Disable a Device on a lock, you may treat critical failures as failures. This does not apply to critical failures on traps that may be on locks.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

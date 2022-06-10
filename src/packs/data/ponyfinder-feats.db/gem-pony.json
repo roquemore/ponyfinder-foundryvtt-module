@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>A callback to brighter times, when you roll a success on a saving throw against an emotion effect, you get a critical success instead.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind", "hb_spirit-tribe"],
             "rarity": "common",

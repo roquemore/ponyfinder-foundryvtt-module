@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>If you did not have the resilience cloven heritage, you gain its effects. If you did, your resistance to poison damage increases to be equal to your level.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "Cloven" },
         "rules": [
             {

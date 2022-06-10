@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your brand of destiny reflects an individual fate that you chase after doggedly. This is the most common spiritual tribe of ponykind. You may select any 1st level human ancestry feat that does not require you be 1st level.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind", "hb_spirit-tribe"],
             "rarity": "common",

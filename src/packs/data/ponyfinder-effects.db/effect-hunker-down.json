@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-actions.i0JvOGMwNsjK5dcT]{Hunker Down}</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {

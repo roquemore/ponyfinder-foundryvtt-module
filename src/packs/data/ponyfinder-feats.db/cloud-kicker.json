@@ -7,9 +7,7 @@
         "description": {
             "value": "<p>Lashing out your hooves, you destroy the fog, mist, or cloud within a 5-foot square adjacent to you. If the effect was magic, make a melee or spell attack roll against the level-based DC of the level of the origin of the effect.</p>"
         },
-        "source": {
-            "value": "Ponyfinder"
-        },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_griffon", "hb_ponykind"],
             "rarity": "common",

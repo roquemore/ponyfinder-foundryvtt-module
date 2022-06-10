@@ -5,7 +5,7 @@
     "img": "systems/pf2e/icons/default-icons/heritage.svg",
     "data": {
         "description": { "value": "" },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [],
         "ancestry": {

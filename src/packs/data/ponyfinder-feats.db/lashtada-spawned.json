@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Born of the goddess, Lashtada, directly, your claim to divine magic is difficult to argue. Choose one cantrip from the divine spell list. You can cast this cantrip as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>>Mysterious seers of the pony world, your people are known as eager learners. At 1st level and at 5th level and every 5 levels thereafter, you gain an additional common language.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_ponykind"],
             "rarity": "common",

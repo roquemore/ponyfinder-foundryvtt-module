@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>With sleek features that seem slightly un-finished, you are any pony you wish, but perhaps no pony at all? You have a specific pony form you can assume or abandon as an action at will. When you perform an activity with the mental trait that forces a saving throw and the target fails or critically fails, you enjoy a +1 circumstance bonus to attack rolls until the end of your next turn.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind", "hb_spirit-tribe"],
             "rarity": "common",

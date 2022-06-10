@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You are a comforting presence to have around. If you spend 10 minutes comforting those who are being targeted with @Compendium[pf2e.actionspf2e.Treat Wounds]{Treat Wounds}, the healing they receive increases by your level and the creature performing the medicine gains a +1 status bonus to the roll to Treat Wounds</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["exploration", "hb_ponykind"],
             "rarity": "common",

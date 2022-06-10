@@ -8,7 +8,7 @@
             "value": "<p>Your fly Speed becomes twice your land Speed.</p><p>@Compendium[ponyfinder-foundryvtt-module.ponyfinder-effects.Effect: Flying Dash]{Effect: Flying Dash}</p><hr /><p><strong>Heightened (+2)</strong> The effect lasts for 1 additional round.</p>"
         },
         "source": {
-            "value": "Ponyfinder"
+            "value": "Ponyfinder: Second Edition Conversion Guide"
         },
         "traits": {
             "value": [],

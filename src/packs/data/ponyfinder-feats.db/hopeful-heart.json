@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>When you are suffering the frightened condition, it decreases by another point at the end of your turn, usually to 2 points a round.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

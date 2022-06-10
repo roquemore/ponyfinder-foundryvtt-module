@@ -1,0 +1,43 @@
+{
+    "_id": "rVdzK9i6BB3R2CBQ",
+    "name": "Effect: Lustrous Coat",
+    "type": "effect",
+    "img": "systems/pf2e/icons/default-icons/effect.svg",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-feats.Lustrous Coat]{Lustrous Coat}</p>"
+        },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "reflex",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "Note",
+                "selector": "ac",
+                "text": "<p><strong>Lustrous Coat</strong> You are considered to have cover (+2 circumstance bonus to AC and Reflex saves against area effects) against ranged spell attacks or effects</p>"
+            }
+        ],
+        "level": { "value": 1 },
+        "duration": {
+            "value": -1,
+            "unit": "unlimited",
+            "sustained": false,
+            "expiry": null
+        },
+        "start": { "value": 0, "initiative": null },
+        "target": null,
+        "tokenIcon": { "show": true },
+        "badge": null
+    }
+}

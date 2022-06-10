@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your understanding of the between places allows you to comprehend teleportation in a new way. Spells and effects with the teleportation trait that you use have a 50% greater range for how far you can travel with them.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

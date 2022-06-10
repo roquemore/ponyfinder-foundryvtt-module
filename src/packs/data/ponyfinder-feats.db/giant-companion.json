@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your companion echoes your great size, increasing in size by one category. Its strength modifier increases by 1 and it deals [[/r {1}[extra]]]{1 extra Damage} with its unarmed attacks.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind"],
             "rarity": "common",

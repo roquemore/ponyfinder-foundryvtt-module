@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Cursed for the folly of ponies that thought they could challenge the gods, you stand between metal and flesh. You gain the half-construct trait. You gain electricity resistance equal to half your level (minimum 1). Your land Speed decreases by 5 feet.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind", "hb_spirit-tribe"],
             "rarity": "common",

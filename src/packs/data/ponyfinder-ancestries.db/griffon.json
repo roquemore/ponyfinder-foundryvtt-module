@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Monarchs of the sky, griffons rule over the mountains, seeing all others as beneath them, and this is a simple fact, is it not?</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_griffon"],
             "rarity": "common",

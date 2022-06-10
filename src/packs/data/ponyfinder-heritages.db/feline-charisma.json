@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>If you roll a critical failure on a Diplomacy or Intimidation check, you get a failure instead. You gain a bite unarmed attack that deals [[/r {1d4}[piercing]]]{1d4 piercing damage}. Your bite is in the brawling group and has the agile and unarmed traits.</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [],
         "ancestry": {

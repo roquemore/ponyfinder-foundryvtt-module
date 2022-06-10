@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>You gain cold and fire resistance equal to half your level (minimum 1).</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_half-construct"],
             "rarity": "common",

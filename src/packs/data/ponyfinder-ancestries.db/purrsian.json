@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Appearing as winged cats, purrsians come in many breeds, but their abilities do not differ as much as their appearance.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["fey", "hb_purrsian"],
             "rarity": "common",

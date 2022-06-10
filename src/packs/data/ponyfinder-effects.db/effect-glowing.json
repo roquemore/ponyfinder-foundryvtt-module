@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-feats.Glowing]{Glowing}</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {

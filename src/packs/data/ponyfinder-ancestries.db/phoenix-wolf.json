@@ -7,7 +7,9 @@
         "description": {
             "value": "<p>Phoenix wolves are fairly stable in their appearance and abilities as reformed hell hounds.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": {
+            "value": "PonyfPonyfinder: Second Edition Conversion Guideinder"
+        },
         "traits": {
             "value": ["fey", "hb_phoenix-wolf"],
             "rarity": "common",

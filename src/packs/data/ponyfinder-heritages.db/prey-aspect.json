@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Your bird half is that of a prey animal, and it marks you. You lose your Strength boost but also your Charisma flaw. When casting divine spells or effects, the DC is given a circumstance bonus of 1.</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {

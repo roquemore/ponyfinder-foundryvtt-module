@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Born to bathe in the heat of summer and the warmth of the sun, you gain fire resistance equal to half your level (minimum 1). You treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on).</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {
             "value": ["hb_ponykind", "hb_spirit-tribe"],
             "rarity": "common",

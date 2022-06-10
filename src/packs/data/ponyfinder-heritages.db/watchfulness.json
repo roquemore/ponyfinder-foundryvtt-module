@@ -7,7 +7,7 @@
         "description": {
             "value": "<p>Cloven can be timid, or at least mindful of their surroundings. You gain a +1 circumstance bonus to your Perception to find @Compendium[pf2e.conditionitems.Hidden]{Hidden} objects (including traps and secret doors) or determine whether food is spoiled. This bonus increases to +2 if your proficiency rank in Perception increases to expert or higher.</p>"
         },
-        "source": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {
