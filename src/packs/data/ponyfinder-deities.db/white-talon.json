@@ -1,0 +1,37 @@
+{
+    "_id": "PYmaojLWnzSqKORS",
+    "name": "White Talon",
+    "type": "deity",
+    "img": null,
+    "data": {
+        "description": {
+            "value": "<p>Far less known, and without ponykind analogue, is the griffon goddess of the dead, Koidon, also known as White Talon. Depicted as a severely aged griffon, it is her judgement that awaits each griffon when time has run out. She awaits them at the final nest, where she will either welcome them for a life well spent, or shove them over the side, to be dashed on the cruel rocks below. Morality has no meaning for her. A griffon who lives a life of cruelty can still serve to provide purpose to others, as a test, and is fulfilling themselves just as much as any righteous crusader.</p><p>A mother who raises her chicks with pride, a warrior who never wavers in their protection of home and tribe, and an adventurer that meets their end doing what they chose to do are all well lived. Her disfavor finds those who never take flight: the ones who wish they could do something, but never gather the courage and will. If one's soul is burdened with what could have been, she will find it, and she will manifest it in swift judgement, sending them with their toxic gravity to smash against the ground.</p><p>White Talon has special providence over griffons, able to render judgement even if they worship another deity. Even if they are not aware of White Talon, she will be there to greet them. Those who gaze down at the lowlands and consider the chicks born there worry that their first encounter with Koidon will be at their moment of judgement. Non-Griffons are only called to her judgement if they held her in true faith during life, such as pegasi raised within or near a griffon settlement. For better or worse, White Talon shows no favoritism, be those approaching her griffon, pony, or otherwise.</p><hr /><p><strong>Edicts</strong> live the life you are given completely, honor the ancestors who deserve to be remembered, allow the dead to rest, remember that the despicable have a place, even if it may be to be defeated, protect the resting places of tired bones</p><hr /><p><strong>Anathema</strong> assume the dead owe anything to the living, accept less than what you could reach for, accept death before it is certain, permit the defilers of the dead to go unpunished</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "alignment": {
+            "own": "N",
+            "follower": ["LG", "NG", "CG", "LN", "N", "CN", "LE", "NE", "CE"]
+        },
+        "domains": {
+            "primary": [
+                "ambition",
+                "confidence",
+                "death",
+                "fate",
+                "knowledge",
+                "zeal"
+            ],
+            "alternate": []
+        },
+        "font": ["harm"],
+        "ability": [],
+        "skill": "rel",
+        "weapons": ["scythe"],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.k34hDOfIIMAxNL4a",
+            "3": "Compendium.pf2e.spells-srd.AMEu5zzLN7uCX645",
+            "4": "Compendium.pf2e.spells-srd.Uqj344bezBq3ESdq"
+        },
+        "rules": []
+    }
+}
