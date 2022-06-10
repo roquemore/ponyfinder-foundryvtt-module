@@ -4,11 +4,10 @@ on:
     push:
         branches:
             - master
-            
+
 permissions:
-  contents: write
-  pull-requests: write
-  actions: write
+    contents: write
+    pull-requests: write
 
 jobs:
     build:
