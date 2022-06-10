@@ -17,7 +17,11 @@
         "ability": [],
         "skill": "dip",
         "weapons": ["quarterstaff"],
-        "spells": {},
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.LvezN4a3kYf1OHMg",
+            "3": "Compendium.pf2e.spells-srd.VVAZPCvd4d90qVA1",
+            "4": "Compendium.pf2e.spells-srd.zvKWclOZ7A53DObE"
+        },
         "rules": []
     }
 }

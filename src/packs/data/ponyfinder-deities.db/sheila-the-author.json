@@ -24,7 +24,11 @@
         "ability": [],
         "skill": null,
         "weapons": ["rapier"],
-        "spells": {},
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.o4lRVTwSxnOOn5vl",
+            "3": "Compendium.pf2e.spells-srd.EoKBlgf6Smt8opaU",
+            "4": "Compendium.pf2e.spells-srd.8M03UxGXjYyDFAoy"
+        },
         "rules": []
     }
 }

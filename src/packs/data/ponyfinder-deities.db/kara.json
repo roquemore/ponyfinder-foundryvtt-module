@@ -26,7 +26,11 @@
         "ability": [],
         "skill": "dec",
         "weapons": ["dagger"],
-        "spells": {},
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.2oH5IufzdESuYxat",
+            "3": "Compendium.pf2e.spells-srd.I0j56TNRmGcTyoqJ",
+            "4": "Compendium.pf2e.spells-srd.FhOaQDTSnsY7tiam"
+        },
         "rules": []
     }
 }

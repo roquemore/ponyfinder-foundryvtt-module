@@ -17,7 +17,11 @@
         "ability": [],
         "skill": "itm",
         "weapons": ["battle-axe"],
-        "spells": {},
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.gKKqvLohtrSJj3BM",
+            "3": "Compendium.pf2e.spells-srd.sxQZ6yqTn0czJxVd",
+            "4": "Compendium.pf2e.spells-srd.IarZrgCeaiUqOuRu"
+        },
         "rules": []
     }
 }
