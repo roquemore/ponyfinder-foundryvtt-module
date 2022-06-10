@@ -11,12 +11,12 @@
         "alignment": { "own": "NG", "follower": ["LG", "NG", "CG"] },
         "domains": {
             "primary": [
-                "sun",
-                "freedom",
+                "confidence",
                 "family",
+                "freedom",
                 "perfection",
-                "trickery",
-                "confidence"
+                "sun",
+                "trickery"
             ],
             "alternate": []
         },
