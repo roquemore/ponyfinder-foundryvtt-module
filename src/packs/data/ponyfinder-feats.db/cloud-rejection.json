@@ -2,22 +2,42 @@
     "_id": "XzqPpJwUouHqZ5eg",
     "name": "Cloud Rejection",
     "type": "feat",
-    "img": "systems/pf2e/icons/actions/Reaction.webp",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/cloud.png",
     "data": {
         "description": {
             "value": "<p>When a fog, cloud, or mist effect is launched and would include your square, you may, as a reaction, allow it to push you harmlessly to the closest available square outside its effect, if one exists. If this movement pushes you through the effect, you suffer the normal effects of walking through it. If you have master proficiency in Acrobatics, this ability remains active until the start of your next turn. This movement is considered forced.</p>"
         },
-        "source": { "value": "Ponyfinder" },
-        "traits": { "value": ["hb_griffon"], "rarity": "common", "custom": "" },
+        "source": {
+            "value": "Ponyfinder"
+        },
+        "traits": {
+            "value": [
+                "hb_griffon"
+            ],
+            "rarity": "common",
+            "custom": ""
+        },
         "rules": [],
-        "level": { "value": 5 },
-        "featType": { "value": "ancestry" },
+        "level": {
+            "value": 5
+        },
+        "featType": {
+            "value": "ancestry"
+        },
         "onlyLevel1": false,
         "maxTakable": 1,
-        "actionType": { "value": "reaction" },
-        "actionCategory": { "value": "" },
-        "actions": { "value": 1 },
-        "prerequisites": { "value": [] },
+        "actionType": {
+            "value": "reaction"
+        },
+        "actionCategory": {
+            "value": ""
+        },
+        "actions": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
         "location": null
     }
 }

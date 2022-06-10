@@ -2,22 +2,46 @@
     "_id": "YwPwDlerMWGP7200",
     "name": "Grasping Talons",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/talon.png",
     "data": {
         "description": {
             "value": "<p>When you make a @Compendium[pf2e.actionspf2e.Grapple]{Grapple} action, you gain a +2 circumstance bonus for every claw attack you have landed on the target during this turn. The grapple gains the agile trait (reducing its multiple attack penalty).</p>"
         },
-        "source": { "value": "Ponyfinder" },
-        "traits": { "value": ["hb_griffon"], "rarity": "common", "custom": "" },
+        "source": {
+            "value": "Ponyfinder"
+        },
+        "traits": {
+            "value": [
+                "hb_griffon"
+            ],
+            "rarity": "common",
+            "custom": ""
+        },
         "rules": [],
-        "level": { "value": 9 },
-        "featType": { "value": "ancestry" },
+        "level": {
+            "value": 9
+        },
+        "featType": {
+            "value": "ancestry"
+        },
         "onlyLevel1": false,
         "maxTakable": 1,
-        "actionType": { "value": "passive" },
-        "actionCategory": { "value": "" },
-        "actions": { "value": null },
-        "prerequisites": { "value": [{ "value": "Claw weapon" }] },
+        "actionType": {
+            "value": "passive"
+        },
+        "actionCategory": {
+            "value": ""
+        },
+        "actions": {
+            "value": null
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Claw weapon"
+                }
+            ]
+        },
         "location": null
     }
 }

@@ -2,14 +2,19 @@
     "_id": "ClB3K9FU3Tpd1gUP",
     "name": "Iron Hooves",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/hoof.png",
     "data": {
         "description": {
             "value": "<p>You gain a hoof unarmed attack that deals [[/r {1d6}[bludgeoning]]]{1d6 bludgeoning damage}. Your hoof is in the brawling group and has the agile and unarmed traits. Your hooves can be imbued with weapon runes as if they were one weapon.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": {
+            "value": "Ponyfinder"
+        },
         "traits": {
-            "value": ["hb_ponykind", "hb_steelheart"],
+            "value": [
+                "hb_ponykind",
+                "hb_steelheart"
+            ],
             "rarity": "common",
             "custom": ""
         },
@@ -30,7 +35,12 @@
                 "label": "Iron Hooves",
                 "range": null,
                 "slug": "fist",
-                "traits": ["agile", "finesse", "nonlethal", "unarmed"]
+                "traits": [
+                    "agile",
+                    "finesse",
+                    "nonlethal",
+                    "unarmed"
+                ]
             },
             {
                 "key": "ChoiceSet",
@@ -41,19 +51,36 @@
                         "label": "Clockwork Ponykind",
                         "value": "Clockwork Ponykind"
                     },
-                    { "label": "Steelheart", "value": "Steelheart" }
+                    {
+                        "label": "Steelheart",
+                        "value": "Steelheart"
+                    }
                 ]
             }
         ],
-        "level": { "value": 1 },
-        "featType": { "value": "ancestry" },
+        "level": {
+            "value": 1
+        },
+        "featType": {
+            "value": "ancestry"
+        },
         "onlyLevel1": false,
         "maxTakable": 1,
-        "actionType": { "value": "passive" },
-        "actionCategory": { "value": "" },
-        "actions": { "value": null },
+        "actionType": {
+            "value": "passive"
+        },
+        "actionCategory": {
+            "value": ""
+        },
+        "actions": {
+            "value": null
+        },
         "prerequisites": {
-            "value": [{ "value": "Earth-Bound (If Ponykind)" }]
+            "value": [
+                {
+                    "value": "Earth-Bound (If Ponykind)"
+                }
+            ]
         },
         "location": null
     }

@@ -2,13 +2,19 @@
     "_id": "khwoiEKl3Htb0YUe",
     "name": "Effect: Flying Dash",
     "type": "effect",
-    "img": "systems/pf2e/icons/default-icons/effect.svg",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/wing.png",
     "data": {
         "description": {
             "value": "<p>Granted by @Compendium[ponyfinder-foundryvtt-module.ponyfinder-spells.Flying Dash]{Flying Dash}</p>"
         },
-        "source": { "value": "" },
-        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "value": [],
+            "rarity": "common",
+            "custom": ""
+        },
         "rules": [
             {
                 "key": "BaseSpeed",
@@ -16,16 +22,23 @@
                 "value": "(@actor.attributes.speed.value)*2"
             }
         ],
-        "level": { "value": 1 },
+        "level": {
+            "value": 1
+        },
         "duration": {
             "value": 1,
             "unit": "rounds",
             "sustained": false,
             "expiry": "turn-start"
         },
-        "start": { "value": 0, "initiative": null },
+        "start": {
+            "value": 0,
+            "initiative": null
+        },
         "target": null,
-        "tokenIcon": { "show": true },
+        "tokenIcon": {
+            "show": true
+        },
         "badge": null
     }
 }

@@ -2,13 +2,19 @@
     "_id": "oMfzMwt3UfcfgZA8",
     "name": "Limited Flight",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/wing.png",
     "data": {
         "description": {
             "value": "<p>You have a fly Speed equal to half your land Speed.</p>"
         },
-        "source": { "value": "Ponyfinder" },
-        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "source": {
+            "value": "Ponyfinder"
+        },
+        "traits": {
+            "value": [],
+            "rarity": "common",
+            "custom": ""
+        },
         "rules": [
             {
                 "key": "BaseSpeed",
@@ -16,14 +22,26 @@
                 "value": "round(@actor.attributes.speed.value/2)"
             }
         ],
-        "level": { "value": 0 },
-        "featType": { "value": "ancestryfeature" },
+        "level": {
+            "value": 0
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
         "onlyLevel1": false,
         "maxTakable": 1,
-        "actionType": { "value": "passive" },
-        "actionCategory": { "value": "" },
-        "actions": { "value": null },
-        "prerequisites": { "value": [] },
+        "actionType": {
+            "value": "passive"
+        },
+        "actionCategory": {
+            "value": ""
+        },
+        "actions": {
+            "value": null
+        },
+        "prerequisites": {
+            "value": []
+        },
         "location": null
     }
 }

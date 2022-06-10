@@ -2,14 +2,18 @@
     "_id": "A6hEWeL9PkOfVZXL",
     "name": "Natural Lance",
     "type": "feat",
-    "img": "systems/pf2e/icons/spells/fey-form-unicorn.webp",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/horn.png",
     "data": {
         "description": {
             "value": "<p>You gain a horn unarmed attack that deals [[/r {1d6}[piercing]]]{1d6 piercing damage}. Your horn is in the brawling group and has the finesse, jousting, deadly d6, and unarmed traits. Your horn can be imbued with weapon runes.</p>"
         },
-        "source": { "value": "Ponyfinder" },
+        "source": {
+            "value": "Ponyfinder"
+        },
         "traits": {
-            "value": ["hb_ponykind"],
+            "value": [
+                "hb_ponykind"
+            ],
             "rarity": "common",
             "custom": ""
         },
@@ -18,25 +22,50 @@
                 "baseType": "fist",
                 "category": "unarmed",
                 "damage": {
-                    "base": { "damageType": "piercing", "dice": 1, "die": "d6" }
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d6"
+                    }
                 },
                 "group": "brawling",
-                "img": "systems/pf2e/icons/spells/fey-form-unicorn.webp",
+                "img": "modules/ponyfinder-foundryvtt-module/assets/feats/horn.png",
                 "key": "Strike",
                 "label": "Horn",
                 "range": null,
                 "slug": "natural-lance",
-                "traits": ["unarmed", "finesse", "jousting-d6", "deadly-d6"]
+                "traits": [
+                    "unarmed",
+                    "finesse",
+                    "jousting-d6",
+                    "deadly-d6"
+                ]
             }
         ],
-        "level": { "value": 9 },
-        "featType": { "value": "ancestry" },
+        "level": {
+            "value": 9
+        },
+        "featType": {
+            "value": "ancestry"
+        },
         "onlyLevel1": false,
         "maxTakable": 1,
-        "actionType": { "value": "passive" },
-        "actionCategory": { "value": "" },
-        "actions": { "value": null },
-        "prerequisites": { "value": [{ "value": "Unicorn" }] },
+        "actionType": {
+            "value": "passive"
+        },
+        "actionCategory": {
+            "value": ""
+        },
+        "actions": {
+            "value": null
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Unicorn"
+                }
+            ]
+        },
         "location": ""
     }
 }

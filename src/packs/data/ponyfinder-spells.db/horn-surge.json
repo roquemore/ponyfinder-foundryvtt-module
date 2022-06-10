@@ -2,7 +2,7 @@
     "_id": "dqXAd7MBSj5AKTwK",
     "name": "Horn Surge",
     "type": "spell",
-    "img": "systems/pf2e/icons/default-icons/spell.svg",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/horn.png",
     "data": {
         "description": {
             "value": "<p>You may use your Intelligence instead of your Strength when making Strength skill checks and melee attacks.</p>"
@@ -11,7 +11,9 @@
             "value": "PFY 2e Conversion Guide"
         },
         "traits": {
-            "value": ["concentrate"],
+            "value": [
+                "concentrate"
+            ],
             "rarity": "common",
             "custom": ""
         },
@@ -26,7 +28,9 @@
             "value": "focus"
         },
         "traditions": {
-            "value": ["arcane"],
+            "value": [
+                "arcane"
+            ],
             "custom": ""
         },
         "school": {

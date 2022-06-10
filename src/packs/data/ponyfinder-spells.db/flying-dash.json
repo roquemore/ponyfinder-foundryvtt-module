@@ -2,7 +2,7 @@
     "_id": "VpocOZJfb7PlouxC",
     "name": "Flying Dash",
     "type": "spell",
-    "img": "systems/pf2e/icons/default-icons/spell.svg",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/wing.png",
     "data": {
         "description": {
             "value": "<p>Your fly Speed becomes twice your land Speed.</p><p>@Compendium[ponyfinder-foundryvtt-module.ponyfinder-effects.Effect: Flying Dash]{Effect: Flying Dash}</p><hr /><p><strong>Heightened (+2)</strong> The effect lasts for 1 additional round.</p>"
@@ -26,7 +26,9 @@
             "value": "focus"
         },
         "traditions": {
-            "value": ["primal"],
+            "value": [
+                "primal"
+            ],
             "custom": ""
         },
         "school": {
