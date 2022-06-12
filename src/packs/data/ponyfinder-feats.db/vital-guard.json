@@ -1,0 +1,27 @@
+{
+    "_id": "1gPSiNKXgKqGjYTi",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>You benefit as if your armor had the <em>@Compendium[pf2e.equipment-srd.8buhFcGwuaJRrp0y]{fortification}</em> rune, granting you a chance to turn aside critical blows.</p>"
+        },
+        "featType": { "value": "general" },
+        "level": { "value": 3 },
+        "location": null,
+        "prerequisites": {
+            "value": [{ "value": "construct or half-construct" }]
+        },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["general"]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Vital Guard",
+    "type": "feat"
+}
