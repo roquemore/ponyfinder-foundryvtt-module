@@ -2,7 +2,7 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder FoundryVTT Content",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.4.1",
+    "version": "1.5.0",
     "author": "Memely, David Silver, Triple Sevens",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
@@ -23,6 +23,20 @@
             "path": "./packs/ponyfinder-ancestries.db",
             "entity": "Item",
             "type": "Item"
+        },
+        {
+            "name": "ponyfinder-ancestry-features",
+            "label": "Ponyfinder Ancestry Features",
+            "path": "./packs/ponyfinder-ancestry-features.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "ponyfinder-archetypes",
+            "label": "Ponyfinder Archetypes",
+            "path": "./packs/ponyfinder-archetypes.db",
+            "entity": "Item",
+            "type": "JournalEntry"
         },
         {
             "name": "ponyfinder-deities",
@@ -73,6 +87,7 @@
                 "creatureTraits": {
                     "ponykind": "Ponykind",
                     "cloven": "Cloven",
+                    "doppelganger": "Doppelganger",
                     "half-construct": "Half-Construct",
                     "griffon": "Griffon",
                     "purrsian": "Purrsian",
@@ -84,6 +99,7 @@
                 "featTraits": {
                     "ponykind": "Ponykind",
                     "cloven": "Cloven",
+                    "doppelganger": "Doppelganger",
                     "half-construct": "Half-Construct",
                     "griffon": "Griffon",
                     "purrsian": "Purrsian",

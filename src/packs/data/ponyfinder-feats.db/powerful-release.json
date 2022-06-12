@@ -1,0 +1,30 @@
+{
+    "_id": "g1XYnvUNE4nQkAk3",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Powerful Release",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p><strong>Archetype</strong> @Compendium[ponyfinder-foundryvtt-module.ponyfinder-archetypes.Artifact Tender]{Artifact Tender}</p><p>When using a wand, staff, or scroll to Cast a Spell, you may perform an additional somatic component to enhance the effect, causing the spell to behave as if it were heightened by one level.</p>"
+        },
+        "featType": { "value": "archetype" },
+        "level": { "value": 6 },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                { "value": "Artifact Tender Dedication" },
+                { "value": "expert in Occultism, Arcana, Nature, or Religion" }
+            ]
+        },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["archetype"]
+        }
+    }
+}

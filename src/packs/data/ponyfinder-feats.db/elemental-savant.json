@@ -1,0 +1,25 @@
+{
+    "_id": "9W2L9BpnI5kmGU1m",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Elemental Savant",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>Your @Compendium[pf2e.classfeatures.d5BFFHXFJYKs5LXr]{wild empathy} functions on elementals as if they were animals, including the assumption that most will give you a chance to make your case before attacking.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 4 },
+        "location": "",
+        "prerequisites": { "value": [] },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["druid"]
+        }
+    }
+}

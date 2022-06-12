@@ -1,0 +1,25 @@
+{
+    "_id": "rVxydceOcy9D77OZ",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Well Mannered",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>You are eager to make good impressions on the varied races of the world. You gain a +1 circumstance bonus on Bluff and Diplomacy when used on people you don't yet know well. If you are at Master rank in the skill being used, increase this bonus to +2.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 2 },
+        "location": "",
+        "prerequisites": { "value": [] },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["bard"]
+        }
+    }
+}

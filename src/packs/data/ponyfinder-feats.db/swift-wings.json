@@ -1,0 +1,34 @@
+{
+    "_id": "ie3Q4cLJeNGq6Jdj",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Swift Wings",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>Your rage expresses through your madly flapping wings. While you are raging, you gain a +10-foot status bonus to your fly Speed.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 4 },
+        "location": "",
+        "prerequisites": { "value": [{ "value": "fly Speed" }] },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Swift Wings (while raging)",
+                "predicate": { "all": ["rage"] },
+                "selector": "fly-speed",
+                "type": "status",
+                "value": 10
+            }
+        ],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["barbarian"]
+        }
+    }
+}

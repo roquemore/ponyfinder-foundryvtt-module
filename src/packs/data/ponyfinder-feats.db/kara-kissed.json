@@ -1,0 +1,36 @@
+{
+    "_id": "crYDUInc9AkRN2ja",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>Giving yourself over to Kara, she rewards you for your faith with a new form that appears as an insectoid version of whatever ancestry you had. You may assume your birth form whenever you wish, able to shapeshift just like her favored, the doppelgangers. You gain the doppelganger trait and can take ancestry feats that require being a doppelganger pony, provided you meet all other requirements.</p>"
+        },
+        "featType": { "value": "general" },
+        "level": { "value": 3 },
+        "location": null,
+        "prerequisites": {
+            "value": [
+                { "value": "worships Kara" },
+                { "value": "non-good alignment" }
+            ]
+        },
+        "rules": [
+            { "add": ["hb_doppelganger"], "key": "ActorTraits" },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-actions.Change Shape (Kara Kissed)"
+            }
+        ],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["general"]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Kara Kissed",
+    "type": "feat"
+}

@@ -2,7 +2,7 @@
     "_id": "44LDR1shBxQzKEzx",
     "name": "Field Reconstruction",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Though you still cannot be raised normally, if 200 gp times your level in diamond dust and iron are sprinkled over your body and allowed to rest for an hour, you will be affected as if a raise dead were successfully cast on you, returning you to life if factors other than you being a clockwork or being too high of a level would have allowed it. Your successful raising consumes the diamond dust and iron.</p>"

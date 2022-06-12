@@ -1,0 +1,45 @@
+{
+    "_id": "79AUtOFa4NfI1aXv",
+    "img": "systems/pf2e/icons/spells/moonburst.webp",
+    "name": "Moon's Mercy",
+    "type": "spell",
+    "data": {
+        "ability": { "value": "wis" },
+        "area": {
+            "areaType": "emanation",
+            "value": "30"
+        },
+        "areasize": { "value": "30-foot emanation" },
+        "category": { "value": "focus" },
+        "components": { "verbal": true },
+        "cost": { "value": "" },
+        "damage": { "value": {} },
+        "description": {
+            "value": "<p>You shed silvery light as per the <em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{light}</em> spell. When the spell is first used, all werecreatures and aberrations within 30 feet of you take 3d6 good or evil damage (depending on your alignment, good if you are neutral) plus your Wisdom modifier. If there are no valid creatures in range, you and your allies within 30 feet gain 2d6 temporary hit points.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p><p><strong>Heightened (+2)</strong> The temporary hit points increase by 1d6.</p>"
+        },
+        "duration": { "value": "1 round per level" },
+        "hasCounteractCheck": { "value": false },
+        "level": { "value": 1 },
+        "location": { "value": "" },
+        "materials": { "value": "" },
+        "prepared": { "value": "" },
+        "primarycheck": { "value": "" },
+        "range": { "value": "" },
+        "rules": [],
+        "save": { "basic": "", "value": "" },
+        "school": { "value": "evocation" },
+        "secondarycasters": { "value": "" },
+        "secondarycheck": { "value": "" },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "spellType": { "value": "heal" },
+        "sustained": { "value": false },
+        "target": { "value": "" },
+        "time": { "value": "1" },
+        "traditions": { "value": ["divine"] },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": ["champion"]
+        }
+    }
+}

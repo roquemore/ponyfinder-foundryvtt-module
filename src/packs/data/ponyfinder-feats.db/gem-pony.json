@@ -2,7 +2,7 @@
     "_id": "MuTkvovUzlXxAO6d",
     "name": "Gem Pony",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>A callback to brighter times, when you roll a success on a saving throw against an emotion effect, you get a critical success instead.</p>"

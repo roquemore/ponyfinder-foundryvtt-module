@@ -2,7 +2,7 @@
     "_id": "5IPkOP8AmLsRDvr1",
     "name": "Air Dominance",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Your ties to the power of air are pervasive and potent. When casting spells with the air trait that can be heightened, the spell is heightened one spell level, to a maximum of half your level.</p>"

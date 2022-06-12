@@ -1,0 +1,25 @@
+{
+    "_id": "VaIHQzOE5ibmbtqU",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Call of the Elements",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>You call upon the elements to come to your aid. You can spend 10 minutes in concert with nature to replace one of the spells you've prepared in one of your druid spell slots with a <em>@Compendium[pf2e.spells-srd.lpT6LotUaQPfinjj]{summon elemental}</em> of the same level.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 4 },
+        "location": "",
+        "prerequisites": { "value": [] },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["druid"]
+        }
+    }
+}

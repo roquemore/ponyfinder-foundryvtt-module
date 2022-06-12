@@ -2,7 +2,7 @@
     "_id": "jITeh4efBR4pPptw",
     "name": "Divine Challenge",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>With a mighty roar, you invoke the power of the sun itself to strike fear into the hearts of your enemies. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by spending 10 minutes basking within the sun's light or reflecting upon its nature. For 1 focus point, you can use the following divine focus spell: @Compendium[ponyfinder-foundryvtt-module.ponyfinder-spells.Sun's Howl]{Sun's Howl}</p>"
