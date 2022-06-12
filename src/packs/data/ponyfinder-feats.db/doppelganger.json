@@ -18,8 +18,21 @@
                 "key": "Note",
                 "selector": "attack",
                 "text": "<p class='compact-text'><strong>{item|name}</strong> When you perform an activity with the mental trait that forces a saving throw and the target fails or critically fails, you enjoy a +1 circumstance bonus to attack rolls until the end of your next turn.</p>"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.actionspf2e.Consume Flesh"
             }
         ],
+        "items": {
+            "7ytru": {
+                "id": "Ymg6WqeJqOyLJLEr",
+                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "level": 1,
+                "name": "Change Shape",
+                "pack": "pf2e.ancestryfeatures"
+            }
+        },
         "level": { "value": 1 },
         "featType": { "value": "ancestry" },
         "onlyLevel1": false,

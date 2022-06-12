@@ -1,0 +1,30 @@
+{
+    "_id": "LJh3ot7wioSubrHy",
+    "img": "systems/pf2e/icons/spells/humanoid-form.webp",
+    "name": "Change Shape (Doppelganger)",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>As a doppelganger, you gain the @Compendium[ponyfinder-foundryvtt-module.ponyfinder-actions.Change Shape (Doppelganger)]{Change Shape (Doppelganger)} ability.</p>"
+        },
+        "featType": { "value": "ancestryfeature" },
+        "level": { "value": 0 },
+        "location": "",
+        "prerequisites": { "value": [] },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-actions.Change Shape (Doppelganger)"
+            }
+        ],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["hb_doppelganger"]
+        }
+    }
+}

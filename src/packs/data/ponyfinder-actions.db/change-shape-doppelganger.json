@@ -1,0 +1,24 @@
+{
+    "_id": "wwvPiG2kET2rkSAG",
+    "img": "systems/pf2e/icons/actions/OneAction.webp",
+    "name": "Change Shape (Doppelganger)",
+    "type": "action",
+    "data": {
+        "actionCategory": { "value": "interaction" },
+        "actionType": { "value": "action" },
+        "actions": { "value": 1 },
+        "description": {
+            "value": "<p>You have a specific pony form you can assume or aban- don as an action at will.</p><p><strong>Note</strong> In the official source, this action is missing appropriate traits. They have been added here based on the change shape actions available to other ancestries."
+        },
+        "requirements": { "value": "" },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["hb_doppelganger", "polymorph", "transmutation"]
+        },
+        "trigger": { "value": "" },
+        "weapon": { "value": "" }
+    }
+}
