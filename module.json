@@ -87,6 +87,7 @@
                 "creatureTraits": {
                     "ponykind": "Ponykind",
                     "cloven": "Cloven",
+                    "doppelganger": "Doppelganger",
                     "half-construct": "Half-Construct",
                     "griffon": "Griffon",
                     "purrsian": "Purrsian",
@@ -98,6 +99,7 @@
                 "featTraits": {
                     "ponykind": "Ponykind",
                     "cloven": "Cloven",
+                    "doppelganger": "Doppelganger",
                     "half-construct": "Half-Construct",
                     "griffon": "Griffon",
                     "purrsian": "Purrsian",
