@@ -32,6 +32,13 @@
             "type": "Item"
         },
         {
+            "name": "ponyfinder-archetypes",
+            "label": "Ponyfinder Archetypes",
+            "path": "./packs/ponyfinder-archetypes.db",
+            "entity": "Item",
+            "type": "JournalEntry"
+        },
+        {
             "name": "ponyfinder-deities",
             "label": "Ponyfinder Deities",
             "path": "./packs/ponyfinder-deities.db",
