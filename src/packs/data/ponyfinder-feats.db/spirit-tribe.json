@@ -2,7 +2,7 @@
     "_id": "oC60RYZZICMa5YJx",
     "name": "Spirit Tribe",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>The destiny of Ponykind is a powerful force that manifests in their spiritual tribe. You may only have one feat with the spirit tribe trait.</p>"

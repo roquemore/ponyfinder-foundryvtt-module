@@ -2,7 +2,7 @@
     "_id": "edmnKKxzALFcvENm",
     "name": "Animal Bond",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Short legs are unified in their need to form strong social bonds, typically with other ponies. Some turn this need for social connection to their animal friends, and it is returned with equal devotion. You gain a familiar. The type of animal is up to you, Lashtada praises love of all sorts.</p>"

@@ -2,7 +2,7 @@
     "_id": "OTV0x2WZrG4U7l7s",
     "name": "Variable Bite",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Sinking your fangs in, tearing flesh, and grinding bones are all things your teeth are capable of. When you perform a bite Strike, you can choose what physical damage type it inflicts.</p>"

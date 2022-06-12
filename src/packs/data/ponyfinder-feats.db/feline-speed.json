@@ -2,7 +2,7 @@
     "_id": "PR0uKYuc6Sgk1my5",
     "name": "Feline Speed",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Your Speed increases by 5 feet for every movement action you've completed this turn. If you are an expert in Athletics, this bonus increases to 10 feet.</p>"

@@ -2,7 +2,7 @@
     "_id": "YdYdfcN857eqcdRO",
     "name": "Unique Destiny",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Your brand of destiny reflects an individual fate that you chase after doggedly. This is the most common spiritual tribe of ponykind. You may select any 1st level human ancestry feat that does not require you be 1st level.</p>"

@@ -2,7 +2,7 @@
     "_id": "C2bde7gl3e573v7O",
     "name": "Trained Predator",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>You become proficient in Stealth and Perception. If you were already trained in either, you become proficient in any other skill.</p>"

@@ -2,7 +2,7 @@
     "_id": "8cVeCKDzGtts3qwU",
     "name": "Chaos Hunter",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Of the spiritual tribes, this is the one most commonly joined mid-life. You gain a +1 circumstance bonus to Will saving throws. In addition, you gain the following reaction: @Compendium[ponyfinder-foundryvtt-module.ponyfinder-feats.Chaos Resistance]{Chaos Resistance}</p>"

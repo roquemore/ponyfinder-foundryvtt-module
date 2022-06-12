@@ -2,7 +2,7 @@
     "_id": "Y3yUx8WGzOMO96LU",
     "name": "Sun Pony",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Born to bathe in the heat of summer and the warmth of the sun, you gain fire resistance equal to half your level (minimum 1). You treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on).</p>"

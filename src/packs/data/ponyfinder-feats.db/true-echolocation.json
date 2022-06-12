@@ -2,7 +2,7 @@
     "_id": "ETXSxnMMT76c2m6L",
     "name": "True Echolocation",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>You have mastered the art of navigation through clicks few things can hear. This grants you a new precise sense, echolocation. It cannot perceive color or texture, just size, distance, and firmness, but to surprising accuracy for those unused to such senses.</p>"

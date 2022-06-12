@@ -2,7 +2,7 @@
     "_id": "8S0MQADWtBPnC3Tt",
     "name": "True Unification",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>The power within you has grown to encompass even more of the potential of ponykind. You gain either another Ponykind heritage or another spirit tribe feat, even if you already have one.</p>"
