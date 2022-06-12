@@ -1,0 +1,27 @@
+{
+    "_id": "9pQ6YRJ7QjUIenQV",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Discerning Eye",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p><strong>Archetype</strong> @Compendium[ponyfinder-foundryvtt-module.ponyfinder-archetypes.Artifact Tender]{Artifact Tender}</p><p>You gain <em>@Compendium[pf2e.spells-srd.gpzpAAAJ1Lza2JVl]{detect magic}</em> as an arcane innate cantrip.</p>"
+        },
+        "featType": { "value": "archetype" },
+        "level": { "value": 2 },
+        "location": "",
+        "prerequisites": {
+            "value": [{ "value": "Artifact Tender Dedication" }]
+        },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["archetype"]
+        }
+    }
+}

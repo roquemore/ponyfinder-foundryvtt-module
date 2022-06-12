@@ -1,0 +1,95 @@
+{
+    "_id": "qMa2fIP2nqrFzHrq",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Careful Examination",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p><strong>Archetype</strong> @Compendium[ponyfinder-foundryvtt-module.ponyfinder-archetypes.Artifact Tender]{Artifact Tender}</p><p>You gain a +1 circumstance bonus to attempts to identify a magic item. If you have legendary proficiency in the appropriate skill, this bonus increases to +2. When you first pick up a magic item, the GM may make a secret roll to identify it for you, causing you to realize its magic nature depending on the result. You suffer no penalties for failing this secret roll and cannot critically fail it. You become trained in Occultism, Arcana, Nature or Religion.</p><p><strong>Special</strong> You cannot select another dedication feat until you have gained two other feats from the Artifact Tender archetype.</p>"
+        },
+        "featType": { "value": "archetype" },
+        "level": { "value": 1 },
+        "location": "",
+        "prerequisites": { "value": [] },
+        "rules": [
+            {
+                "choices": [
+                    { "label": "PF2E.SkillArc", "value": "arc" },
+                    { "label": "PF2E.SkillNat", "value": "nat" },
+                    { "label": "PF2E.SkillOcc", "value": "occ" },
+                    { "label": "PF2E.SkillRel", "value": "rel" }
+                ],
+                "flag": "skillChoice",
+                "key": "ChoiceSet",
+                "prompt": "Choose your skill proficiency"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.skills.{item|flags.pf2e.rulesSelections.skillChoice}.rank",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": { "all": ["action:identify-magic", "magical"] },
+                "selector": "arcana",
+                "type": "circumstance",
+                "value": {
+                    "brackets": [
+                        { "end": 4, "start": 3, "value": 2 },
+                        { "end": 3, "start": 1, "value": 1 }
+                    ],
+                    "field": "actor|data.skills.arc.rank"
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": { "all": ["action:identify-magic", "magical"] },
+                "selector": "nature",
+                "type": "circumstance",
+                "value": {
+                    "brackets": [
+                        { "end": 4, "start": 3, "value": 2 },
+                        { "end": 3, "start": 1, "value": 1 }
+                    ],
+                    "field": "actor|data.skills.nat.rank"
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": { "all": ["action:identify-magic", "magical"] },
+                "selector": "occultism",
+                "type": "circumstance",
+                "value": {
+                    "brackets": [
+                        { "end": 4, "start": 3, "value": 2 },
+                        { "end": 3, "start": 1, "value": 1 }
+                    ],
+                    "field": "actor|data.skills.occ.rank"
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": { "all": ["action:identify-magic", "magical"] },
+                "selector": "religion",
+                "type": "circumstance",
+                "value": {
+                    "brackets": [
+                        { "end": 4, "start": 3, "value": 2 },
+                        { "end": 3, "start": 1, "value": 1 }
+                    ],
+                    "field": "actor|data.skills.rel.rank"
+                }
+            }
+        ],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["archetype", "dedication"]
+        }
+    }
+}
