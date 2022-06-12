@@ -1,0 +1,25 @@
+{
+    "_id": "sv4LeEbkOJyLen10",
+    "img": "systems/pf2e/icons/actions/OneAction.webp",
+    "name": "Tribal Mixture",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "action" },
+        "actions": { "value": 1 },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are holding an infused mutagen you crafted, with a level at least 2 lower than your advanced alchemy level.</p><hr /><p>You add the distilled essence of a pony tribe to the mutagen. While under the effects of the mutagen, you exhibit the features of a pony tribe. You must choose a pony heritage when you take this action and you have access to that heritage's effects for as long as the mutagen remains. This does not change your ability scores.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 4 },
+        "location": "",
+        "prerequisites": { "value": [{ "value": "ponykind" }] },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["alchemist", "additive1"]
+        }
+    }
+}

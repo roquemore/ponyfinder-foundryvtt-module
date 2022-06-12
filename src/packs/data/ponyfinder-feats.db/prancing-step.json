@@ -1,0 +1,25 @@
+{
+    "_id": "NqqDGhatIMaPbUN8",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "name": "Prancing Step",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>You bounce from step to step in strange and erratic ways. When you take a Stride action to move half your Speed or less, that movement does not trigger reactions. You can use Prancing Step when Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type. If you possess another version of this ability (such as the @Compendium[pf2e.feats.RAymYRO2SLNNzKVk]{Mobility} feat), you can move at full speed.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 2 },
+        "location": "",
+        "prerequisites": { "value": [] },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["bard"]
+        }
+    }
+}
