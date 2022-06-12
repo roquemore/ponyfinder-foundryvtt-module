@@ -25,6 +25,13 @@
             "type": "Item"
         },
         {
+            "name": "ponyfinder-ancestry-features",
+            "label": "Ponyfinder Ancestry Features",
+            "path": "./packs/ponyfinder-ancestry-features.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
             "name": "ponyfinder-deities",
             "label": "Ponyfinder Deities",
             "path": "./packs/ponyfinder-deities.db",
