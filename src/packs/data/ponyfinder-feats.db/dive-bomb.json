@@ -1,0 +1,25 @@
+{
+    "_id": "0j9qT57tbFWi3glV",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "name": "Dive Bomb",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>If you attack something after flying at least 10 feet towards it in the same round, you deal one extra die of weapon damage.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 6 },
+        "location": "",
+        "prerequisites": { "value": [{ "value": "fly Speed" }] },
+        "rules": [],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["barbarian"]
+        }
+    }
+}

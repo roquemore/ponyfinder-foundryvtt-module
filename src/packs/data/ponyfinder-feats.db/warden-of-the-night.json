@@ -1,0 +1,36 @@
+{
+    "_id": "I3NyI40n3q9Kl2AB",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "name": "Warden of the Night",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p>With an appeal to the night, you can shed a bright silvery light akin to the moon. Increase the number of Focus Points in your focus pool by 1.</p><p>For 1 focus point, you can use the <em>@Compendium[ponyfinder-foundryvtt-module.ponyfinder-spells.Moon's Mercy]{moon's mercy}</em> focus spell.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 2 },
+        "location": "",
+        "prerequisites": { "value": ["worships a night deity"] },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.resources.focus.max",
+                "value": 1
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-spells.Moon's Mercy"
+            }
+        ],
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": ["champion"]
+        }
+    }
+}
