@@ -2,7 +2,7 @@
     "_id": "6NWYAx2IqwxYs926",
     "name": "Denial of Destiny",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>You destroyed your brand of destiny and defy its original meaning. You are filled with a grim determination to secure your own fate as you describe it. When you roll a natural 1 on a d20 and have no hero points, you gain a hero point. There must be consequences for rolling the 1 (even simple failure to proceed). You may take this feat even if you have another spirit tribe feat. Lose the benefit of any other spirit tribe feats you have, which you may retrain as normal.</p>"

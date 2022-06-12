@@ -2,7 +2,7 @@
     "_id": "bIYWxLDgYY2SuW6U",
     "name": "Clockwork",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Cursed for the folly of ponies that thought they could challenge the gods, you stand between metal and flesh. You gain the half-construct trait. You gain electricity resistance equal to half your level (minimum 1). Your land Speed decreases by 5 feet.</p>"

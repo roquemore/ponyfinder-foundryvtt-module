@@ -42,14 +42,14 @@
             "rfcpb": {
                 "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
                 "id": "YlXr1YLaVAglDFFq",
-                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "img": "systems/pf2e/icons/features/feats/feats.webp",
                 "name": "Fingerless",
                 "level": 0
             },
             "p1iee": {
                 "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
                 "id": "c7rI40qF3hfjUdjo",
-                "img": "systems/pf2e/icons/default-icons/feat.svg",
+                "img": "systems/pf2e/icons/features/feats/feats.webp",
                 "name": "Cold Heart",
                 "level": 0
             }

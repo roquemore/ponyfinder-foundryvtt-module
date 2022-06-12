@@ -2,7 +2,7 @@
     "_id": "PaKbpBtxmr0QCdG6",
     "name": "Return to the Sea",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>You can breathe water as well as air. You also gain resistance to cold equal to half your level.</p>"

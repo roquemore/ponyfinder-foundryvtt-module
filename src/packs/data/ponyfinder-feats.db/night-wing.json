@@ -2,7 +2,7 @@
     "_id": "ux7oZwuczlCjYvZ3",
     "name": "Night Wing",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": { "value": "<p>You gain Dark Vision.</p>" },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },

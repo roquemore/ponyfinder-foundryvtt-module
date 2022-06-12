@@ -2,7 +2,7 @@
     "_id": "uwoxZDsW2qFLnsrJ",
     "name": "Core of Thunder",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Your kind gets along well with the force of electricity that runs harmlessly over your shell. Your spells and alchemical items that deal electricity damage gain a status bonus to damage equal to half the spell&rsquo;s level or one-quarter the item&rsquo;s level (minimum 1). You also gain a +1 status bonus to any persistent electricity damage you deal.</p>"

@@ -2,7 +2,7 @@
     "_id": "8XqJJ7kQbDgajfN4",
     "name": "Water Burst",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Your affinity for the waters can be expressed forcefully with gouts of water from your mouth. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by quiet meditation. For 1 focus point, you can cast @Compendium[pf2e.spells-srd.jfVCuOpzC6mUrf6f]{Hydraulic Push} as a primal focus spell.</p>"

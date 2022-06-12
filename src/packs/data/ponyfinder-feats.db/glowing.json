@@ -2,7 +2,7 @@
     "_id": "FUqk0Ui46nwJfroM",
     "name": "Glowing",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p><As an action you can start or cease glowing. While glowing, you shed a dim light within 5 feet of yourself from your antenna.</p><p>@Compendium[ponyfinder-foundryvtt-module.ponyfinder-effects.Effect: Glowing]{Effect: Glowing}</p>"

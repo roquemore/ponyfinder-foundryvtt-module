@@ -2,7 +2,7 @@
     "_id": "68liPCIh2JkzdA7W",
     "name": "Jaws of Victory",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>You deal 1 extra damage per damage die with your bite attack. If you become master or better with your bite, this increases to 2 extra damage.</p>"

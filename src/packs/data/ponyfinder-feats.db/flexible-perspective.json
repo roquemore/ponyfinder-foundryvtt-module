@@ -2,7 +2,7 @@
     "_id": "WjGyFFqxH39F8ER9",
     "name": "Flexible Perspective",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>Your understanding of the between places allows you to comprehend teleportation in a new way. Spells and effects with the teleportation trait that you use have a 50% greater range for how far you can travel with them.</p>"

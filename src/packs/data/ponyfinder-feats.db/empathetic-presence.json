@@ -2,7 +2,7 @@
     "_id": "V4gjfJIjA4o49SYY",
     "name": "Empathetic Presence",
     "type": "feat",
-    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
     "data": {
         "description": {
             "value": "<p>You are a comforting presence to have around. If you spend 10 minutes comforting those who are being targeted with @Compendium[pf2e.actionspf2e.Treat Wounds]{Treat Wounds}, the healing they receive increases by your level and the creature performing the medicine gains a +1 status bonus to the roll to Treat Wounds</p>"
