@@ -4,7 +4,9 @@
     "type": "heritage",
     "img": "systems/pf2e/icons/default-icons/heritage.svg",
     "data": {
-        "description": { "value": "" },
+        "description": {
+            "value": "<p>A creature of the ether, you are as living as any other, but your kind are known to move as a ghost might. Incorporeal creatures within 30 feet of you that would normally be invisible can be seen by you. Your weapons and unarmed attacks are considered magic when used against incorporeal enemies.</p>"
+        },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "boosts": {

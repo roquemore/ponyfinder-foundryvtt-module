@@ -4,7 +4,9 @@
     "type": "heritage",
     "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pony.png",
     "data": {
-        "description": { "value": "" },
+        "description": {
+            "value": "<p>Built to go far and fast without pause, your durability matches that of the dwarves. You may select any one dwarf heritage. You gain all of its advantages and disadvantages.</p>"
+        },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "boosts": {
