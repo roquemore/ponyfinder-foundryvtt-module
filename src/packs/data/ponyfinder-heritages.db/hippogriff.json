@@ -15,7 +15,7 @@
             "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
         },
         "flaws": { "0": { "value": [] } },
-        "rules": [],
+        "rules": [{ "add": ["hb_ponykind"], "key": "ActorTraits" }],
         "ancestry": {
             "name": "Griffon",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
