@@ -1,0 +1,37 @@
+{
+    "_id": "MfPQ46WzVYLSfgAj",
+    "name": "Pony",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>You are a pony, clearly. The ponies agree, and so do you. Ignore your second horn, or maybe you've filed them down. Either way, ponies seem perfectly happy to welcome you as one of their own, and you are delighted to be there. You gain the ponykind trait and one additional 1st level ancestry feat. Being a ponykind, you may select ponykind ancestry feats freely.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            { "add": ["hb_ponykind"], "key": "ActorTraits" },
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "all": ["item:feat-type:ancestry", "item:level:1"],
+                    "label": "PF2E.SpecificRule.AncestralParagon.AllowedDrops"
+                },
+                "choices": {
+                    "query": "{\"data.featType.value\":\"ancestry\",\"data.level.value\":1,\"$or\":[{\"data.traits.value\":{\"$elemMatch\":\"{actor|data.details.ancestry.trait}\"}},{\"data.traits.value\":{\"$elemMatch\":\"{actor|data.details.heritage.trait}\"}}],\"$not\":{\"data.traits.value\":{\"$elemMatch\":\"lineage\"}}}",
+                    "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats"
+                },
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.AncestralParagon.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.pony}"
+            }
+        ],
+        "ancestry": {
+            "name": "Krava",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Krava"
+        }
+    }
+}

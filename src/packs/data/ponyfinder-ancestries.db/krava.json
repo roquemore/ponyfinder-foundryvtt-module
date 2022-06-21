@@ -1,0 +1,51 @@
+{
+    "_id": "PDgYz0M9avPtdItv",
+    "name": "Krava",
+    "type": "ancestry",
+    "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+    "data": {
+        "description": {
+            "value": "<p>To a human observer, a Krava appears as a cow, from dairy to more exotic breeds, possibly exotically colored. Like ponies, they come in all the hues one can find in the rainbow, and a few that aren't. They are small as cows go, roughly the size of a pony, though some can grow to the full and proper size and weight of their unintelligent cousins. They often wear collars and ornament their ears and horns  with jewelry. Those born or accustomed to city life will also dress themselves properly, though rural ones will often go without, seeing little purpose in it. Horns can grow on male or female Krava, though it is more common in males of maturity and females advanced to their elder years.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": {
+            "value": ["hb_krava", "fey"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "hp": 6,
+        "size": "med",
+        "reach": 5,
+        "speed": 30,
+        "boosts": {
+            "0": { "value": ["con"] },
+            "1": { "value": ["cha"] },
+            "2": { "value": ["cha", "con", "dex", "int", "str", "wis"] }
+        },
+        "flaws": { "0": { "value": ["dex"] } },
+        "languages": { "value": ["common", "sylvan"], "custom": "" },
+        "additionalLanguages": {
+            "count": 0,
+            "value": ["aquan", "auran", "elven", "gnomish", "ignan", "terran"],
+            "custom": ""
+        },
+        "items": {
+            "fcwz1": {
+                "pack": "pf2e.ancestryfeatures",
+                "id": "DRtaqOHXTRtGRIUT",
+                "img": "systems/pf2e/icons/features/ancestry/low-light-vision.webp",
+                "name": "Low-Light Vision",
+                "level": 0
+            },
+            "mwzov": {
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
+                "id": "YlXr1YLaVAglDFFq",
+                "img": "systems/pf2e/icons/features/feats/feats.webp",
+                "name": "Fingerless",
+                "level": 0
+            }
+        },
+        "vision": "lowLightVision"
+    }
+}
