@@ -13,7 +13,7 @@
             {
                 "key": "Note",
                 "selector": "perception",
-                "text": "<p><strong>Watchfulness Cloven</strong> You gain a +1 circumstance bonus to your Perception to find @Compendium[pf2e.conditionitems.Hidden]{Hidden} objects (including traps and secret doors) or determine whether food is spoiled. This bonus increases to +2 if your proficiency rank in Perception increases to expert or higher.</p>"
+                "text": "<p><strong>Watchfulness</strong> You gain a +1 circumstance bonus to your Perception to find @Compendium[pf2e.conditionitems.Hidden]{Hidden} objects (including traps and secret doors) or determine whether food is spoiled. This bonus increases to +2 if your proficiency rank in Perception increases to expert or higher.</p>"
             }
         ],
         "ancestry": {

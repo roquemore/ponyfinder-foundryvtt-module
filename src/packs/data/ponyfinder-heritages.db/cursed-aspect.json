@@ -21,7 +21,19 @@
             "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
         },
         "flaws": { "0": { "value": ["cha"] } },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.saves.will.rank",
+                "value": 1
+            },
+            {
+                "key": "Note",
+                "selector": "will",
+                "text": "<p><strong>Cursed Aspect</strong> If you would have Legendary Will proficiency already, you gain a +1 circumstance bonus to Will saving throws.</p>"
+            }
+        ],
         "ancestry": {
             "name": "Griffon",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"

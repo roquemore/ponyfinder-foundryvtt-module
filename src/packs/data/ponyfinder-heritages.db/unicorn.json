@@ -5,7 +5,7 @@
     "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/unicorn.png",
     "data": {
         "description": {
-            "value": "<p>With a horn atop your brow, magic comes intuitively to you. You may cast <em>mage hand</em> and <em>light</em> as arcane innate spells at will. The target of your <em>light</em> spell must be your own horn. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
+            "value": "<p>With a horn atop your brow, magic comes intuitively to you. You may cast <em>mage hand</em> and <em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</em> as arcane innate spells at will. The target of your <em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</em> spell must be your own horn. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
         },
         "source": {
             "value": "Ponyfinder: Second Edition Conversion Guide"

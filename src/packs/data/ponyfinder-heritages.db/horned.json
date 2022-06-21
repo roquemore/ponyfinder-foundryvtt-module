@@ -9,7 +9,20 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
-        "rules": [],
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": { "damageType": "piercing", "dice": 1, "die": "d6" }
+                },
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/horn.webp",
+                "key": "Strike",
+                "label": "Gore",
+                "range": null,
+                "traits": ["agile", "unarmed"]
+            }
+        ],
         "ancestry": {
             "name": "Cloven",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Cloven"

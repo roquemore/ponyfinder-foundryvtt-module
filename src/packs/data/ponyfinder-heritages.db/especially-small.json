@@ -9,7 +9,7 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
-        "rules": [{ "key": "CreatureSize", "value": "small" }],
+        "rules": [{ "key": "CreatureSize", "value": "sm" }],
         "ancestry": {
             "name": "Griffon",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"

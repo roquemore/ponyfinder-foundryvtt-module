@@ -15,7 +15,26 @@
             "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
         },
         "flaws": { "0": { "value": [] } },
-        "rules": [{ "add": ["hb_ponykind"], "key": "ActorTraits" }],
+        "rules": [
+            { "add": ["hb_ponykind"], "key": "ActorTraits" },
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "all": ["item:feat-type:ancestry", "item:level:1"],
+                    "label": "PF2E.SpecificRule.AncestralParagon.AllowedDrops"
+                },
+                "choices": {
+                    "query": "{\"data.featType.value\":\"ancestry\",\"data.level.value\":1,\"$or\":[{\"data.traits.value\":{\"$elemMatch\":\"{actor|data.details.ancestry.trait}\"}},{\"data.traits.value\":{\"$elemMatch\":\"{actor|data.details.heritage.trait}\"}}],\"$not\":{\"data.traits.value\":{\"$elemMatch\":\"lineage\"}}}",
+                    "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats"
+                },
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.AncestralParagon.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.hippogriff}"
+            }
+        ],
         "ancestry": {
             "name": "Griffon",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"

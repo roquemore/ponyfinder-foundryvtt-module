@@ -5,7 +5,7 @@
     "img": "systems/pf2e/icons/default-icons/heritage.svg",
     "data": {
         "description": {
-            "value": "<p>You are larger than most, able to @Compendium[pf2e.actionspf2e.Grapple]{Grapple}, @Compendium[pf2e.actionspf2e.Trip]{Trip}, and @Compendium[pf2e.actionspf2e.Shove]{Shove} as if you were Large. When using Stealth in snow environments, you enjoy a +1 circumstance bonus.</p>"
+            "value": "<p>You are larger than most, able to @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}, and @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} as if you were Large. When using Stealth in snow environments, you enjoy a +1 circumstance bonus.</p>"
         },
         "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
         "traits": { "value": [], "rarity": "common", "custom": "" },

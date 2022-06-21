@@ -15,7 +15,12 @@
             "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
         },
         "flaws": { "0": { "value": ["cha"] } },
-        "rules": [],
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.kCO4r8NOm8E2T3eH"
+            }
+        ],
         "slug": null,
         "ancestry": {
             "name": "Griffon",

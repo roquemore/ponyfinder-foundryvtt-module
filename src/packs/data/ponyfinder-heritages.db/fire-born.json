@@ -5,7 +5,7 @@
     "img": "systems/pf2e/icons/default-icons/heritage.svg",
     "data": {
         "description": {
-            "value": "<p>Born of fire, you take to it easily. You gain a fire resistance equal to half your level (minimum 1). You may cast @Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light} as an arcane innate spell at will, though it always appears as a heatless flame.</p>"
+            "value": "<p>Born of fire, you take to it easily. You gain a fire resistance equal to half your level (minimum 1). You may cast <em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</em> as an arcane innate spell at will, though it always appears as a heatless flame.</p>"
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },

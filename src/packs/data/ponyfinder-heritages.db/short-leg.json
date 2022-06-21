@@ -16,6 +16,7 @@
         },
         "flaws": { "0": { "value": ["str"] } },
         "rules": [
+            { "key": "CreatureSize", "value": "sm" },
             {
                 "key": "GrantItem",
                 "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Lover's Sacrifice"

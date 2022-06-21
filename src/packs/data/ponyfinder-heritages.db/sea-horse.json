@@ -20,6 +20,18 @@
                 "key": "BaseSpeed",
                 "selector": "swim-speed",
                 "value": "@actor.attributes.speed.value"
+            },
+            {
+                "domain": "darkvision",
+                "key": "RollOption",
+                "label": "You are underwater",
+                "option": "underwater",
+                "toggleable": true
+            },
+            {
+                "key": "Sense",
+                "predicate": { "all": ["underwater"] },
+                "selector": "darkvision"
             }
         ],
         "ancestry": {

@@ -9,7 +9,18 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
-        "rules": [],
+        "rules": [
+            {
+                "key": "Note",
+                "selector": "acrobatics",
+                "text": "<p><strong>Mountaineer</strong>You take no penalty for being mid-climb or caught while balancing on narrow or slippery surfaces.</p>"
+            },
+            {
+                "key": "Note",
+                "selector": "athletics",
+                "text": "<p><strong>Mountaineer</strong>You take no penalty for being mid-climb or caught while balancing on narrow or slippery surfaces.</p>"
+            }
+        ],
         "ancestry": {
             "name": "Cloven",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Cloven"

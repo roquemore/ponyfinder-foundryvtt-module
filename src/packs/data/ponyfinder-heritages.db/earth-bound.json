@@ -15,7 +15,27 @@
             "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
         },
         "flaws": { "0": { "value": ["int"] } },
-        "rules": [],
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "all": ["item:type:heritage"],
+                    "label": "dwarf heritage"
+                },
+                "choices": {
+                    "itemType": "heritage",
+                    "pack": "pf2e.heritages",
+                    "query": "{\"data.ancestry.uuid\":\"Compendium.pf2e.ancestries.BYj5ZvlXZdpaEgA6\"}"
+                },
+                "key": "ChoiceSet",
+                "flag": "earthBoundHeritageChoice",
+                "prompt": "Select a dwarf heritage."
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.earthBoundHeritageChoice}"
+            }
+        ],
         "ancestry": {
             "name": "Ponykind",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind"

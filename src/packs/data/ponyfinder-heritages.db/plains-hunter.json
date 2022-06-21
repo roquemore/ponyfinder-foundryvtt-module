@@ -11,6 +11,30 @@
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {
+                "category": "unarmed",
+                "damage": {
+                    "base": { "damageType": "piercing", "dice": 1, "die": "d4" }
+                },
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fangs.webp",
+                "key": "Strike",
+                "label": "Bite",
+                "range": null,
+                "traits": ["finesse", "unarmed"]
+            },
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": { "damageType": "slashing", "dice": 1, "die": "d3" }
+                },
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/claws.webp",
+                "key": "Strike",
+                "label": "Claw",
+                "range": null,
+                "traits": ["agile", "unarmed"]
+            },
+            {
                 "key": "GrantItem",
                 "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-actions.Plains Strike"
             }
