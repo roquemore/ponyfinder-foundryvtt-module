@@ -17,9 +17,19 @@
         "flaws": { "0": { "value": ["cha"] } },
         "rules": [
             {
-                "key": "Note",
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Snow Aspect (snow environment)",
+                "option": "snow-aspect",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Snow Aspect (snow environment)",
+                "predicate": { "all": ["snow-aspect"] },
                 "selector": "stealth",
-                "text": "<p><strong>Snow Aspect</strong> When using Stealth in snow environments, you enjoy a +1 circumstance bonus.</p>"
+                "type": "circumstance",
+                "value": 1
             }
         ],
         "ancestry": {

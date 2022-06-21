@@ -23,15 +23,24 @@
         "flaws": { "0": { "value": ["cha"] } },
         "rules": [
             {
+                "key": "FlatModifier",
+                "label": "Cursed Aspect",
+                "selector": "will",
+                "type": "circumstance",
+                "phase": "beforeDerived",
+                "value": {
+                    "brackets": [
+                        { "end": 4, "start": 4, "value": 1 },
+                        { "end": 3, "start": 1, "value": 0 }
+                    ],
+                    "field": "data.saves.will.rank"
+                }
+            },
+            {
                 "key": "ActiveEffectLike",
                 "mode": "add",
                 "path": "data.saves.will.rank",
                 "value": 1
-            },
-            {
-                "key": "Note",
-                "selector": "will",
-                "text": "<p><strong>Cursed Aspect</strong> If you would have Legendary Will proficiency already, you gain a +1 circumstance bonus to Will saving throws.</p>"
             }
         ],
         "ancestry": {

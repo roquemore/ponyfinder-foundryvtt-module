@@ -11,9 +11,25 @@
         "traits": { "value": [], "rarity": "common", "custom": "" },
         "rules": [
             {
-                "key": "Note",
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Watchfulness (seeking hidden objects or determining if food is spoiled)",
+                "option": "watchfulness",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Watchfulness",
+                "predicate": { "any": ["watchfulness"] },
                 "selector": "perception",
-                "text": "<p><strong>Watchfulness</strong> You gain a +1 circumstance bonus to your Perception to find @Compendium[pf2e.conditionitems.Hidden]{Hidden} objects (including traps and secret doors) or determine whether food is spoiled. This bonus increases to +2 if your proficiency rank in Perception increases to expert or higher.</p>"
+                "type": "circumstance",
+                "value": {
+                    "brackets": [
+                        { "end": 4, "start": 2, "value": 2 },
+                        { "end": 1, "start": 1, "value": 1 }
+                    ],
+                    "field": "actor|data.attributes.perception.rank"
+                }
             }
         ],
         "ancestry": {
