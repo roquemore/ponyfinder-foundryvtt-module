@@ -13,27 +13,7 @@
             "rarity": "common",
             "custom": ""
         },
-        "rules": [
-            {
-                "key": "ChoiceSet",
-                "prompt": "Choose a heritage",
-                "flag": "purrsianHeritageChoice",
-                "choices": [
-                    {
-                        "label": "Air Remembered",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Air Remembered"
-                    },
-                    {
-                        "label": "Feline Charisma",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Feline Charisma"
-                    }
-                ]
-            },
-            {
-                "key": "GrantItem",
-                "uuid": "{item|flags.pf2e.rulesSelections.purrsianHeritageChoice}"
-            }
-        ],
+        "rules": [],
         "hp": 6,
         "size": "med",
         "reach": 5,

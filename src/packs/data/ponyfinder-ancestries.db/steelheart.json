@@ -13,12 +13,7 @@
             "rarity": "common",
             "custom": ""
         },
-        "rules": [
-            {
-                "key": "GrantItem",
-                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Factory Forged"
-            }
-        ],
+        "rules": [],
         "hp": 10,
         "size": "med",
         "reach": 5,

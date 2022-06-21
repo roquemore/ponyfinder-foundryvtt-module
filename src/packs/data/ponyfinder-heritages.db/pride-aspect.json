@@ -9,6 +9,16 @@
         },
         "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
+        "boosts": {
+            "0": { "value": ["str"] },
+            "1": { "value": ["cha"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": {
+            "0": {
+                "value": ["wis"]
+            }
+        },
         "rules": [
             {
                 "key": "BaseSpeed",
@@ -17,8 +27,8 @@
             }
         ],
         "ancestry": {
-            "name": "Griffon (Pride Aspect)",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Pride Aspect)"
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
         }
     }
 }

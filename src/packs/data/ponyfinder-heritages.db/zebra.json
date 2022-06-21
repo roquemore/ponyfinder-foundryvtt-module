@@ -15,10 +15,16 @@
             "rarity": "common",
             "custom": ""
         },
+        "boosts": {
+            "0": { "value": ["int"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": [] }
+        },
+        "flaws": { "0": { "value": [] } },
         "rules": [],
         "ancestry": {
-            "name": "Ponykind (Zebra)",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Zebra)"
+            "name": "Ponykind",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind"
         }
     }
 }

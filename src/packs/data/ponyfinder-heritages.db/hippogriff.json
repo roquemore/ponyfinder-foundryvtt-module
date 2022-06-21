@@ -9,27 +9,13 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
-        "rules": [
-            {
-                "key": "ChoiceSet",
-                "prompt": "Choose which boost for the Hippogriff heritage",
-                "flag": "griffonHippoChoice",
-                "choices": [
-                    {
-                        "label": "Strength",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Hippogriff) (Strength)"
-                    },
-                    {
-                        "label": "Wisdom",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Hippogriff) (Wisdom)"
-                    }
-                ]
-            },
-            {
-                "key": "GrantItem",
-                "uuid": "{item|flags.pf2e.rulesSelections.griffonHippoChoice}"
-            }
-        ],
+        "boosts": {
+            "0": { "value": ["str", "wis"] },
+            "1": { "value": [] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": [] } },
+        "rules": [],
         "ancestry": {
             "name": "Griffon",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
