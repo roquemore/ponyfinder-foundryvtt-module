@@ -85,29 +85,31 @@
         "ponyfinder-foundryvtt-module": {
             "pf2e-homebrew": {
                 "creatureTraits": {
-                    "ponykind": "Ponykind",
                     "cloven": "Cloven",
                     "doppelganger": "Doppelganger",
-                    "half-construct": "Half-Construct",
-                    "griffon": "Griffon",
-                    "purrsian": "Purrsian",
                     "flutterpony": "Flutterpony",
+                    "griffon": "Griffon",
+                    "half-construct": "Half-Construct",
+                    "krava": "Krava",
+                    "phoenix-wolf": "Phoenix Wolf",
+                    "ponykind": "Ponykind",
+                    "purrsian": "Purrsian",
                     "steelheart": "Steelheart",
-                    "sun-cat": "Sun Cat",
-                    "phoenix-wolf": "Phoenix Wolf"
+                    "sun-cat": "Sun Cat"
                 },
                 "featTraits": {
-                    "ponykind": "Ponykind",
                     "cloven": "Cloven",
                     "doppelganger": "Doppelganger",
-                    "half-construct": "Half-Construct",
-                    "griffon": "Griffon",
-                    "purrsian": "Purrsian",
                     "flutterpony": "Flutterpony",
-                    "steelheart": "Steelheart",
+                    "griffon": "Griffon",
+                    "half-construct": "Half-Construct",
+                    "krava": "Krava",
+                    "phoenix-wolf": "Phoenix Wolf",
+                    "ponykind": "Ponykind",
+                    "purrsian": "Purrsian",
                     "spirit-tribe": "Spirit Tribe",
-                    "sun-cat": "Sun Cat",
-                    "phoenix-wolf": "Phoenix Wolf"
+                    "steelheart": "Steelheart",
+                    "sun-cat": "Sun Cat"
                 }
             }
         }
