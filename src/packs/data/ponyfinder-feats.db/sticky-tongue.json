@@ -1,0 +1,25 @@
+{
+    "_id": "qop5kTsb9tjiR9JT",
+    "name": "Sticky Tongue",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>Your reach for attempting to Steal or Disarm or Trip is increased by as far as you could reach to pick things up with your tongue.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": {
+            "value": [{ "value": "Agile Tongue or talented tongue" }]
+        },
+        "location": null
+    }
+}

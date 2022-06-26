@@ -1,0 +1,53 @@
+{
+    "_id": "RVcn7mPLq76j5f4m",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Pony Trick",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p><strong>Access</strong> Krava</p><hr /><p>You gain one ponykind ancestry or ponykind Alchemist class feat that you would otherwise qualify for aside from not being a pony. This feat must be level 4 or lower.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 4 },
+        "location": "",
+        "prerequisites": {},
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "all": [
+                        "item:type:feat",
+                        {
+                            "or": [
+                                "item:trait:alchemist",
+                                "item:trait:hb_ponykind"
+                            ]
+                        }
+                    ],
+                    "any": [
+                        "item:level:1",
+                        "item:level:2",
+                        "item:level:3",
+                        "item:level:4"
+                    ],
+                    "label": "Level 4 or lower ponykind ancestry or ponykind alchemist feat"
+                },
+                "choices": {
+                    "query": "{\"data.level.value\":{\"$lte\":4},\"data.traits.value\":{\"$or\":[{\"$elemMatch\":\"alchemist\"},{\"$elemMatch\":\"hb_ponykind\"}]}}",
+                    "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats"
+                },
+                "key": "ChoiceSet",
+                "prompt": "Choose a level 4 or lower ponykind ancestry or ponykind alchemist feat."
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.ponyTrick}"
+            }
+        ],
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "custom": "", "rarity": "uncommon", "value": ["alchemist"] }
+    }
+}

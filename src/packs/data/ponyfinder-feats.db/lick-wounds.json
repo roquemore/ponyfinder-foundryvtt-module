@@ -1,0 +1,32 @@
+{
+    "_id": "TmmY4lClGAZOgwur",
+    "name": "Lick Wounds",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>When using Medicine to treat injuries or disease, you may roll twice and take the better result. Some patients don't like being licked, but this is for their own good, we assure.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "RollTwice",
+                "keep": "higher",
+                "predicate": {
+                    "any": ["action:treat-disease", "action:treat-wounds"]
+                },
+                "selector": "medicine"
+            }
+        ],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

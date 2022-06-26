@@ -1,0 +1,21 @@
+{
+    "_id": "KpfaSnSpXT1fqZJd",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Essence of Minotaur",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p><strong>Access</strong> Krava</p><hr /><p>With carefully selected herbs and diet, you have awakened the angry bovine spirit within you. When under the effect of any mutagen, you grow by one size (typically to Large), you become bipedal, and lose the fingerless trait as your forehooves take on the shape of powerful hands. You gain a boost to your Strength, increasing it by 2 if it was under 18, and 1 otherwise. When the mutagen ends, all of these effects go with it until next you are affected by a mutagen.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 12 },
+        "location": "",
+        "prerequisites": {},
+        "rules": [],
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "custom": "", "rarity": "uncommon", "value": ["alchemist"] }
+    }
+}
