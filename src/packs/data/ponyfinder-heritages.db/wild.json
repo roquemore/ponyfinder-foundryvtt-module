@@ -1,0 +1,33 @@
+{
+    "_id": "pbEbTznujzP2HoSj",
+    "name": "Wild",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>You are not content to live in pony cities. You are a Krava and proud of it. You gain scent as an imprecise sense with a range of 60 feet. This sense becomes precise within 15 feet.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "acuity": "imprecise",
+                "key": "Sense",
+                "label": "PF2E.SensesScent",
+                "range": 60,
+                "selector": "scent"
+            },
+            {
+                "acuity": "precise",
+                "key": "Sense",
+                "label": "PF2E.SensesScent",
+                "range": 15,
+                "selector": "scent"
+            }
+        ],
+        "ancestry": {
+            "name": "Krava",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Krava"
+        }
+    }
+}

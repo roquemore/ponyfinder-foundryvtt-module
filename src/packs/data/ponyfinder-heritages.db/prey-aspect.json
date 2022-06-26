@@ -9,16 +9,23 @@
         },
         "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
+        "boosts": {
+            "0": { "value": ["wis"] },
+            "1": { "value": [] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": [] } },
         "rules": [
             {
-                "key": "Note",
-                "selector": "spell-attack",
-                "text": "<p><strong>Prey Aspect</strong> When casting divine spells or effects, the DC is given a circumstance bonus of 1.</p>"
+                "key": "FlatModifier",
+                "selector": "divine-spell-dc",
+                "type": "circumstance",
+                "value": 1
             }
         ],
         "ancestry": {
-            "name": "Griffon (Prey Aspect)",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Prey Aspect)"
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
         }
     }
 }

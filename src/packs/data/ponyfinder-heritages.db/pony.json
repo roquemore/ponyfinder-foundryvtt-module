@@ -1,20 +1,14 @@
 {
-    "_id": "e2X277t6Ls2oF0cZ",
-    "name": "Hippogriff",
+    "_id": "sUVXoFX9UVVqshta",
+    "name": "Pony",
     "type": "heritage",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/hippogriff.png",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
     "data": {
         "description": {
-            "value": "<p>You have the forebody of a bird and the hindquarters of a pony. You gain the ponykind trait. You lose your Strength and Wisdom boosts. You lose your Charisma flaw. You gain a boost to Strength or Wisdom and a free boost. You gain one first level ancestry feat. Being a ponykind, you may select ponykind ancestry feats freely.</p>"
+            "value": "<p>You are a pony, clearly. The ponies agree, and so do you. Ignore your second horn, or maybe you've filed them down. Either way, ponies seem perfectly happy to welcome you as one of their own, and you are delighted to be there. You gain the ponykind trait and one additional 1st level ancestry feat. Being a ponykind, you may select ponykind ancestry feats freely.</p>"
         },
-        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
-        "boosts": {
-            "0": { "value": ["str", "wis"] },
-            "1": { "value": [] },
-            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
-        },
-        "flaws": { "0": { "value": [] } },
         "rules": [
             { "add": ["hb_ponykind"], "key": "ActorTraits" },
             {
@@ -32,12 +26,12 @@
             },
             {
                 "key": "GrantItem",
-                "uuid": "{item|flags.pf2e.rulesSelections.hippogriff}"
+                "uuid": "{item|flags.pf2e.rulesSelections.pony}"
             }
         ],
         "ancestry": {
-            "name": "Griffon",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
+            "name": "Krava",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Krava"
         }
     }
 }

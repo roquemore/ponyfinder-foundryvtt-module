@@ -1,0 +1,18 @@
+{
+    "_id": "Jo8gZJ8BGq5kduI5",
+    "name": "Talented Tongue",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Your long and powerful tongue allows you to two-hand weapons in your mouth. You can pick up and manipulate objects from 5 feet further away, but doing so adds the manipulate trait to the action if it did not already have it.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "ancestry": {
+            "name": "Krava",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Krava"
+        }
+    }
+}

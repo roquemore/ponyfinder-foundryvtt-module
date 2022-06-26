@@ -1,0 +1,23 @@
+{
+    "_id": "bGQE9pt8R4ifd3i0",
+    "name": "Abundance Provided",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>So long as you are fed, you can keep as many other creatures of your size or less fed as your Constitution bonus (minimum 1). If you are an Expert at Survival, you can feed one additional person. If you are Legendary in Survival, you can feed others even if you are, yourself, starving. Feeding larger creatures comes at a cost of twice as many portions per size difference.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

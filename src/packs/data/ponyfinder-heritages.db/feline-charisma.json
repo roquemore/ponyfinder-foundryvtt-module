@@ -9,10 +9,23 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
-        "rules": [],
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": { "damageType": "piercing", "dice": 1, "die": "d4" }
+                },
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fangs.webp",
+                "key": "Strike",
+                "label": "Bite",
+                "range": null,
+                "traits": ["agile", "unarmed"]
+            }
+        ],
         "ancestry": {
             "name": "Purrsian",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.7F5Tb4Aaui5VucUa"
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Purrsian"
         }
     }
 }

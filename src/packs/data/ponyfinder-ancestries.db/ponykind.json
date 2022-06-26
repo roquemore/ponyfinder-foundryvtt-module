@@ -13,61 +13,11 @@
             "rarity": "common",
             "custom": ""
         },
-        "rules": [
-            {
-                "key": "ChoiceSet",
-                "prompt": "Choose a heritage",
-                "flag": "ponykindHeritage",
-                "choices": [
-                    {
-                        "label": "Earth-Bound",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Earth-Bound)"
-                    },
-                    {
-                        "label": "Unicorn",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Unicorn)"
-                    },
-                    {
-                        "label": "Pegasi",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Pegasus)"
-                    },
-                    {
-                        "label": "Leather Wing",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Leatherwing)"
-                    },
-                    {
-                        "label": "Ghost Pony",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Ghost Pony)"
-                    },
-                    {
-                        "label": "Sea Horse",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Sea Horse)"
-                    },
-                    {
-                        "label": "Zebra",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Zebra)"
-                    },
-                    {
-                        "label": "Short Leg",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Short Leg)"
-                    }
-                ]
-            },
-            {
-                "key": "GrantItem",
-                "uuid": "{item|flags.pf2e.rulesSelections.ponykindHeritage}"
-            }
-        ],
+        "rules": [],
         "hp": 8,
         "size": "med",
         "reach": 5,
         "speed": 30,
-        "boosts": {
-            "0": { "value": [] },
-            "1": { "value": [] },
-            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
-        },
-        "flaws": { "0": { "value": [] } },
         "languages": { "value": ["common", "sylvan"], "custom": "" },
         "additionalLanguages": { "count": 0, "value": [], "custom": "" },
         "items": {

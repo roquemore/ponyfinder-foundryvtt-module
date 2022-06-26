@@ -1,0 +1,18 @@
+{
+    "_id": "g021UogYBe4JRJ41",
+    "name": "Heavy Frame",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "data": {
+        "description": {
+            "value": "<p>Once you start, you don't stop. When performing a Stride, if you would become Prone, Grabbed, or Immobilized, the condition is delayed until the end of your movement. If the creature causing this must be adjacent to you, they may either abort the attempt or move with you. This movement is considered forced.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "rules": [],
+        "ancestry": {
+            "name": "Krava",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Krava"
+        }
+    }
+}

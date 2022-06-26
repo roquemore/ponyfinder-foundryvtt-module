@@ -9,7 +9,13 @@
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
-        "rules": [],
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "fly-speed",
+                "value": "round(@actor.attributes.speed.value/2)"
+            }
+        ],
         "ancestry": {
             "name": "Purrsian",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Purrsian"

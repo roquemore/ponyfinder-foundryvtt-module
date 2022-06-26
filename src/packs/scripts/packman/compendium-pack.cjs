@@ -281,6 +281,15 @@ class CompendiumPack {
                 }
             }
         }
+
+        if (source.data.ancestry) {
+            if (
+                typeof source.data.ancestry.uuid === "string" &&
+                !source.data.ancestry.uuid.startsWith("{")
+            ) {
+                source.data.ancestry.uuid = convert(source.data.ancestry.uuid);
+            }
+        }
     }
 
     save() {

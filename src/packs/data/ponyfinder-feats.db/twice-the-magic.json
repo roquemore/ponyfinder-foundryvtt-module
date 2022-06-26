@@ -1,0 +1,32 @@
+{
+    "_id": "MKKV2lrjC1kODCFI",
+    "name": "Twice the Magic",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>You gain the unicorn ponykind heritage. You may take ancestry feats that require being a ponykind with the unicorn heritage. Two horns is even better than one, right? Your ability scores do not receive boosts or flaws (which only happens during character creation).</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Unicorn Heritage (Unification)"
+            },
+            {
+                "key": "ActorTraits",
+                "add": ["hb_ponykind"]
+            }
+        ],
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": {},
+        "location": null
+    }
+}

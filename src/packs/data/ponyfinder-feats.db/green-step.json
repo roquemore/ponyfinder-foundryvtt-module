@@ -1,0 +1,21 @@
+{
+    "_id": "sqHNnl2QWokvvS5D",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Green Step",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p><strong>Access</strong> Krava</p><hr /><p>Where you walk, the ground sings in joy. The natural vegetation of the climate sprouts into being, even in devastated lands. The effect is constant and subtle, giving just a touch of life where once there was none. Used purposefully, you may, once a day, cause an effect like the <em>@Compendium[pf2e.spells-srd.ZhJ8d9Uk4lwIx86b]</em> ritual with you serving as the only caster, causing plants to erupt from you in a sudden wave of life and vibrance. This is a [three-actions] activity with the manipulate trait. When you or an ally within the radius of the effect is using Survival to find food, water, or stave off natural hazards, they enjoy a +2 status bonus to the check. If you have used this effect before within 30 days, your Nature check suffers a -2 penalty per previous time you've used it.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 8 },
+        "location": "",
+        "prerequisites": {},
+        "rules": [],
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "custom": "", "rarity": "uncommon", "value": ["alchemist"] }
+    }
+}

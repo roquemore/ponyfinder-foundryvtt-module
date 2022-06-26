@@ -15,7 +15,34 @@
             "rarity": "common",
             "custom": ""
         },
-        "rules": [],
+        "boosts": {
+            "0": { "value": ["str"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["cha"] } },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Cursed Aspect",
+                "selector": "will",
+                "type": "circumstance",
+                "phase": "beforeDerived",
+                "value": {
+                    "brackets": [
+                        { "end": 4, "start": 4, "value": 1 },
+                        { "end": 3, "start": 1, "value": 0 }
+                    ],
+                    "field": "data.saves.will.rank"
+                }
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.saves.will.rank",
+                "value": 1
+            }
+        ],
         "ancestry": {
             "name": "Griffon",
             "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"

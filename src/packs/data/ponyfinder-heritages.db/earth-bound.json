@@ -4,13 +4,41 @@
     "type": "heritage",
     "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pony.png",
     "data": {
-        "description": { "value": "" },
+        "description": {
+            "value": "<p>Built to go far and fast without pause, your durability matches that of the dwarves. You may select any one dwarf heritage. You gain all of its advantages and disadvantages.</p>"
+        },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
-        "rules": [],
+        "boosts": {
+            "0": { "value": ["con"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["int"] } },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "all": ["item:type:heritage"],
+                    "label": "dwarf heritage"
+                },
+                "choices": {
+                    "itemType": "heritage",
+                    "pack": "pf2e.heritages",
+                    "query": "{\"data.ancestry.uuid\":\"Compendium.pf2e.ancestries.BYj5ZvlXZdpaEgA6\"}"
+                },
+                "key": "ChoiceSet",
+                "flag": "earthBoundHeritageChoice",
+                "prompt": "Select a dwarf heritage."
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.earthBoundHeritageChoice}"
+            }
+        ],
         "ancestry": {
-            "name": "Ponykind (Earth-Bound)",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.a1L7cGV0sy7uTaDe"
+            "name": "Ponykind",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind"
         }
     }
 }

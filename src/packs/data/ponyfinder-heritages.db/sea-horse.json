@@ -4,19 +4,39 @@
     "type": "heritage",
     "img": "systems/pf2e/icons/default-icons/heritage.svg",
     "data": {
-        "description": { "value": "" },
+        "description": {
+            "value": "<p>At home in the waves, you gain a swim speed equal to your land speed. While underwater, you possess darkvision. When using Acrobatics or Athletics for swimming, consider your proficiency rank 1 higher.</p>"
+        },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
+        "boosts": {
+            "0": { "value": ["con"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["dex"] } },
         "rules": [
             {
                 "key": "BaseSpeed",
                 "selector": "swim-speed",
                 "value": "@actor.attributes.speed.value"
+            },
+            {
+                "domain": "darkvision",
+                "key": "RollOption",
+                "label": "You are underwater",
+                "option": "underwater",
+                "toggleable": true
+            },
+            {
+                "key": "Sense",
+                "predicate": { "all": ["underwater"] },
+                "selector": "darkvision"
             }
         ],
         "ancestry": {
-            "name": "Ponykind (Sea Horse)",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Sea Horse)"
+            "name": "Ponykind",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind"
         }
     }
 }

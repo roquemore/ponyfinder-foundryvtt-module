@@ -14,6 +14,11 @@
                 "key": "Resistance",
                 "type": "poison",
                 "value": "round(@actor.level/2)"
+            },
+            {
+                "key": "Note",
+                "selector": "saving-throw",
+                "text": "<p><strong>Resilience</strong> Each of your successful saving throws against a poison affliction reduces its stage by 2, or by 1 for a virulent poison. Each critical success against an ongoing poison reduces its stage by 3, or by 2 for a virulent poison.</p>"
             }
         ],
         "ancestry": {

@@ -5,7 +5,7 @@
     "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/unicorn.png",
     "data": {
         "description": {
-            "value": ""
+            "value": "<p>With a horn atop your brow, magic comes intuitively to you. You may cast <em>mage hand</em> and <em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</em> as arcane innate spells at will. The target of your <em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</em> spell must be your own horn. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
         },
         "source": {
             "value": "Ponyfinder: Second Edition Conversion Guide"
@@ -15,10 +15,16 @@
             "rarity": "common",
             "custom": ""
         },
+        "boosts": {
+            "0": { "value": ["con"] },
+            "1": { "value": ["int"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["dex"] } },
         "rules": [],
         "ancestry": {
-            "name": "Ponykind (Unicorn)",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Unicorn)"
+            "name": "Ponykind",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind"
         }
     }
 }

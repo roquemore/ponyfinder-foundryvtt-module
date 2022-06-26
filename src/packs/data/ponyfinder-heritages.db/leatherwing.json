@@ -4,9 +4,17 @@
     "type": "heritage",
     "img": "systems/pf2e/icons/default-icons/heritage.svg",
     "data": {
-        "description": { "value": "" },
+        "description": {
+            "value": "<p>Pegasi that turned to the comfort of caves instead of the vulnerable skies above. You gain a fly Speed equal to half your land Speed.</p>"
+        },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
+        "boosts": {
+            "0": { "value": ["con"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["cha"] } },
         "rules": [
             {
                 "key": "BaseSpeed",
@@ -15,8 +23,8 @@
             }
         ],
         "ancestry": {
-            "name": "Ponykind (Leatherwing)",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Leatherwing)"
+            "name": "Ponykind",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind"
         }
     }
 }

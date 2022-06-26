@@ -1,0 +1,38 @@
+{
+    "_id": "t4ZBHt0UbgQizP1o",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Never Shackled",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p><strong>Access</strong> Krava</p><hr /><p>When attempting to disable a lock that is impeding your freedom, such as a locked door, a worn shackle, or other similar device that bars your way, you may roll twice and take the better result when trying to pick or disable the lock.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 6 },
+        "location": "",
+        "prerequisites": {},
+        "rules": [
+            {
+                "domain": "skill-check",
+                "key": "RollOption",
+                "option": "never-shackled",
+                "toggleable": true
+            },
+            {
+                "keep": "higher",
+                "key": "RollTwice",
+                "label": "Never Shackled",
+                "predicate": {
+                    "all": ["never-shackled"],
+                    "any": ["action:disable-a-device", "action:pick-a-lock"]
+                },
+                "selector": "thievery"
+            }
+        ],
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "custom": "", "rarity": "uncommon", "value": ["alchemist"] }
+    }
+}

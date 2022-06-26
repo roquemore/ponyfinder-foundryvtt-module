@@ -4,9 +4,17 @@
     "type": "heritage",
     "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pegasus.png",
     "data": {
-        "description": { "value": "" },
+        "description": {
+            "value": "<p>Born of the winds, you gain a fly Speed equal to half your land Speed.</p>"
+        },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
+        "boosts": {
+            "0": { "value": ["dex"] },
+            "1": { "value": ["wis"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["str"] } },
         "rules": [
             {
                 "key": "BaseSpeed",
@@ -15,8 +23,8 @@
             }
         ],
         "ancestry": {
-            "name": "Ponykind (Pegasus)",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind (Pegasus)"
+            "name": "Ponykind",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Ponykind"
         }
     }
 }

@@ -9,6 +9,12 @@
         },
         "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
+        "boosts": {
+            "0": { "value": ["int"] },
+            "1": { "value": ["dex"] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": ["cha"] } },
         "rules": [
             {
                 "key": "BaseSpeed",
@@ -17,8 +23,8 @@
             }
         ],
         "ancestry": {
-            "name": "Griffon (Scavenger Aspect)",
-            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon (Scavenger Aspect)"
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
         }
     }
 }

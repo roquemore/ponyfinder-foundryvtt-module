@@ -15,27 +15,7 @@
             "rarity": "common",
             "custom": ""
         },
-        "rules": [
-            {
-                "key": "ChoiceSet",
-                "prompt": "Choose a heritage",
-                "flag": "phoenixWolfHeritageChoice",
-                "choices": [
-                    {
-                        "label": "Battle Born",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Battle Born"
-                    },
-                    {
-                        "label": "Fire Born",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Fire Born"
-                    }
-                ]
-            },
-            {
-                "key": "GrantItem",
-                "uuid": "{item|flags.pf2e.rulesSelections.phoenixWolfHeritageChoice}"
-            }
-        ],
+        "rules": [],
         "hp": 6,
         "size": "med",
         "reach": 5,

@@ -13,23 +13,7 @@
             "rarity": "common",
             "custom": ""
         },
-        "rules": [
-            {
-                "key": "ChoiceSet",
-                "prompt": "Choose a heritage",
-                "flag": "sunCatHeritageChoice",
-                "choices": [
-                    {
-                        "label": "Plains Hunter",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Plains Hunter"
-                    }
-                ]
-            },
-            {
-                "key": "GrantItem",
-                "uuid": "{item|flags.pf2e.rulesSelections.sunCatHeritageChoice}"
-            }
-        ],
+        "rules": [],
         "hp": 7,
         "size": "med",
         "reach": 5,
