@@ -1,0 +1,21 @@
+{
+    "_id": "dXcOoQ0LzXxtsrEV",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Grounded Power",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p><strong>Access</strong> Krava</p><hr /><p>With a combination of alchemical trickiness, krava fortitude, and a special diet, you can draw power from the earth. You gain temporary hit points equal to your character level. You can regain these temporary hit points by spending ten minutes laying on the ground in contact with dirt or stone.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 6 },
+        "location": "",
+        "prerequisites": {},
+        "rules": [],
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "custom": "", "rarity": "uncommon", "value": ["alchemist"] }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "_id": "DtwkJpYzcLUre6i6",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Wholesome Drink",
+    "type": "feat",
+    "data": {
+        "actionCategory": { "value": "" },
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "description": {
+            "value": "<p><strong>Access</strong> Krava</p><p><strong>Frequency</strong> once per minute</p><hr /><p>You tweak a held infused alchemical item, converting it to a healing elixir of the level of the converted item or less. If you are a chirugeon, you may apply this altered item to an ally within reach as part of the same action.</p>"
+        },
+        "featType": { "value": "class" },
+        "level": { "value": 6 },
+        "location": "",
+        "prerequisites": {},
+        "rules": [],
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "custom": "", "rarity": "uncommon", "value": ["alchemist"] }
+    }
+}

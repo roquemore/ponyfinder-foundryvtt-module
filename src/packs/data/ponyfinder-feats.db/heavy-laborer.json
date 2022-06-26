@@ -1,0 +1,23 @@
+{
+    "_id": "JLaNtVTlCjtejgfh",
+    "name": "Heavy Laborer",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>Reduce the penalty to Speed from worn armor by five feet.</p><p>In addition, any time you're taking a penalty to your Speed from some other reason (such as from the encumbered condition or from a spell), deduct 5 feet from the penalty. For example, the encumbered condition normally gives a 10-foot penalty to Speed, but it gives you only a 5-foot penalty. If your Speed is taking multiple penalties, pick only one penalty to reduce.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

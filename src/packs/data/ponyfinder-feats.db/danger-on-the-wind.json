@@ -1,0 +1,31 @@
+{
+    "_id": "xbVQ6eFol7KbGZ7w",
+    "name": "Danger on the Wind",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>You gain scent as an imprecise sense with a range of 60 feet. If you are of wild heritage, you instead increase the range of your scent to 200 feet.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [
+            {
+                "acuity": "imprecise",
+                "key": "Sense",
+                "label": "PF2E.SensesScent",
+                "range": 60,
+                "selector": "scent"
+            }
+        ],
+        "level": { "value": 13 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": {},
+        "location": null
+    }
+}

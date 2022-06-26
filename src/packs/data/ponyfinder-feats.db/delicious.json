@@ -1,0 +1,23 @@
+{
+    "_id": "gjHRDcpasZeG2OIJ",
+    "name": "Delicious",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>Just your luck, your meat is just the right amount of tender and you give off an appealing scent to predators. Enemies with a bite or bite-like attack within 15 feet of you or their scent range, whichever is farther, become @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} so long as they remain there, possibly drooling a bit in the process.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

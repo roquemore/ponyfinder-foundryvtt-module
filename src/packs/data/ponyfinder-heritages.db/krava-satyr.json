@@ -1,0 +1,21 @@
+{
+    "_id": "wGMVflH4t1UXrNn5",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "name": "Krava Satyr",
+    "type": "heritage",
+    "data": {
+        "ancestry": null,
+        "description": {
+            "value": "<p>There have been rare times when a human found favor with a krava, by love or force, genuine or misguided. The result is a human with the bottom half of a steer, long tufted tail, and often horns on their head. You gain the krava and human traits. When selecting ancestry feats, you may select krava or human feats, and you have access to things as if you were a human or krava, whichever is more advantageous for you.</p>"
+        },
+        "rules": [{ "add": ["hb_krava"], "key": "ActorTraits" }],
+        "source": {
+            "value": "Ponyfinder: Races of Everglow Second Edition"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": []
+        }
+    }
+}

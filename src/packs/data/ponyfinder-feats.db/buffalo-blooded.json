@@ -1,0 +1,26 @@
+{
+    "_id": "Q0kgAMApI7URtbMe",
+    "name": "Buffalo Blooded",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>You went to sleep to wake up a giant! You've grown to Large size and received a Strength boost. Any equipment you had at the time grows with you.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [
+            { "key": "CreatureSize", "resizeEquipment": true, "value": "large" }
+        ],
+        "boosts": { "0": { "value": ["str"] } },
+        "level": { "value": 9 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

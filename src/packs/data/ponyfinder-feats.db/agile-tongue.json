@@ -1,0 +1,23 @@
+{
+    "_id": "Kshno4wXKdhC0SGO",
+    "name": "Agile Tongue",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>Your long and powerful tongue allows you to two-hand weapons in your mouth. You can pick up and manipulate objects from 5 feet further away, but doing so adds the manipulate trait to the action if it did not already have it. If you have the talented tongue heritage, you do not add the manipulate trait to the action.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 1 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "passive" },
+        "actionCategory": { "value": "" },
+        "actions": { "value": null },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "m6DChr8OYinBrrJ3",
+    "name": "Brace Against Pain",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "data": {
+        "description": {
+            "value": "<p>You can prepare yourself for the incoming trauma, receiving 1d8 + your Constitution bonus temporary hit points that endure until the start of your next turn. If you are an expert in Fortitude saves, increase this by 1d8. If you are a master in Fortitude saves, instead by 2d8, and if you are legendary in Fortitude saves, you gain 20 + your Constitution bonus instead.</p>"
+        },
+        "source": { "value": "Ponyfinder: Races of Everglow Second Edition" },
+        "traits": { "value": ["hb_krava"], "rarity": "common", "custom": "" },
+        "rules": [],
+        "level": { "value": 5 },
+        "featType": { "value": "ancestry" },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": { "value": "actions" },
+        "actionCategory": { "value": "defensive" },
+        "actions": { "value": 1 },
+        "prerequisites": { "value": [] },
+        "location": null
+    }
+}
