@@ -29,7 +29,7 @@
                 "level": 0
             },
             "ivkfb": {
-                "pack": "world.ponyfinder-feats",
+                "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats",
                 "id": "YlXr1YLaVAglDFFq",
                 "img": "systems/pf2e/icons/features/feats/feats.webp",
                 "name": "Fingerless",
