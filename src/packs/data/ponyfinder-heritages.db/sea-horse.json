@@ -5,7 +5,7 @@
     "img": "systems/pf2e/icons/default-icons/heritage.svg",
     "data": {
         "description": {
-            "value": "<p>At home in the waves, you gain a swim speed equal to your land speed. While underwater, you possess darkvision. When using Acrobatics or Athletics for swimming, consider your proficiency rank 1 higher.</p>"
+            "value": "<p>At home in the waves, you gain a swim speed equal to your land speed. While underwater, you possess darkvision. When using Acrobatics or Athletics for swimming, consider your proficiency rank 1 higher.</p><p><strong>Ability Boosts</strong> Constitution, Wisdom, Free</p><p><strong>Ability Flaw</strong> Dexterity</p>"
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },

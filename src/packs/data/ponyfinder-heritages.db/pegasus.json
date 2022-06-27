@@ -5,7 +5,7 @@
     "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pegasus.png",
     "data": {
         "description": {
-            "value": "<p>Born of the winds, you gain a fly Speed equal to half your land Speed.</p>"
+            "value": "<p>Born of the winds, you gain a fly Speed equal to half your land Speed.</p><p><strong>Ability Boosts</strong> Dexterity, Wisdom, Free</p><p><strong>Ability Flaw</strong> Strength</p>"
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },
