@@ -46,7 +46,7 @@
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
                     {
-                        "label": "Leatherwing",
+                        "label": "Leather Wing",
                         "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Leather Wing Heritage (Unification)",
                         "predicate": { "all": ["unification:type:heritage"] }
                     },
