@@ -5,7 +5,7 @@
     "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/griffon.png",
     "data": {
         "description": {
-            "value": "<p>Monarchs of the sky, griffons rule over the mountains, seeing all others as beneath them, and this is a simple fact, is it not?</p>"
+            "value": "<p>Monarchs of the sky, griffons rule over the mountains, seeing all others as beneath them, and this is a simple fact, is it not?</p><h2 style=\"border-bottom: 1px solid var(--color-underline-header);\">Griffon Mechanics</h2><p><strong>Hit Points</strong> 6</p><p><strong>Size</strong> Medium</p><p><strong>Speed</strong> 25 feet</p><p><strong>Ability Boosts</strong> Strength, Wisdom, Free</p><p><strong>Ability Flaw</strong> Charisma</p><p><strong>Languages</strong> Common</p><p><strong>Additional Languages</strong> equal to your Intelligence modifier (if positive). Choose from Auran, Elven, Gnomish, Sylvan, and any other languages to which you have access (such as the languages prevalent in your region).</p><p><strong>Senses</strong> Low-Light Vision</p><p><strong>Glider</strong> You may make the Arrest a Fall reaction even without a fly Speed. While in a safe fall, either due to successfully Arresting a Fall or other effects such as the feather fall spell, you may take the fly action to move horizontally at up to half your land Speed.</p>"
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": {

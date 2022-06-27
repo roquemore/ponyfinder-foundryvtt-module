@@ -1,11 +1,11 @@
 {
     "_id": "GPnGS3W9dEGtMraY",
-    "name": "Leatherwing",
+    "name": "Leather Wing",
     "type": "heritage",
     "img": "systems/pf2e/icons/default-icons/heritage.svg",
     "data": {
         "description": {
-            "value": "<p>Pegasi that turned to the comfort of caves instead of the vulnerable skies above. You gain a fly Speed equal to half your land Speed.</p>"
+            "value": "<p>Pegasi that turned to the comfort of caves instead of the vulnerable skies above. You gain a fly Speed equal to half your land Speed.</p><p><strong>Ability Boosts</strong> Constitution, Wisdom, Free</p><p><strong>Ability Flaw</strong> Charisma</p>"
         },
         "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
         "traits": { "value": [], "rarity": "common", "custom": "" },

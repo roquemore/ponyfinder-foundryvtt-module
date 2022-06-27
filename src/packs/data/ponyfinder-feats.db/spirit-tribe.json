@@ -21,35 +21,35 @@
                 "choices": [
                     {
                         "label": "Unique Destiny",
-                        "value": "Compendium.world.ponyfinder-feats.Unique Destiny"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Unique Destiny"
                     },
                     {
                         "label": "Antean",
-                        "value": "Compendium.world.ponyfinder-feats.Antean"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Antean"
                     },
                     {
                         "label": "Chaos Hunter",
-                        "value": "Compendium.world.ponyfinder-feats.Chaos Hunter"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Chaos Hunter"
                     },
                     {
                         "label": "Clockwork",
-                        "value": "Compendium.world.ponyfinder-feats.Clockwork"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Clockwork"
                     },
                     {
                         "label": "Doppelganger",
-                        "value": "Compendium.world.ponyfinder-feats.Doppelganger"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Doppelganger"
                     },
                     {
                         "label": "Denial of Destiny",
-                        "value": "Compendium.world.ponyfinder-feats.Denial of Destiny"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Denial of Destiny"
                     },
                     {
                         "label": "Gem Pony",
-                        "value": "Compendium.world.ponyfinder-feats.Gem Pony"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Gem Pony"
                     },
                     {
                         "label": "Sun Pony",
-                        "value": "Compendium.world.ponyfinder-feats.Sun Pony"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.Sun Pony"
                     }
                 ]
             },
