@@ -1,0 +1,4 @@
+{
+    "ponyfinder-foundryvtt-module.enableHeritageAbilityBoosts": "Enable Heritage Ability Boosts:",
+    "ponyfinder-foundryvtt-module.enableHeritageAbilityBoostsHint": "When enabled, if an ancestry or heritage is added to an actor and that actor's heritage contains ability boost data, those ability boosts will be copied to the actor's ancestry (overriding the ancestry's ability boosts). This is needed to make the heritage-based ability boosts found in Ponyfinder content work."
+}

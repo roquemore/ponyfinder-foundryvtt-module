@@ -1,0 +1,12 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "compilerOptions": {
+        "module": "node16",
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "strict": true,
+        "types": ["@league-of-foundry-developers/foundry-vtt-types"]
+    },
+    "include": ["scripts"],
+    "exclude": ["dist", "packs"]
+}
