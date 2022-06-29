@@ -1,3 +1,4 @@
+import type { BaseItem } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/documents.mjs";
 import { name, title } from "../module.json";
 
 const ENABLE_THIS_SETTING_KEY = "enableHeritageAbilityBoosts";
@@ -17,14 +18,14 @@ Hooks.once("init", () => {
     });
 });
 
-Hooks.on("dropActorSheetData", (actor, sheet, data) => {
+Hooks.on("dropActorSheetData", (actor) => {
     try {
         if (!(game as Game).settings.get(name, ENABLE_THIS_SETTING_KEY)) {
             return true;
         }
 
-        const ancestry = (actor as any).ancestry as Item | null;
-        const heritage = (actor as any).heritage as Item | null;
+        const ancestry = (actor as any).ancestry as BaseItem | null;
+        const heritage = (actor as any).heritage as BaseItem | null;
 
         if (!ancestry || !heritage) {
             return true;
@@ -32,7 +33,7 @@ Hooks.on("dropActorSheetData", (actor, sheet, data) => {
 
         const { boosts, flaws } = heritage.data.data as Record<string, unknown>;
 
-        if (boosts) {
+        if (boosts && boosts !== (ancestry.data.data as any).boosts) {
             console.info(
                 "Found boosts from heritage to apply to ancestry:",
                 boosts
@@ -40,7 +41,7 @@ Hooks.on("dropActorSheetData", (actor, sheet, data) => {
             ancestry.data.update({ data: { boosts } });
         }
 
-        if (flaws) {
+        if (flaws && flaws !== (ancestry.data.data as any).flaws) {
             console.info(
                 "Found flaws from heritage to apply to ancestry:",
                 boosts
