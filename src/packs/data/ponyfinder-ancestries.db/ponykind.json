@@ -7,27 +7,108 @@
         "description": {
             "value": "<p>What people think of first when they think of Everglow, the ponies once held sway over much of the continent from their grand empire that was reigned over peacefully by their queen. They come in a dizzying variety of forms, adapting to fit almost any environment.<br /><br />Dragging this option into your ancestry space will offer a selection of the various types of ponykind and properly apply the boosts and flaws associated with them.</p><h2 style=\"border-bottom: 1px solid var(--color-underline-header);\">Ponykind Mechanics</h2><p><strong>Hit Points</strong> 8</p><p><strong>Size</strong> Medium</p><p><strong>Speed</strong> 30 feet</p><p><strong>Ability Boosts</strong> Depends on ancestry</p><p><strong>Ability Flaw</strong> Depends on ancestry</p><p><strong>Languages</strong> Common, Sylvan</p><p><strong>Additional Languages</strong> equal to your Intelligence modifier (if positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region).</p><p><strong>Senses</strong> Low-Light Vision</p><p><strong>Fingerless</strong> While you can make full use of magic items that would rest on the hands (becoming anklets) and feet (becoming a set of four instead of two to cover all four hooves), you have no hands. Your mouth serves as a single hand, preventing you from using two-handed weapons. You can perform somatic components with gestures of your face and/or movement of your hooves.</p>"
         },
-        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "source": {
+            "value": "Ponyfinder: Second Edition Conversion Guide"
+        },
         "traits": {
-            "value": ["fey", "hb_ponykind"],
+            "value": [
+                "fey",
+                "hb_ponykind"
+            ],
             "rarity": "common",
             "custom": ""
         },
         "boosts": {
-            "0": { "value": ["str", "dex", "con", "int", "wis", "cha"] },
-            "1": { "value": [] },
-            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+            "0": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            },
+            "1": {
+                "value": []
+            },
+            "2": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
         },
         "flaws": {
-            "0": { "value": [] }
+            "0": {
+                "value": []
+            }
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "prompt": "Choose a heritage",
+                "flag": "ponykindHeritage",
+                "choices": [
+                    {
+                        "label": "Earth-Bound",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.lBGKqI3FcNTZ1dhS"
+                    },
+                    {
+                        "label": "Unicorn",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.E6kLUecOWxVKUwx4"
+                    },
+                    {
+                        "label": "Pegasi",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.fE0VzIk79EeLgHmT"
+                    },
+                    {
+                        "label": "Leather Wing",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.GPnGS3W9dEGtMraY"
+                    },
+                    {
+                        "label": "Ghost Pony",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.8nqGLMGo3Sh9EkWN"
+                    },
+                    {
+                        "label": "Sea Horse",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.l9tlCVdxJ9uiaqlO"
+                    },
+                    {
+                        "label": "Zebra",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.5F1ROQ86wkh0Fp83"
+                    },
+                    {
+                        "label": "Short Leg",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.dS7EGG13szDRRxSw"
+                    }
+                ]
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.ponykindHeritage}"
+            }
+        ],
         "hp": 8,
         "size": "med",
         "reach": 5,
         "speed": 30,
-        "languages": { "value": ["common", "sylvan"], "custom": "" },
-        "additionalLanguages": { "count": 0, "value": [], "custom": "" },
+        "languages": {
+            "value": [
+                "common",
+                "sylvan"
+            ],
+            "custom": ""
+        },
+        "additionalLanguages": {
+            "count": 0,
+            "value": [],
+            "custom": ""
+        },
         "items": {
             "zct8g": {
                 "pack": "pf2e.ancestryfeatures",
