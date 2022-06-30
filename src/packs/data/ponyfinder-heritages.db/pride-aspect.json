@@ -15,9 +15,7 @@
             "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
         },
         "flaws": {
-            "0": {
-                "value": ["wis"]
-            }
+            "0": { "value": ["wis"] }
         },
         "rules": [
             {

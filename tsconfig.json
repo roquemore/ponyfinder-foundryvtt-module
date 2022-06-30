@@ -1,0 +1,10 @@
+{
+    "extends": "@tsconfig/node16-strictest-esm",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "types": ["@league-of-foundry-developers/foundry-vtt-types"]
+    },
+    "include": ["scripts"],
+    "exclude": ["dist", "packs"]
+}

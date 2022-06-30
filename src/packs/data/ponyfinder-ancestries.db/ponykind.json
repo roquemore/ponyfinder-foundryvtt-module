@@ -13,6 +13,14 @@
             "rarity": "common",
             "custom": ""
         },
+        "boosts": {
+            "0": { "value": ["str", "dex", "con", "int", "wis", "cha"] },
+            "1": { "value": [] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": {
+            "0": { "value": [] }
+        },
         "rules": [],
         "hp": 8,
         "size": "med",

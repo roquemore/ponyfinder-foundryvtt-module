@@ -1,0 +1,13 @@
+diff --git a/node_modules/@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData.d.ts b/node_modules/@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData.d.ts
+index 44f6ecd..23886bb 100644
+--- a/node_modules/@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData.d.ts
++++ b/node_modules/@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData.d.ts
+@@ -56,7 +56,7 @@ interface ItemDataBaseProperties {
+    * The system data object which is defined by the system template.json model
+    * @defaultValue template from template.json for type or `{}`
+    */
+-  data: object;
++  data: Record<string, unknown>;
+ 
+   /**
+    * A collection of ActiveEffect embedded Documents
