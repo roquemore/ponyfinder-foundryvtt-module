@@ -11,36 +11,19 @@
             "value": "Ponyfinder: Second Edition Conversion Guide"
         },
         "traits": {
-            "value": [
-                "fey",
-                "hb_ponykind"
-            ],
+            "value": ["fey", "hb_ponykind"],
             "rarity": "common",
             "custom": ""
         },
         "boosts": {
             "0": {
-                "value": [
-                    "str",
-                    "dex",
-                    "con",
-                    "int",
-                    "wis",
-                    "cha"
-                ]
+                "value": ["str", "dex", "con", "int", "wis", "cha"]
             },
             "1": {
                 "value": []
             },
             "2": {
-                "value": [
-                    "str",
-                    "dex",
-                    "con",
-                    "int",
-                    "wis",
-                    "cha"
-                ]
+                "value": ["str", "dex", "con", "int", "wis", "cha"]
             }
         },
         "flaws": {
@@ -56,35 +39,35 @@
                 "choices": [
                     {
                         "label": "Earth-Bound",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.lBGKqI3FcNTZ1dhS"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Earth-Bound"
                     },
                     {
                         "label": "Unicorn",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.E6kLUecOWxVKUwx4"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Unicorn"
                     },
                     {
-                        "label": "Pegasi",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.fE0VzIk79EeLgHmT"
+                        "label": "Pegasus",
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Pegasus"
                     },
                     {
                         "label": "Leather Wing",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.GPnGS3W9dEGtMraY"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Leather Wing"
                     },
                     {
                         "label": "Ghost Pony",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.8nqGLMGo3Sh9EkWN"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Ghost Pony"
                     },
                     {
                         "label": "Sea Horse",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.l9tlCVdxJ9uiaqlO"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Sea Horse"
                     },
                     {
                         "label": "Zebra",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.5F1ROQ86wkh0Fp83"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Zebra"
                     },
                     {
                         "label": "Short Leg",
-                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.dS7EGG13szDRRxSw"
+                        "value": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-heritages.Short Leg"
                     }
                 ]
             },
@@ -98,10 +81,7 @@
         "reach": 5,
         "speed": 30,
         "languages": {
-            "value": [
-                "common",
-                "sylvan"
-            ],
+            "value": ["common", "sylvan"],
             "custom": ""
         },
         "additionalLanguages": {
