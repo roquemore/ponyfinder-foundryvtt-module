@@ -22,70 +22,70 @@
         {
             "name": "ponyfinder-actions",
             "label": "Ponyfinder Actions",
-            "path": "./packs/ponyfinder-actions.db",
+            "path": "./dist/packs/ponyfinder-actions.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-ancestries",
             "label": "Ponyfinder Ancestries",
-            "path": "./packs/ponyfinder-ancestries.db",
+            "path": "./dist/packs/ponyfinder-ancestries.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-ancestry-features",
             "label": "Ponyfinder Ancestry Features",
-            "path": "./packs/ponyfinder-ancestry-features.db",
+            "path": "./dist/packs/ponyfinder-ancestry-features.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-archetypes",
             "label": "Ponyfinder Archetypes",
-            "path": "./packs/ponyfinder-archetypes.db",
+            "path": "./dist/packs/ponyfinder-archetypes.db",
             "entity": "Item",
             "type": "JournalEntry"
         },
         {
             "name": "ponyfinder-deities",
             "label": "Ponyfinder Deities",
-            "path": "./packs/ponyfinder-deities.db",
+            "path": "./dist/packs/ponyfinder-deities.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-domains",
             "label": "Ponyfinder Domains",
-            "path": "./packs/ponyfinder-domains.db",
+            "path": "./dist/packs/ponyfinder-domains.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-effects",
             "label": "Ponyfinder Effects",
-            "path": "./packs/ponyfinder-effects.db",
+            "path": "./dist/packs/ponyfinder-effects.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-feats",
             "label": "Ponyfinder Feats",
-            "path": "./packs/ponyfinder-feats.db",
+            "path": "./dist/packs/ponyfinder-feats.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-heritages",
             "label": "Ponyfinder Heritages",
-            "path": "./packs/ponyfinder-heritages.db",
+            "path": "./dist/packs/ponyfinder-heritages.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-spells",
             "label": "Ponyfinder Spells",
-            "path": "./packs/ponyfinder-spells.db",
+            "path": "./dist/packs/ponyfinder-spells.db",
             "entity": "Item",
             "type": "Item"
         }
