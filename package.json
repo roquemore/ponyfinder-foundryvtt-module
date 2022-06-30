@@ -2,13 +2,16 @@
     "name": "ponyfinder-foundryvtt-module",
     "private": true,
     "type": "module",
+    "source": "scripts/index.ts",
+    "module": "dist/scripts/index.mjs",
+    "types": "dist/scripts/index.d.ts",
     "engines": {
         "node": "16"
     },
     "scripts": {
         "build": "run-s build:*",
-        "build:1-parcel": "parcel build --dist-dir ./dist/scripts ./scripts/heritage-ability-boosts.ts",
-        "build:2-packs": "node src/packs/scripts/build.cjs",
+        "build:1-parcel": "parcel build",
+        "build:2-packs": "node bin/build.cjs",
         "format": "prettier --ignore-unknown --write .",
         "postinstall": "patch-package"
     },
@@ -22,6 +25,8 @@
     },
     "devDependencies": {
         "@league-of-foundry-developers/foundry-vtt-types": "^9.269.0",
+        "@parcel/packager-ts": "^2.6.2",
+        "@parcel/transformer-typescript-types": "^2.6.2",
         "@tsconfig/node16-strictest-esm": "^1.0.3",
         "husky-v4": "^4.3.8",
         "lint-staged": "^13.0.1",

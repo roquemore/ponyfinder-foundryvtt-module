@@ -6,7 +6,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const { sluggify } = require("../../../util/misc.cjs");
+const { sluggify } = require("../util/misc.cjs");
 
 const PackError = (message) => {
     console.error(`Error: ${message}`);
@@ -41,7 +41,7 @@ class CompendiumPack {
     systemId = "pf2e";
     data;
 
-    static outDir = path.resolve(process.cwd(), "packs");
+    static outDir = path.resolve(process.cwd(), "dist", "packs");
     static namesToIds = new Map();
     static packsMetadata = JSON.parse(fs.readFileSync("module.json", "utf-8"))
         .packs;

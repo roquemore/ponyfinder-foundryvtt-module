@@ -2,7 +2,7 @@ const path = require("node:path");
 const fs = require("node:fs");
 const { CompendiumPack, PackError } = require("./packman/compendium-pack.cjs");
 
-const packsDataPath = path.resolve(__dirname, "../data");
+const packsDataPath = path.resolve(__dirname, "..", "packs");
 const packDirPaths = fs
     .readdirSync(packsDataPath)
     .map((dirName) => path.resolve(__dirname, packsDataPath, dirName));
