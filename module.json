@@ -2,14 +2,16 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder FoundryVTT Content",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.6.1",
+    "version": "1.6.5",
     "author": "Memely, David Silver, Triple Sevens",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
     "url": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module",
     "download": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/ponyfinder-foundryvtt-module.zip",
     "manifest": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/module.json",
-    "esmodules": ["./dist/scripts/heritage-ability-boosts.mjs"],
+    "esmodules": [
+        "./dist/scripts/heritage-ability-boosts.mjs"
+    ],
     "languages": [
         {
             "lang": "en",
