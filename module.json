@@ -9,9 +9,7 @@
     "url": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module",
     "download": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/ponyfinder-foundryvtt-module.zip",
     "manifest": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/module.json",
-    "esmodules": [
-        "./dist/scripts/heritage-ability-boosts.mjs"
-    ],
+    "esmodules": ["./dist/scripts/heritage-ability-boosts.mjs"],
     "languages": [
         {
             "lang": "en",
