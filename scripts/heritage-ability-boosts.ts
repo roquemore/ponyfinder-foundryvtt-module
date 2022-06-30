@@ -1,14 +1,14 @@
-const MODULE_NAME = "ponyfinder-foundryvtt-module";
-const MODULE_TITLE = "Ponyfinder FoundryVTT Content";
+import { name, title } from "../module.json";
+
 const ENABLE_THIS_SETTING_KEY = "enableHeritageAbilityBoosts";
 
 Hooks.once("init", () => {
-    (game as Game).settings.register(MODULE_NAME, ENABLE_THIS_SETTING_KEY, {
+    (game as Game).settings.register(name, ENABLE_THIS_SETTING_KEY, {
         name: (game as Game).i18n.localize(
-            `${MODULE_NAME}.enableHeritageAbilityBoosts`
+            `${name}.${ENABLE_THIS_SETTING_KEY}`
         ),
         hint: (game as Game).i18n.localize(
-            `${MODULE_NAME}.enableHeritageAbilityBoostsHint`
+            `${name}.${ENABLE_THIS_SETTING_KEY}Hint`
         ),
         scope: "world",
         config: true,
@@ -26,10 +26,7 @@ Hooks.on(
     ) => {
         try {
             if (
-                !(game as Game).settings.get(
-                    MODULE_NAME,
-                    ENABLE_THIS_SETTING_KEY
-                ) ||
+                !(game as Game).settings.get(name, ENABLE_THIS_SETTING_KEY) ||
                 data.type !== "Item"
             ) {
                 return true;
@@ -79,7 +76,7 @@ Hooks.on(
                     ))
             ) {
                 console.info(
-                    `${MODULE_NAME} | Skipping applying boosts and flaws because they're already identical:`,
+                    `${name} | Skipping applying boosts and flaws because they're already identical:`,
                     { boosts, flaws },
                     {
                         boosts: (ancestry.data.data as any)["boosts"],
@@ -90,7 +87,7 @@ Hooks.on(
             }
 
             console.info(
-                `${MODULE_NAME} | Found boosts and flaws from heritage to apply to ancestry:`,
+                `${name} | Found boosts and flaws from heritage to apply to ancestry:`,
                 { boosts, flaws }
             );
 
@@ -109,12 +106,12 @@ Hooks.on(
             actor.render();
         } catch (error) {
             console.error(
-                `${MODULE_NAME} | error in heritage-ability-boosts script`,
+                `${name} | error in heritage-ability-boosts script`,
                 error
             );
             ui.notifications?.error(
-                `${MODULE_TITLE}: ${(game as Game).i18n.localize(
-                    `${MODULE_NAME}.enableHeritageAbilityBoosts`
+                `${title}: ${(game as Game).i18n.localize(
+                    `${name}.enableHeritageAbilityBoosts`
                 )} reported: ${
                     error instanceof Error
                         ? error.message

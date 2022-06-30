@@ -3,6 +3,7 @@
     "compilerOptions": {
         "outDir": "./dist",
         "resolveJsonModule": true,
+        "rootDir": ".",
         "types": ["@league-of-foundry-developers/foundry-vtt-types"]
     },
     "include": ["scripts"],
