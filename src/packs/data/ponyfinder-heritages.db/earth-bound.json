@@ -17,40 +17,25 @@
         },
         "boosts": {
             "0": {
-                "value": [
-                    "con"
-                ]
+                "value": ["con"]
             },
             "1": {
-                "value": [
-                    "wis"
-                ]
+                "value": ["wis"]
             },
             "2": {
-                "value": [
-                    "str",
-                    "dex",
-                    "con",
-                    "int",
-                    "wis",
-                    "cha"
-                ]
+                "value": ["str", "dex", "con", "int", "wis", "cha"]
             }
         },
         "flaws": {
             "0": {
-                "value": [
-                    "int"
-                ]
+                "value": ["int"]
             }
         },
         "rules": [
             {
                 "adjustName": false,
                 "allowedDrops": {
-                    "all": [
-                        "item:type:heritage"
-                    ],
+                    "all": ["item:type:heritage"],
                     "label": "dwarf heritage"
                 },
                 "choices": {
