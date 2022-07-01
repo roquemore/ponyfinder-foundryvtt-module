@@ -1,6 +1,6 @@
 const path = require("node:path");
 const fs = require("node:fs");
-const { CompendiumPack, PackError } = require("./packman/compendium-pack.cjs");
+const { CompendiumPack, PackError } = require("../util/packman/compendium-pack.cjs");
 
 const packsDataPath = path.resolve(__dirname, "..", "packs");
 const packDirPaths = fs

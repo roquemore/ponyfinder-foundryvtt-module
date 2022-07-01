@@ -1,4 +1,4 @@
-import { name, title } from "../module.json";
+import { name, title } from "../../module.json";
 
 const ENABLE_THIS_SETTING_KEY = "enableHeritageAbilityBoosts";
 
@@ -35,8 +35,8 @@ Hooks.on(
             const fullData =
                 data.pack && data.id
                     ? ((await (game as Game).packs
-                          .get(data.pack)
-                          ?.getDocument(data.id)) as StoredDocument<Item>)
+                        .get(data.pack)
+                        ?.getDocument(data.id)) as StoredDocument<Item>)
                     : undefined;
             if (
                 !fullData ||
@@ -112,10 +112,9 @@ Hooks.on(
             ui.notifications?.error(
                 `${title}: ${(game as Game).i18n.localize(
                     `${name}.enableHeritageAbilityBoosts`
-                )} reported: ${
-                    error instanceof Error
-                        ? error.message
-                        : JSON.stringify(error)
+                )} reported: ${error instanceof Error
+                    ? error.message
+                    : JSON.stringify(error)
                 }`
             );
         } finally {
