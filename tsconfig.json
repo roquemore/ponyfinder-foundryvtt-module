@@ -14,7 +14,7 @@
             "ES2021"
         ],
         "moduleResolution": "node",
-        "rootDir": "./src",
+        "rootDir": "./",
         "outDir": "dist",
         "baseUrl": "./",
         "types": [

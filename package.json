@@ -10,8 +10,8 @@
     },
     "scripts": {
         "build": "run-s build:*",
-        "build:1-parcel": "parcel build",
-        "build:2-packs": "node bin/build.cjs",
+        "build:1-parcel": "parcel build --dist-dir ./dist/scripts ./src/module/index.ts",
+        "build:2-packs": "node src/build/build.cjs",
         "format": "prettier --ignore-unknown --write .",
         "postinstall": "patch-package"
     },
