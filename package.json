@@ -2,7 +2,7 @@
     "name": "ponyfinder-foundryvtt-module",
     "private": true,
     "type": "module",
-    "source": "scripts/index.ts",
+    "source": "./src/util/index.cjs",
     "module": "dist/scripts/index.mjs",
     "types": "dist/scripts/index.d.ts",
     "engines": {
