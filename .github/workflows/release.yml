@@ -34,7 +34,7 @@ jobs:
             - name: Create Release
               uses: ncipollo/release-action@v1
               with:
-                  artifacts: ./module.json,./ponyfinder-foundryvtt-module.zip"
+                  artifacts: module.json,ponyfinder-foundryvtt-module.zip"
                   tag: v${{ steps.version.outputs.prop }}
                   token: ${{ secrets.GITHUB_TOKEN }}
             - name: Update Latest
