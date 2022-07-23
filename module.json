@@ -2,7 +2,7 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder for Pathfinder 2e",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.6.12",
+    "version": "1.6.13",
     "author": "Memely, David Silver, Triple Sevens",
     "system": [
         "pf2e"
@@ -13,7 +13,7 @@
     "download": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/ponyfinder-foundryvtt-module.zip",
     "manifest": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/module.json",
     "esmodules": [
-        "./scripts/index.mjs"
+        "./dist/scripts/index.mjs"
     ],
     "languages": [
         {
