@@ -2,7 +2,7 @@
     "_id": "Ifi2GKMvYJwQcINV",
     "name": "Kara",
     "type": "deity",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/kara.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/deities/kara.png",
     "data": {
         "description": {
             "value": "<p>Seductive queen of shapeshifters, she claims dominion over the aspect of love and is willing to tutor mortals in how to find their partners through means both innocent and foul.</p><hr /><p><strong>Edicts</strong> say what needs to be said, share only what needs to be shared, publicly support the power structure while privately doing what you please</p><hr /><p><strong>Anathema</strong> let a truth stand between you and your goal, willingly harm an insect, reveal a shapeshifter to those that would prosecute it for that crime</p>"

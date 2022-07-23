@@ -2,7 +2,7 @@
     "_id": "4RCu5YodMlLSIiJW",
     "name": "Pegasus Heritage (Unification)",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pegasus.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/ancestries/pegasus.png",
     "data": {
         "description": {
             "value": "<p>Granted with unification.</p><hr /><p>Born of the winds, you gain a fly Speed equal to half your land Speed.</p>"

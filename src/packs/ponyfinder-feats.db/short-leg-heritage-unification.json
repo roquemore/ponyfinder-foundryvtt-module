@@ -2,7 +2,7 @@
     "_id": "7henJn1qSmVb9tIA",
     "name": "Short Leg Heritage (Unification)",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pony.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/ancestries/pony.png",
     "data": {
         "description": {
             "value": "<p>Granted with unification.</p><hr /><p>Small of stature, but not of heart, short legs are hardy ponies born of a god they feel a literal kinship to. They are Small sized.</p>"

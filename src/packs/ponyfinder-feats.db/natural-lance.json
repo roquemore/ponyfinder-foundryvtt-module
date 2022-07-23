@@ -2,7 +2,7 @@
     "_id": "A6hEWeL9PkOfVZXL",
     "name": "Natural Lance",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/horn.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/horn.png",
     "data": {
         "description": {
             "value": "<p>You gain a horn unarmed attack that deals [[/r {1d6}[piercing]]]{1d6 piercing damage}. Your horn is in the brawling group and has the finesse, jousting, deadly d6, and unarmed traits. Your horn can be imbued with weapon runes.</p>"
@@ -25,7 +25,7 @@
                     }
                 },
                 "group": "brawling",
-                "img": "modules/ponyfinder-foundryvtt-module/assets/feats/horn.png",
+                "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/horn.png",
                 "key": "Strike",
                 "label": "Horn",
                 "range": null,

@@ -22,6 +22,11 @@ jobs:
             - run: npm ci
             - run: npm run build
             - run: npm run format
+            - run: cp src/assets dist/assets
+            - uses: calibreapp/image-actions@main
+              with:
+                githubToken: ${{ secrets.GITHUB_TOKEN }}
+                ignorePaths: '.parcel-cache/**,node_modules/**,src/**'
             - uses: stefanzweifel/git-auto-commit-action@v4
               with:
                   commit_message: "chore: format code"
@@ -37,7 +42,7 @@ jobs:
                   # end of optional handling for multi line json
                   echo "::set-output name=moduleJson::$content"
             - name: Create Release Zip
-              run: zip -r ./ponyfinder-foundryvtt-module.zip module.json assets dist lang
+              run: zip -r ./ponyfinder-foundryvtt-module.zip module.json dist lang
             - name: Create Release
               uses: ncipollo/release-action@v1
               with:

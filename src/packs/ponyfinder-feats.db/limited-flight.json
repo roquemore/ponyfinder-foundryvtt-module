@@ -2,7 +2,7 @@
     "_id": "oMfzMwt3UfcfgZA8",
     "name": "Limited Flight",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/wing.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/wing.png",
     "data": {
         "description": {
             "value": "<p>You have a fly Speed equal to half your land Speed.</p>"
