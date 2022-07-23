@@ -2,15 +2,19 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder for Pathfinder 2e",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.6.14",
+    "version": "1.6.15",
     "author": "Memely, David Silver, Triple Sevens",
-    "system": ["pf2e"],
+    "system": [
+        "pf2e"
+    ],
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
     "url": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module",
     "download": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/ponyfinder-foundryvtt-module.zip",
     "manifest": "https://github.com/MemelyPepeartly/ponyfinder-foundryvtt-module/releases/download/latest/module.json",
-    "esmodules": ["./dist/scripts/index.mjs"],
+    "esmodules": [
+        "./scripts/index.mjs"
+    ],
     "languages": [
         {
             "lang": "en",
@@ -22,70 +26,70 @@
         {
             "name": "ponyfinder-actions",
             "label": "Ponyfinder Actions",
-            "path": "./dist/packs/ponyfinder-actions.db",
+            "path": "./packs/ponyfinder-actions.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-ancestries",
             "label": "Ponyfinder Ancestries",
-            "path": "./dist/packs/ponyfinder-ancestries.db",
+            "path": "./packs/ponyfinder-ancestries.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-ancestry-features",
             "label": "Ponyfinder Ancestry Features",
-            "path": "./dist/packs/ponyfinder-ancestry-features.db",
+            "path": "./packs/ponyfinder-ancestry-features.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-archetypes",
             "label": "Ponyfinder Archetypes",
-            "path": "./dist/packs/ponyfinder-archetypes.db",
+            "path": "./packs/ponyfinder-archetypes.db",
             "entity": "Item",
             "type": "JournalEntry"
         },
         {
             "name": "ponyfinder-deities",
             "label": "Ponyfinder Deities",
-            "path": "./dist/packs/ponyfinder-deities.db",
+            "path": "./packs/ponyfinder-deities.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-domains",
             "label": "Ponyfinder Domains",
-            "path": "./dist/packs/ponyfinder-domains.db",
+            "path": "./packs/ponyfinder-domains.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-effects",
             "label": "Ponyfinder Effects",
-            "path": "./dist/packs/ponyfinder-effects.db",
+            "path": "./packs/ponyfinder-effects.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-feats",
             "label": "Ponyfinder Feats",
-            "path": "./dist/packs/ponyfinder-feats.db",
+            "path": "./packs/ponyfinder-feats.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-heritages",
             "label": "Ponyfinder Heritages",
-            "path": "./dist/packs/ponyfinder-heritages.db",
+            "path": "./packs/ponyfinder-heritages.db",
             "entity": "Item",
             "type": "Item"
         },
         {
             "name": "ponyfinder-spells",
             "label": "Ponyfinder Spells",
-            "path": "./dist/packs/ponyfinder-spells.db",
+            "path": "./packs/ponyfinder-spells.db",
             "entity": "Item",
             "type": "Item"
         }
