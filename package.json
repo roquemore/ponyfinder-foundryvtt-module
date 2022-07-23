@@ -16,7 +16,10 @@
         "postinstall": "patch-package"
     },
     "staticFiles": {
-        "staticPath": "src/assets",
+        "staticPath": [
+            "src/assets",
+            "module.json"
+        ],
         "staticOutPath": "../assets"
     },
     "husky": {
