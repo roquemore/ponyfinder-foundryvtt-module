@@ -41,7 +41,7 @@ jobs:
                   # end of optional handling for multi line json
                   echo "::set-output name=moduleJson::$content"
             - name: Create Release Zip
-              run: zip -r ./ponyfinder-foundryvtt-module.zip lang module.json ./dist/assets ./dist/packs ./dist/scripts
+              run: zip -r ./ponyfinder-foundryvtt-module.zip lang module.json dist
             - name: Create Release
               uses: ncipollo/release-action@v1
               with:
