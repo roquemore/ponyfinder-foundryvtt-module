@@ -18,15 +18,10 @@ jobs:
                   repository: ${{ github.event.pull_request.head.repo.full_name }}
             - uses: actions/setup-node@v3
               with:
-                  node-version: 16
+                  node-version: 18
             - run: npm ci
             - run: npm run build
             - run: npm run format
-            - run: cp src/assets dist/assets
-            - uses: calibreapp/image-actions@main
-              with:
-                githubToken: ${{ secrets.GITHUB_TOKEN }}
-                ignorePaths: '.parcel-cache/**,node_modules/**,src/**'
             - uses: stefanzweifel/git-auto-commit-action@v4
               with:
                   commit_message: "chore: format code"
