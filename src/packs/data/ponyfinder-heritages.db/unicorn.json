@@ -2,7 +2,7 @@
     "_id": "E6kLUecOWxVKUwx4",
     "name": "Unicorn",
     "type": "heritage",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/unicorn.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/ancestries/unicorn.png",
     "data": {
         "description": {
             "value": "<p>With a horn atop your brow, magic comes intuitively to you. You may cast <em>mage hand</em> and <em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</em> as arcane innate spells at will. The target of your <em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</em> spell must be your own horn. A cantrip is heightened to a spell level equal to half your level rounded up.</p><p><strong>Ability Boosts</strong> Constitution, Intelligence, Free</p><p><strong>Ability Flaw</strong> Dexterity</p>"

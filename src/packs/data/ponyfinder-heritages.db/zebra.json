@@ -2,7 +2,7 @@
     "_id": "5F1ROQ86wkh0Fp83",
     "name": "Zebra",
     "type": "heritage",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/zebra.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/ancestries/zebra.png",
     "data": {
         "description": {
             "value": "<p>Mysterious seers of the pony world, your people are known as eager learners. At 1st level and at 5th level and every 5 levels thereafter, you gain an additional common language.</p>"

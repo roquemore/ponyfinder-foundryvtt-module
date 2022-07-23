@@ -1,4 +1,4 @@
-import { name, title } from "../module.json";
+import { name, title } from "../../module.json";
 
 const ENABLE_THIS_SETTING_KEY = "enableHeritageAbilityBoosts";
 

@@ -2,7 +2,7 @@
     "_id": "XzqPpJwUouHqZ5eg",
     "name": "Cloud Rejection",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/cloud.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/cloud.png",
     "data": {
         "description": {
             "value": "<p>When a fog, cloud, or mist effect is launched and would include your square, you may, as a reaction, allow it to push you harmlessly to the closest available square outside its effect, if one exists. If this movement pushes you through the effect, you suffer the normal effects of walking through it. If you have master proficiency in Acrobatics, this ability remains active until the start of your next turn. This movement is considered forced.</p>"

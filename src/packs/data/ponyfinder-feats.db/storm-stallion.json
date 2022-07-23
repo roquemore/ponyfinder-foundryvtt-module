@@ -2,7 +2,7 @@
     "_id": "nUiSTLWmbH8laz8F",
     "name": "Storm Stallion",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/cloud.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/cloud.png",
     "data": {
         "description": {
             "value": "<p>Despite the name, mares are equally capable of mastering weather. If you are a spellcaster capable of casting 3rd level spells, you can learn and cast lightning bolt even if it's not normally on your list. Once per day, you can cast it even if you aren't a spellcaster as a primal innate spell, automatically heightened to a spell level equal to half your level.</p>"

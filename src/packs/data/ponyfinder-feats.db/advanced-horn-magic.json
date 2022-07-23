@@ -2,7 +2,7 @@
     "_id": "TxxwUTxC4WMbOtAq",
     "name": "Advanced Horn Magic",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/horn.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/horn.png",
     "data": {
         "description": {
             "value": "<p>You have honed your abilities to weave innate force magics. You can form hands with your mind, effectively ridding yourself of the fingerless trait&rsquo;s downsides. These mental hands are no more or less able than a human&rsquo;s hands and can reach no further than they could. If you don&rsquo;t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by quiet meditation. For one focus point, you can use the following spell: @Compendium[ponyfinder-foundryvtt-module.ponyfinder-spells.Horn Surge]{Horn Surge}</p>"

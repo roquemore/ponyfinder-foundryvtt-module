@@ -2,7 +2,7 @@
     "_id": "sJbO4G13DqGbSD4R",
     "name": "Sharpened Claws",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/talon.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/talon.png",
     "data": {
         "description": {
             "value": "<p>You gain a claw unarmed attack that deals [[/r {1d6}[slashing]]]{1d6 slashing damage}. Your claw is in the brawling group and has the agile and unarmed traits. You gain a bite unarmed attack that deals [[/r {1d6}[piercing]]]{1d6 piercing damage}. Your bite is in the brawling group and has the agile, finesse, and unarmed traits. The claw and bite can be enchanted as weapons normally. One rune is enough for both claws (as they are considered one weapon).</p>"

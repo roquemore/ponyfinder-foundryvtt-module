@@ -2,7 +2,7 @@
     "_id": "YwPwDlerMWGP7200",
     "name": "Grasping Talons",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/talon.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/talon.png",
     "data": {
         "description": {
             "value": "<p>When you make a @Compendium[pf2e.actionspf2e.Grapple]{Grapple} action, you gain a +2 circumstance bonus for every claw attack you have landed on the target during this turn. The grapple gains the agile trait (reducing its multiple attack penalty).</p>"

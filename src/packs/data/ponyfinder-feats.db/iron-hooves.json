@@ -2,7 +2,7 @@
     "_id": "ClB3K9FU3Tpd1gUP",
     "name": "Iron Hooves",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/hoof.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/hoof.png",
     "data": {
         "description": {
             "value": "<p>You gain a hoof unarmed attack that deals [[/r {1d6}[bludgeoning]]]{1d6 bludgeoning damage}. Your hoof is in the brawling group and has the agile and unarmed traits. Your hooves can be imbued with weapon runes as if they were one weapon.</p>"

@@ -2,7 +2,7 @@
     "_id": "bF2ffIJ16gZB045S",
     "name": "Dashing Flyer",
     "type": "feat",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/wing.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/feats/wing.png",
     "data": {
         "description": {
             "value": "<p>Your fly Speed increases to your land Speed.&nbsp; If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by relaxing quietly and considering how great you looked.&nbsp; For one focus point, you can use the following focus spell: @Compendium[ponyfinder-foundryvtt-module.ponyfinder-spells.Flying Dash]{Flying Dash}</p>"

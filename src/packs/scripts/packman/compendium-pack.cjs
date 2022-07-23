@@ -41,7 +41,7 @@ class CompendiumPack {
     systemId = "pf2e";
     data;
 
-    static outDir = path.resolve(process.cwd(), "packs");
+    static outDir = path.resolve(process.cwd(), "dist", "packs");
     static namesToIds = new Map();
     static packsMetadata = JSON.parse(fs.readFileSync("module.json", "utf-8"))
         .packs;

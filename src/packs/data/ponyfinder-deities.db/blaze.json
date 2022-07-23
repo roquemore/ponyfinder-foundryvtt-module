@@ -2,7 +2,7 @@
     "_id": "HDcmJKcxaTrGcOBp",
     "name": "Blaze",
     "type": "deity",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/deities/blaze.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/deities/blaze.png",
     "data": {
         "description": {
             "value": "<p>Angry blaze of the noon sun, Blaze bids her followers never let revenge run cold when it can be served as hot as her flames, for all to see and know the mistake they made when they crossed any of her children.</p><hr /><p><strong>Edicts</strong> let no slight go unanswered, suffering is to be shared as a lesson, death is a lesson rather than a mercy, respect a battle well-fought, know your enemy</p><hr /><p><strong>Anathema</strong> turn the other cheek, be the first to withdraw from any conflict, forgive those who have hurt what is yours without exacting revenge, be unprepared for violence</p>"

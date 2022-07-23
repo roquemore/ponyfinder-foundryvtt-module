@@ -2,7 +2,7 @@
     "_id": "fE0VzIk79EeLgHmT",
     "name": "Pegasus",
     "type": "heritage",
-    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/pegasus.png",
+    "img": "modules/ponyfinder-foundryvtt-module/dist/assets/ancestries/pegasus.png",
     "data": {
         "description": {
             "value": "<p>Born of the winds, you gain a fly Speed equal to half your land Speed.</p><p><strong>Ability Boosts</strong> Dexterity, Wisdom, Free</p><p><strong>Ability Flaw</strong> Strength</p>"
