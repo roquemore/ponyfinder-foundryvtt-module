@@ -18,41 +18,29 @@ jobs:
                   ref: ${{ github.head_ref }}
             - uses: actions/setup-node@v3
               with:
-                  node-version: 16
+                  node-version: 18
             - run: npm ci
             - run: npm run build
             - run: npm run format
-            # - uses: calibreapp/image-actions@main
-            #   with:
-            #     githubToken: ${{ secrets.GITHUB_TOKEN }}
-            #     ignorePaths: '.parcel-cache/**,node_modules/**,src/**'
             - uses: stefanzweifel/git-auto-commit-action@v4
               with:
                   commit_message: "chore: format code"
                   branch: ${{ github.head_ref }}
-            - name: Get Version
-              id: get_version
-              run: |
-                  content=`cat ./module.json`
-                  # the following lines are only required for multi line json
-                  content="${content//'%'/'%25'}"
-                  content="${content//$'\n'/'%0A'}"
-                  content="${content//$'\r'/'%0D'}"
-                  # end of optional handling for multi line json
-                  echo "::set-output name=moduleJson::$content"
-            - name: Create Release Zip
-              run: zip -r ../ponyfinder-foundryvtt-module.zip ../module.json ../lang assets packs scripts
-              working-directory: dist
+            - id: version
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                path: dist/module.json
+                prop_path: 'version'
             - name: Create Release
               uses: ncipollo/release-action@v1
               with:
-                  artifacts: "./module.json,./ponyfinder-foundryvtt-module.zip"
-                  tag: v${{ fromJson(steps.get_version.outputs.moduleJson).version }}
+                  artifacts: dist/module.json,dist/ponyfinder-foundryvtt-module.zip"
+                  tag: v${{ steps.version.outputs.prop }}
                   token: ${{ secrets.GITHUB_TOKEN }}
             - name: Update Latest
               uses: ncipollo/release-action@v1
               with:
                   allowUpdates: true
-                  artifacts: "./module.json,./ponyfinder-foundryvtt-module.zip"
+                  artifacts: "dist/module.json,dist/ponyfinder-foundryvtt-module.zip"
                   tag: latest
                   token: ${{ secrets.GITHUB_TOKEN }}

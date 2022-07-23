@@ -1,0 +1,43 @@
+{
+    "_id": "e2X277t6Ls2oF0cZ",
+    "name": "Hippogriff",
+    "type": "heritage",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/ancestries/hippogriff.png",
+    "data": {
+        "description": {
+            "value": "<p>You have the forebody of a bird and the hindquarters of a pony. You gain the ponykind trait. You lose your Strength and Wisdom boosts. You lose your Charisma flaw. You gain a boost to Strength or Wisdom and a free boost. You gain one first level ancestry feat. Being a ponykind, you may select ponykind ancestry feats freely.</p>"
+        },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": { "value": [], "rarity": "common", "custom": "" },
+        "boosts": {
+            "0": { "value": ["str", "wis"] },
+            "1": { "value": [] },
+            "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+        },
+        "flaws": { "0": { "value": [] } },
+        "rules": [
+            { "add": ["hb_ponykind"], "key": "ActorTraits" },
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "all": ["item:feat-type:ancestry", "item:level:1"],
+                    "label": "PF2E.SpecificRule.AncestralParagon.AllowedDrops"
+                },
+                "choices": {
+                    "query": "{\"data.featType.value\":\"ancestry\",\"data.level.value\":1,\"$or\":[{\"data.traits.value\":{\"$elemMatch\":\"{actor|data.details.ancestry.trait}\"}},{\"data.traits.value\":{\"$elemMatch\":\"{actor|data.details.heritage.trait}\"}}],\"$not\":{\"data.traits.value\":{\"$elemMatch\":\"lineage\"}}}",
+                    "pack": "ponyfinder-foundryvtt-module.ponyfinder-feats"
+                },
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.AncestralParagon.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.hippogriff}"
+            }
+        ],
+        "ancestry": {
+            "name": "Griffon",
+            "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Griffon"
+        }
+    }
+}

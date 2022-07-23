@@ -1,0 +1,49 @@
+{
+    "_id": "NI6W3laeS7vE4xLT",
+    "name": "Cloud Kicker",
+    "type": "feat",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/cloud.png",
+    "data": {
+        "description": {
+            "value": "<p>Lashing out your hooves, you destroy the fog, mist, or cloud within a 5-foot square adjacent to you. If the effect was magic, make a melee or spell attack roll against the level-based DC of the level of the origin of the effect.</p>"
+        },
+        "source": { "value": "Ponyfinder: Second Edition Conversion Guide" },
+        "traits": {
+            "value": ["hb_griffon", "hb_ponykind"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-actions.Cloud Buck",
+                "replaceSelf": false
+            }
+        ],
+        "level": {
+            "value": 1
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+            "value": "passive"
+        },
+        "actionCategory": {
+            "value": ""
+        },
+        "actions": {
+            "value": null
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Natural fly speed"
+                }
+            ]
+        },
+        "location": null
+    }
+}

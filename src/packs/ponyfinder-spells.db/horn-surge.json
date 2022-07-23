@@ -1,0 +1,83 @@
+{
+    "_id": "dqXAd7MBSj5AKTwK",
+    "name": "Horn Surge",
+    "type": "spell",
+    "img": "modules/ponyfinder-foundryvtt-module/assets/feats/horn.png",
+    "data": {
+        "description": {
+            "value": "<p>You may use your Intelligence instead of your Strength when making Strength skill checks and melee attacks.</p>"
+        },
+        "source": {
+            "value": "Ponyfinder: Second Edition Conversion Guide"
+        },
+        "traits": {
+            "value": ["concentrate"],
+            "rarity": "common",
+            "custom": ""
+        },
+        "rules": [],
+        "level": {
+            "value": 1
+        },
+        "spellType": {
+            "value": "attack"
+        },
+        "category": {
+            "value": "focus"
+        },
+        "traditions": {
+            "value": ["arcane"],
+            "custom": ""
+        },
+        "school": {
+            "value": "evocation"
+        },
+        "components": {
+            "focus": true,
+            "material": false,
+            "somatic": false,
+            "verbal": false
+        },
+        "materials": {
+            "value": "Horn focus"
+        },
+        "target": {
+            "value": ""
+        },
+        "range": {
+            "value": ""
+        },
+        "area": {
+            "value": "",
+            "areaType": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "duration": {
+            "value": "Sustained up to 1 minute"
+        },
+        "damage": {
+            "value": {}
+        },
+        "save": {
+            "value": "",
+            "basic": ""
+        },
+        "sustained": {
+            "value": false
+        },
+        "cost": {
+            "value": ""
+        },
+        "ability": {
+            "value": ""
+        },
+        "location": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        }
+    }
+}

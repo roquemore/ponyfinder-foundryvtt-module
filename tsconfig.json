@@ -1,23 +1,11 @@
 {
     "extends": "@tsconfig/node16-strictest-esm",
     "compilerOptions": {
-        "module": "commonjs",
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "removeComments": false,
+        "module": "ESNext",
+        "noEmit": true,
+        "noImplicitAny": false,
         "resolveJsonModule": true,
         "sourceMap": true,
-        "strictNullChecks": true,
-        "target": "ES2021",
-        "lib": ["DOM", "ES2021"],
-        "moduleResolution": "node",
-        "rootDir": "./",
-        "outDir": "dist",
-        "baseUrl": "./",
-        "types": ["@league-of-foundry-developers/foundry-vtt-types"],
-        "noImplicitAny": false
-    },
-    "ts-node": {
-        "files": true
+        "types": ["@league-of-foundry-developers/foundry-vtt-types"]
     }
 }
