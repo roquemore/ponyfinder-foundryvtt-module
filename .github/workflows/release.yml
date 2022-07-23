@@ -41,18 +41,18 @@ jobs:
                   # end of optional handling for multi line json
                   echo "::set-output name=moduleJson::$content"
             - name: Create Release Zip
-              run: zip -r ./ponyfinder-foundryvtt-module.zip ../module.json ../lang assets packs scripts
+              run: zip -r ../ponyfinder-foundryvtt-module.zip ../module.json ../lang assets packs scripts
               working-directory: dist
             - name: Create Release
               uses: ncipollo/release-action@v1
               with:
-                  artifacts: "../module.json,../ponyfinder-foundryvtt-module.zip"
+                  artifacts: "./module.json,./ponyfinder-foundryvtt-module.zip"
                   tag: v${{ fromJson(steps.get_version.outputs.moduleJson).version }}
                   token: ${{ secrets.GITHUB_TOKEN }}
             - name: Update Latest
               uses: ncipollo/release-action@v1
               with:
                   allowUpdates: true
-                  artifacts: "../module.json,../ponyfinder-foundryvtt-module.zip"
+                  artifacts: "./module.json,./ponyfinder-foundryvtt-module.zip"
                   tag: latest
                   token: ${{ secrets.GITHUB_TOKEN }}
