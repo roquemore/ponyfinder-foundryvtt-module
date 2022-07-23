@@ -325,7 +325,8 @@ class CompendiumPack {
 
         if (failedChecks.length > 0) {
             throw PackError(
-                `Document source in (${this.name
+                `Document source in (${
+                    this.name
                 }) has invalid or missing keys: ${failedChecks.join(", ")}`
             );
         }
