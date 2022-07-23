@@ -22,7 +22,6 @@ jobs:
             - run: npm ci
             - run: npm run build
             - run: npm run format
-            - run: cp src/assets dist/assets
             - uses: calibreapp/image-actions@main
               with:
                 githubToken: ${{ secrets.GITHUB_TOKEN }}
