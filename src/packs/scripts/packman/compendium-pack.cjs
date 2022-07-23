@@ -6,7 +6,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const { sluggify } = require("../../util/misc.cjs");
+const { sluggify } = require("../../../util/misc.cjs");
 
 const PackError = (message) => {
     console.error(`Error: ${message}`);
@@ -325,8 +325,7 @@ class CompendiumPack {
 
         if (failedChecks.length > 0) {
             throw PackError(
-                `Document source in (${
-                    this.name
+                `Document source in (${this.name
                 }) has invalid or missing keys: ${failedChecks.join(", ")}`
             );
         }

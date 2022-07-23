@@ -11,7 +11,7 @@
     "scripts": {
         "build": "run-s build:*",
         "build:1-parcel": "parcel build --dist-dir ./dist/scripts ./src/module/index.ts",
-        "build:2-packs": "node src/build/build.cjs",
+        "build:2-packs": "node src/packs/scripts/build.cjs",
         "format": "prettier --ignore-unknown --write .",
         "postinstall": "patch-package"
     },
