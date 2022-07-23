@@ -6,7 +6,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const { sluggify } = require("../misc.cjs");
+const { sluggify } = require("../../util/misc.cjs");
 
 const PackError = (message) => {
     console.error(`Error: ${message}`);
