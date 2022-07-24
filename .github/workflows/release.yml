@@ -29,18 +29,21 @@ jobs:
             - id: version
               uses: notiz-dev/github-action-json-property@release
               with:
-                path: dist/module.json
-                prop_path: 'version'
-            - name: Create Release
-              uses: ncipollo/release-action@v1
+                  path: dist/module.json
+                  prop_path: "version"
+            - uses: "marvinpinto/action-automatic-releases@v1.2.1"
               with:
-                  artifacts: dist/module.json,dist/ponyfinder-foundryvtt-module.zip"
-                  tag: v${{ steps.version.outputs.prop }}
-                  token: ${{ secrets.GITHUB_TOKEN }}
-            - name: Update Latest
-              uses: ncipollo/release-action@v1
+                  repo_token: ${{ secrets.GITHUB_TOKEN }}
+                  automatic_release_tag: latest
+                  prerelease: false
+                  files: |
+                      dist/module.json
+                      dist/ponyfinder-foundryvtt-module.zip
+            - uses: "marvinpinto/action-automatic-releases@v1.2.1"
               with:
-                  allowUpdates: true
-                  artifacts: dist/module.json,dist/ponyfinder-foundryvtt-module.zip
-                  tag: latest
-                  token: ${{ secrets.GITHUB_TOKEN }}
+                  repo_token: ${{ secrets.GITHUB_TOKEN }}
+                  automatic_release_tag: v${{ steps.version.outputs.prop }}
+                  prerelease: false
+                  files: |
+                      dist/module.json
+                      dist/ponyfinder-foundryvtt-module.zip
