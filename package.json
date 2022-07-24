@@ -2,7 +2,7 @@
     "name": "ponyfinder-foundryvtt-module",
     "title": "Ponyfinder for Pathfinder 2e",
     "description": "A collection of Ponyfinder content for Pathfinder 2e",
-    "version": "1.6.26",
+    "version": "1.6.27",
     "private": true,
     "type": "module",
     "author": {
