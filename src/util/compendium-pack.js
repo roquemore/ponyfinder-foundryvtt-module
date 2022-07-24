@@ -4,7 +4,7 @@
  * @see https://github.com/foundryvtt/pf2e/blob/master/packs/scripts/packman/compendium-pack.ts
  */
 
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -13,7 +13,7 @@ import sluggify from "./sluggify.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-export const PackError = (message) => {
+const PackError = (message) => {
     console.error(`Error: ${message}`);
     process.exit(1);
 };
@@ -48,18 +48,21 @@ export default class CompendiumPack {
 
     static outDir = resolve(process.cwd(), "dist", "packs");
     static namesToIds = new Map();
-    static packsMetadata = JSON.parse(
-        readFileSync(
-            resolve(__dirname, "..", "..", "dist", "module.json"),
-            "utf-8"
-        )
-    ).packs;
     static worldItemLinkPattern = new RegExp(
         /@(?:Item|JournalEntry|Actor)\[[^\]]+\]|@Compendium\[world\.[^\]]+\]/
     );
 
+    static getPacksMetadata() {
+        return JSON.parse(
+            readFileSync(
+                resolve(__dirname, "..", "..", "dist", "module.json"),
+                "utf-8"
+            )
+        ).packs;
+    }
+
     constructor(packDir, parsedData) {
-        const metadata = CompendiumPack.packsMetadata.find(
+        const metadata = CompendiumPack.getPacksMetadata().find(
             (pack) => basename(pack.path) === basename(packDir)
         );
         if (metadata === undefined) {
@@ -86,14 +89,12 @@ export default class CompendiumPack {
             );
         }
 
-        parsedData.sort((a, b) => {
+        this.data = parsedData.sort((a, b) => {
             if (a._id === b._id) {
                 throw PackError(`_id collision in ${this.name}: ${a._id}`);
             }
             return a._id > b._id ? 1 : -1;
         });
-
-        this.data = parsedData;
 
         for (const docSource of this.data) {
             // Populate CompendiumPack.namesToIds for later conversion of compendium links
@@ -130,55 +131,53 @@ export default class CompendiumPack {
     static loadJSON(dirPath) {
         if (!dirPath.replace(/\/$/, "").endsWith(".db")) {
             const dirName = basename(dirPath);
+            console.log({ dirPath });
             throw PackError(
                 `JSON directory (${dirName}) does not end in ".db"`
             );
         }
 
-        const filenames = readdirSync(dirPath);
-        const filePaths = filenames.map((filename) =>
-            resolve(dirPath, filename)
-        );
-        const parsedData = filePaths.map((filePath) => {
-            const jsonString = readFileSync(filePath, "utf-8");
-            const packSource = (() => {
-                try {
-                    return JSON.parse(jsonString);
-                } catch (error) {
-                    if (error instanceof Error) {
+        return new CompendiumPack(
+            basename(dirPath),
+            readdirSync(dirPath)
+                .map((filename) => resolve(dirPath, filename))
+                .map((filePath) => {
+                    const packSource = (() => {
+                        try {
+                            return JSON.parse(readFileSync(filePath, "utf-8"));
+                        } catch (error) {
+                            if (error instanceof Error) {
+                                throw PackError(
+                                    `File ${filePath} could not be parsed: ${error.message}`
+                                );
+                            }
+                        }
+                    })();
+
+                    const documentName = packSource?.name;
+                    if (documentName === undefined) {
                         throw PackError(
-                            `File ${filePath} could not be parsed: ${error.message}`
+                            `Document contained in ${filePath} has no name.`
                         );
                     }
-                }
-            })();
 
-            const documentName = packSource?.name;
-            if (documentName === undefined) {
-                throw PackError(
-                    `Document contained in ${filePath} has no name.`
-                );
-            }
+                    const filenameForm = sluggify(documentName).concat(".json");
+                    if (basename(filePath) !== filenameForm) {
+                        throw PackError(
+                            `Filename at ${filePath} does not reflect document name (should be ${filenameForm}).`
+                        );
+                    }
 
-            const filenameForm = sluggify(documentName).concat(".json");
-            if (basename(filePath) !== filenameForm) {
-                throw PackError(
-                    `Filename at ${filePath} does not reflect document name (should be ${filenameForm}).`
-                );
-            }
-
-            return packSource;
-        });
-
-        const dbFilename = basename(dirPath);
-        return new CompendiumPack(dbFilename, parsedData);
+                    return packSource;
+                })
+        );
     }
 
     finalize(docSource) {
         // Replace all compendium entities linked by name to links by ID
-        const stringified = JSON.stringify(docSource);
-        const worldItemLink =
-            CompendiumPack.worldItemLinkPattern.exec(stringified);
+        const worldItemLink = CompendiumPack.worldItemLinkPattern.exec(
+            JSON.stringify(docSource)
+        );
         if (worldItemLink !== null) {
             throw PackError(
                 `${docSource.name} (${this.name}) has a link to a world item: ${worldItemLink[0]}`
@@ -272,8 +271,7 @@ export default class CompendiumPack {
         };
 
         const convert = to === "ids" ? toIDRef : toNameRef;
-        const rules = source.data.rules;
-        for (const rule of rules) {
+        for (const rule of source.data.rules) {
             if (
                 rule.key === "GrantItem" &&
                 typeof rule.uuid === "string" &&
@@ -301,6 +299,7 @@ export default class CompendiumPack {
     }
 
     save() {
+        mkdirSync(CompendiumPack.outDir, { recursive: true });
         writeFileSync(
             resolve(CompendiumPack.outDir, this.packDir),
             this.data
@@ -311,13 +310,13 @@ export default class CompendiumPack {
         console.log(
             `Pack "${this.name}" with ${this.data.length} entries built successfully.`
         );
-
         return this.data.length;
     }
 
     isDocumentSource(maybeDocSource) {
         if (!isObject(maybeDocSource)) return false;
-        const checks = Object.entries({
+
+        const failedChecks = Object.entries({
             name: (data) => typeof data.name === "string",
             permission: (data) =>
                 !data.permission ||
@@ -325,9 +324,7 @@ export default class CompendiumPack {
                     data.permission !== null &&
                     Object.keys(data.permission).length === 1 &&
                     Number.isInteger(data.permission.default)),
-        });
-
-        const failedChecks = checks
+        })
             .map(([key, check]) => (check(maybeDocSource) ? null : key))
             .filter((key) => key !== null);
 
