@@ -27,10 +27,19 @@ Hooks.on("dropActorSheetData", async (actor, _, item: Item) => {
             return true;
         }
 
+        console.info(
+            `${packageJson.name} | Checking validity for dropped item:`,
+            item
+        );
+
         if (
             !item ||
+            !item.data ||
             (item.data.type !== "ancestry" && item.data.type !== "heritage")
         ) {
+            console.info(
+                `${packageJson.name} | Skipping applying boosts and flaws because this isn't an ancestry or heritage`
+            );
             return true;
         }
 
@@ -43,6 +52,9 @@ Hooks.on("dropActorSheetData", async (actor, _, item: Item) => {
                 ? item
                 : (actor as Actor & { heritage: Item | null }).heritage;
         if (!ancestry || !heritage) {
+            console.info(
+                `${name} | Skipping applying boosts and flaws because either ancestry or heritage is unset`
+            );
             return true;
         }
 
