@@ -34,13 +34,13 @@ jobs:
             - name: Create Release
               uses: ncipollo/release-action@v1
               with:
-                  artifacts: dist/module.json,dist/ponyfinder-foundryvtt-module.zip"
+                  artifacts: ./dist/module.json,./dist/ponyfinder-foundryvtt-module.zip"
                   tag: v${{ steps.version.outputs.prop }}
                   token: ${{ secrets.GITHUB_TOKEN }}
             - name: Update Latest
               uses: ncipollo/release-action@v1
               with:
                   allowUpdates: true
-                  artifacts: dist/module.json,dist/ponyfinder-foundryvtt-module.zip
+                  artifacts: "dist/module.json,dist/ponyfinder-foundryvtt-module.zip"
                   tag: latest
                   token: ${{ secrets.GITHUB_TOKEN }}

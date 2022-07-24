@@ -5,13 +5,11 @@ import imageminPngquant from "imagemin-pngquant";
 import imageminSvgo from "imagemin-svgo";
 import imageminWebp from "imagemin-webp";
 import JsonMinimizerPlugin from "json-minimizer-webpack-plugin";
-import { readdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { WebpackManifestPlugin } from "webpack-manifest-plugin";
 
 import packageJson from "./package.json" assert { type: "json" };
-import CompendiumPack from "./src/util/compendium-pack.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -222,19 +220,6 @@ const config = {
                 },
             }),
         }),
-        {
-            apply: (compiler) => {
-                compiler.hooks.afterEmit.tap("CreateFoundryPacksPlugin", () => {
-                    const packsDataPath = resolve(__dirname, "src", "packs");
-                    readdirSync(packsDataPath)
-                        .map((dirName) =>
-                            resolve(__dirname, packsDataPath, dirName)
-                        )
-                        .map((dirPath) => CompendiumPack.loadJSON(dirPath))
-                        .forEach((pack) => pack.save());
-                });
-            },
-        },
         new FileManagerPlugin({
             events: {
                 onEnd: {
@@ -248,6 +233,7 @@ const config = {
                             ),
                         },
                     ],
+                    mkdir: [resolve(__dirname, "dist", "packs")],
                 },
             },
         }),
